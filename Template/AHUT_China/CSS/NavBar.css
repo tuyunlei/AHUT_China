@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('/IGEM/Team/AHUT_China/fonts/Chalkduster.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura-Heavy';
+    src: url('/IGEM/Team/AHUT_China/fonts/Futura/Futura-Heavy.ttf') format('truetype');
+}
+
+#app .navbar {
+    background-color: #DBA8AF;
+    font-family: Chalkduster, sans-serif;
+}
+
+#app .nav-item {
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+#app .nav-item:hover {
+    background-color: #E4C1BF;
+}
+
+#app .rounded-32 {
+    border-radius: 32px;
+}
+
+#app .dropdown-menu {
+    padding: 0;
+    background-color: #DBA8AF;
+}
+
+@media (min-width: 1200px) {
+    #app .dropdown-menu {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+
+#app .dropdown-item {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#app .dropdown-item:hover {
+    background-color: #E4C1BF;
+}
+
+#app .dropdown-menu > li:last-child .dropdown-item {
+    transition: none;
+}
+
+#app .dropdown-menu > li:last-child .dropdown-item:hover {
+    background-color: #E4C1BF;
+}
+
+@media (min-width: 1200px) {
+    #app .dropdown-menu > li:last-child .dropdown-item:hover {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}

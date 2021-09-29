@@ -1,3 +1,5 @@
+import NavBar from '/IGEM/Template/AHUT_China/COM/NavBar.js'
+
 const Home = () => import('/IGEM/Template/AHUT_China/COM/Home.js')
 
 const sub_routes = [{
@@ -60,7 +62,7 @@ const root_routes = [
 
 sub_routes.map((sub) => {
     sub.routes.map((route) => {
-        route.path = `/${sub.name}/${route.name}`
+        route.path = `/${sub.name}/${route.name}.html`
         route.name = sub.name + route.name
         root_routes.push(route)
     })
@@ -79,58 +81,32 @@ const router = VueRouter.createRouter({
 })
 
 const app = Vue.createApp({
+    components: {
+        'nav-bar': NavBar
+    },
     /* 选项 */
     data() {
         return {
-            ifMask: true,
+            loading: true,
         }
     },
+    beforeCreate() {
+        console.log('Main before create')
+    },
     mounted() {
-        this.ifMask = false
+        console.log('Main mounted')
     },
 })
 
 // app.config.devtools = true
 app.config.performance = true
-
 app.use(router)
 
-app.component('nav-item', {
-    template: `
-    <li class="nav-item">
-        <router-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="{name: to}">{{ title }}</router-link>
-    </li>
-    `,
-    props: {
-        title: String,
-        to: {
-            type: String,
-            default: 'Home',
-        }
-    }
-})
-
-app.component('nav-item-dropdown', {
-    template: `
-    <li class="nav-item dropdown">
-        <a class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">{{ title }}</a>
-        <ul class="dropdown-menu">
-            <slot></slot>
-        </ul>
-    </li>
-    `,
-    props: ['title'],
-})
-
-app.component('dropdown-item', {
-    template: `<li><router-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="{name: to}">{{ title }}</router-link></li>`,
-    props: {
-        title: String,
-        to: {
-            type: String,
-            default: 'Home'
-        }
-    },
+router.afterEach((to, from) => {
+    console.log('after', to, from)
+    vm.$nextTick(function() {
+        this.loading = false
+    })
 })
 
 const vm = app.mount('#app')
