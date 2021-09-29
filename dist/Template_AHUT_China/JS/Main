@@ -1,0 +1,219 @@
+const Home = {
+    template: `
+    <div class="container-fluid" style="padding: 0 128px;">
+        <div class="mt-5 rounded-32" style="padding: 40px; background-color: #E4C1BF;">
+            <video class="rounded-32" style="width: 100%;" src="https://2021.igem.org/wiki/images/9/92/T--AHUT_China--propaganda.mp4"
+            type="video/mp4" autoplay="autoplay" controls="controls"></video>
+        </div>
+    </div>
+
+    <div class="bg-light" style="position: relative;">
+        <img id="background" src="https://2021.igem.org/wiki/images/d/d3/T--AHUT_China--home_background.jpg" alt="background">
+
+        <p id="background-tip">Tips: Move the cursor over the text below to view the details.</p>
+
+        <div class="text-box-group">
+            <div class="text-box" style="top: 9%; left: 12%; width: 40%; height: auto; font-size: 4.5vw;">
+                <p>The urgent need</p>
+                <p>for biotechnology</p>
+                <p>to treat breast</p>
+                <p>cancer</p>
+            </div>
+
+            <div class="detail-box" style="width: 28%; height: auto; font-size: 1.3vw;">
+                <div class="arrow"></div>
+                <div class="detail-inner-box">
+                    The incidence of breast cancer is increasing among young people. All current conventional cancer
+                    therapies have high toxicity and side effects. Some bacteria have been found to have the function of
+                    targeting breast cancer cells and inhibiting their growth. Therefore, using biotechnology to treat
+                    breast cancer is an urgent need.
+                </div>
+            </div>
+        </div>
+
+        <div class="text-box-group">
+            <div class="text-box" style="top: 32%; left: 55%; width: 40%; height: auto; font-size: 4vw;">
+                <p>Advantages of</p>
+                <p>modified bacteria to</p>
+                <p>target breast cancer</p>
+                <p>cells and inhibit</p>
+                <p>their growth</p>
+            </div>
+
+            <div class="detail-box" style="width: 30%; height: auto; font-size: 1.3vw;">
+                <div class="arrow"></div>
+                <div class="detail-inner-box">
+                    In this project, we decide to use a non-toxic and harmless bacterium (Ecoli-Nissle 1917) to act on
+                    breast cancer cells. Compared with other methods, it has the characteristics of small side effect,
+                    high safety and high high tumor targeting ability. Because the bacteria themselves target the low
+                    oxygen and low ph microenvironment of cancer cells, we also modify the bacteria and plasmids. The
+                    hypoxia-inducible promoter was introduced into the plasmid, and an artificial antibody to Her2 was
+                    enhanced on the surface of the bacteria, which secreted the sTRAIL fusion protein capable of causing
+                    apoptosis in cancer cells.
+                </div>
+            </div>
+        </div>
+        <div class="text-box-group">
+            <div class="text-box" style="top: 56%; left: 14%; width: 34%; height: auto; font-size: 4vw;">
+                <p>The process by</p>
+                <p>which modified</p>
+                <p>probiotics cause</p>
+                <p>breast cancer cell</p>
+                <p>apoptosis</p>
+            </div>
+
+            <div class="detail-box" style="width: 32%; height: auto; font-size: 1.3vw;">
+                <div class="arrow"></div>
+                <div class="detail-inner-box">The low-oxygen, low-PH microenvironment, which tumors are living in,
+                    attracts our modified probiotics to express around the tumors. Meanwhile, the probiotics are able to
+                    release fusion proteins. In the action of a secreted peptide the His tagged fusion protein into the
+                    environment, then the Her2 artificial antibody(small size, containing only 58 amino acids) will
+                    recognize the specific receptor on the surface of breast cancer cells, and subsequently the sTRAIL
+                    fusion protein in the soluble fusion protein will bind to the cytoplasmic death domains of the death
+                    receptors DR4 and DR5 on the surface of cancer cells to transduce the apoptotic signal, which will
+                    then allow cancer cells to apoptosis. In this design, the Her2 antibody enhances the targeting of
+                    the treatment and reduces the damage of the fusion protein to other cells in the body.
+                </div>
+            </div>
+        </div>
+    </div>
+    `,
+    mounted() {
+        let groups = [].slice.call(document.querySelectorAll('.text-box-group'))
+        groups.map(function (group) {
+            let text_box = group.querySelector('.text-box')
+            let detail_box = group.querySelector('.detail-box')
+            let popper = Popper.createPopper(text_box, detail_box, {
+                placement: 'right',
+                modifiers: [{
+                    name: 'offset',
+                    options: {
+                        offset: [0, 128],
+                    }
+                }]
+            })
+
+            function show() {
+                detail_box.setAttribute('data-show', '');
+
+                // We need to tell Popper to update the tooltip position
+                // after we show the tooltip, otherwise it will be incorrect
+                popper.update();
+            }
+
+            function hide() {
+                detail_box.removeAttribute('data-show');
+            }
+
+            const showEvents = ['mouseenter', 'focus'];
+            const hideEvents = ['mouseleave', 'blur'];
+
+            showEvents.forEach((event) => {
+                text_box.addEventListener(event, show);
+            });
+
+            hideEvents.forEach((event) => {
+                text_box.addEventListener(event, hide);
+            });
+        })
+    }
+}
+
+const TeamMembers = {
+    template: `
+    <div class="container">
+        <div class="mt-5 p-5" style="height: 800px; background-color: #E4C1BF;">
+            <h1>1 About our University</h1>
+            <img class="img-fluid my-4" src="https://2021.igem.org/wiki/images/2/28/T--AHUT_China--SCHOOL_1_2.jpg">
+            <p class="lh-lg font-monospace fs-4 lead">Anhui University of Technology is located in the national civilized city, Ma'anshan. It is a multidisplinary university that focuses on the coordinated development of engineering, metallurgy, economics ,management, arts, science, law and other disciplines. Moreover, it is a multi-level education and training system with master's degree and doctor's degree.</p>
+        </div>
+    </div>
+    `
+}
+
+const routes = [
+    {path: '/', component: Home},
+    {path: '/Team/TeamMembers', component: TeamMembers},
+    {path: '/Team/Attribution', component: Home},
+    {path: '/Team/Collaboration', component: Home},
+    {path: '/Team/Parternership', component: Home},
+    {path: '/Project/Description', component: Home},
+    {path: '/Project/Design', component: Home},
+    {path: '/Project/Contribution', component: Home},
+    {path: '/Project/ProposedImplementation', component: Home},
+    {path: '/Project/ProofOfConcept', component: Home},
+    {path: '/Project/ExcellenceInAnotherArea', component: Home},
+    {path: '/Project/Engineering', component: Home},
+    {path: '/Experiments/Protocol', component: Home},
+    {path: '/Experiments/Results', component: Home},
+    {path: '/Experiments/Safety', component: Home},
+    {path: '/Parts/Overview', component: Home},
+    {path: '/Parts/NewParts', component: Home},
+    {path: '/Parts/ImprovedParts', component: Home},
+    {path: '/Parts/Characterization', component: Home},
+    {path: '/HP/HPForSilver', component: Home},
+    {path: '/HP/IntegratedHPForGold', component: Home},
+    {path: '/HP/Education', component: Home},
+]
+
+const router = VueRouter.createRouter({
+    history: VueRouter.createWebHashHistory(),
+    routes,
+})
+
+const app = Vue.createApp({
+    /* 选项 */
+    data() {
+        return {
+            ifMask: true,
+        }
+    },
+    mounted() {
+        this.ifMask = false
+    },
+})
+
+// app.config.devtools = true
+app.config.performance = true
+
+app.use(router)
+
+app.component('nav-item', {
+    template: `
+    <li class="nav-item">
+        <router-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to">{{ title }}</router-link>
+    </li>
+    `,
+    props: {
+        title: String,
+        to: {
+            type: String,
+            default: '/',
+        }
+    }
+})
+
+app.component('nav-item-dropdown', {
+    template: `
+    <li class="nav-item dropdown">
+        <a class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">{{ title }}</a>
+        <ul class="dropdown-menu">
+            <slot></slot>
+        </ul>
+    </li>
+    `,
+    props: ['title'],
+})
+
+app.component('dropdown-item', {
+    template: `<li><router-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to">{{ title }}</router-link></li>`,
+    props: {
+        title: String,
+        to: {
+            type: String,
+            default: '/'
+        }
+    },
+})
+
+const vm = app.mount('#app')

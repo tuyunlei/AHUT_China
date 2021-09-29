@@ -1,0 +1,78 @@
+<html>
+
+<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Default&action=raw&ctype=text/css">
+<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Bootstrap&action=raw&ctype=text/css">
+<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Main&action=raw&ctype=text/css">
+
+<div id="app">
+    <nav class="navbar navbar-light navbar-expand-xl rounded-pill-xl rounded-top-xl py-0">
+        <div class="container-fluid ps-xxl-5 ps-4 pe-xxl-4 pe-xl-0 pe-5">
+            <a class="navbar-brand ms-2 ms-xxl-4 py-xl-0 py-2" href="#">
+                <img src="https://2021.igem.org/wiki/images/4/46/T--AHUT_China--logo.png" alt="" width="85" height="56">
+                <span class="ms-2 text-light fs-5">AHUT-China</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+                <ul class="navbar-nav ms-auto my-xl-0 mb-3">
+                    <nav-item title="HOME"></nav-item>
+                    <nav-item-dropdown title="TEAM">
+                        <dropdown-item title="Team Members" to="/Team/TeamMembers"></dropdown-item>
+                        <dropdown-item title="Attribution"></dropdown-item>
+                        <dropdown-item title="Collaboration"></dropdown-item>
+                        <dropdown-item title="Partnership"></dropdown-item>
+                    </nav-item-dropdown>
+                    <nav-item-dropdown title="PROJECT">
+                        <dropdown-item title="Description"></dropdown-item>
+                        <dropdown-item title="Design"></dropdown-item>
+                        <dropdown-item title="Contribution"></dropdown-item>
+                        <dropdown-item title="Proposed Implementation"></dropdown-item>
+                        <dropdown-item title="Proof of Concept"></dropdown-item>
+                        <dropdown-item title="Excellence in Another Area"></dropdown-item>
+                        <dropdown-item title="Engineering"></dropdown-item>
+                    </nav-item-dropdown>
+                    <nav-item-dropdown title="EXPERIMENTS">
+                        <dropdown-item title="Protocol"></dropdown-item>
+                        <dropdown-item title="Results"></dropdown-item>
+                        <dropdown-item title="Safety"></dropdown-item>
+                    </nav-item-dropdown>
+                    <nav-item-dropdown title="PARTS">
+                        <dropdown-item title="Overview"></dropdown-item>
+                        <dropdown-item title="New Parts"></dropdown-item>
+                        <dropdown-item title="Improved Parts"></dropdown-item>
+                        <dropdown-item title="Characterization"></dropdown-item>
+                    </nav-item-dropdown>
+                    <nav-item-dropdown title="HP">
+                        <dropdown-item title="HP for Silver"></dropdown-item>
+                        <dropdown-item title="Integrated HP for Gold"></dropdown-item>
+                        <dropdown-item title="Education"></dropdown-item>
+                    </nav-item-dropdown>
+                    <nav-item title="MODEL"></nav-item>
+                    <nav-item title="JUDGING FORM"></nav-item>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <router-view></router-view>
+
+    <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
+        <span class="text-light">Copyright 2021 © AHUT-China All rights reserved.</span>
+    </div>
+
+    <div v-if="ifMask" id="mask-view">
+        <img src="https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif" width="128" height="128">
+    </div>
+</div>
+
+<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Popper&action=raw&ctype=text/javascript"></script>
+<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript"></script>
+<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript"></script>
+<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/VueRouter&action=raw&ctype=text/javascript"></script>
+<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=raw&ctype=text/javascript"></script>
+
+</html>

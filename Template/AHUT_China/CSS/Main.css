@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('/IGEM/Team/AHUT_China/fonts/Chalkduster.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura-Heavy';
+    src: url('/IGEM/Team/AHUT_China/fonts/Futura/Futura-Heavy.ttf') format('truetype');
+}
+
+#app {
+    background-color: #EED8CD;
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_default2.png), default;
+}
+
+#app a {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app li {
+    margin-bottom: 0;
+}
+
+#app video::-webkit-media-controls-play-button {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-webkit-media-controls-volume-slider {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-webkit-media-controls-mute-button {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-webkit-media-controls-fullscreen-button {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-internal-media-controls-overflow-button {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-webkit-media-controls-timeline {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#app video::-internal-media-controls-overflow-menu-list-item {
+    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+}
+
+#background {
+    width: 100%;
+    height: auto;
+}
+
+#app #background-tip {
+    top: 1%;
+    left: 50%;
+    color: #f7ddd3;
+    font-size: 1.2vw;
+    text-align: center;
+    position: absolute;
+    padding: 0.5% 2%;
+    border-radius: 99px;
+    transform: translate(-50%, 0);
+    background-color: #E7A5AF;
+}
+
+#mask-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+#app p {
+    font-size: inherit;
+    text-align: inherit;
+    font-family: inherit;
+}
+
+#app .navbar {
+    background-color: #DBA8AF;
+    font-family: Chalkduster, sans-serif;
+}
+
+#app .nav-item {
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+#app .nav-item:hover {
+    background-color: #E4C1BF;
+}
+
+#app .rounded-32 {
+    border-radius: 32px;
+}
+
+#app .dropdown-menu {
+    padding: 0;
+    background-color: #DBA8AF;
+}
+
+@media (min-width: 1200px) {
+    #app .dropdown-menu {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+
+#app .dropdown-item {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+#app .dropdown-item:hover {
+    background-color: #E4C1BF;
+}
+
+#app .dropdown-menu > li:last-child .dropdown-item {
+    transition: none;
+}
+
+#app .dropdown-menu > li:last-child .dropdown-item:hover {
+    background-color: #E4C1BF;
+}
+
+@media (min-width: 1200px) {
+    #app .dropdown-menu > li:last-child .dropdown-item:hover {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+
+#app .text-box {
+    width: auto;
+    color: #f7ddd3;
+    text-align: center;
+    position: absolute;
+    font-family: Futura-Heavy, sans-serif;
+    z-index: 2;
+}
+
+#app .detail-box {
+    opacity: 0;
+    color: #FFA9B4;
+    padding: 4px;
+    border: white 1px solid;
+    font-family: Candara, sans-serif;
+    background-color: rgba(0, 0, 0, .6);
+    transition: opacity 0.2s ease;
+    z-index: 1;
+}
+
+#app .detail-box[data-show] {
+    opacity: 1;
+}
+
+#app .detail-inner-box {
+    padding: 32px;
+    line-height: 1.5;
+    border: white 1px solid;
+}
+
+#app .detail-box[data-popper-placement^='left'] .arrow {
+    top: 50%;
+    left: 100%;
+    transform: translate(0, -50%);
+    position: absolute;
+    border: 20px solid transparent;
+    border-left: 20px solid rgba(0, 0, 0, .6);
+}
+
+#app .detail-box[data-popper-placement^='right'] .arrow {
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    position: absolute;
+    border: 20px solid transparent;
+    border-right: 20px solid rgba(0, 0, 0, .6);
+}
+
+#app .text-box > p {
+    margin-bottom: 4px;
+}
