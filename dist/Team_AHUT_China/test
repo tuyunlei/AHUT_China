@@ -7,7 +7,11 @@
 <div id="app">
     <nav-bar></nav-bar>
 
-    <router-view></router-view>
+    <router-view v-slot="{ Component }">
+        <keep-alive>
+            <component :is="Component" />
+        </keep-alive>
+    </router-view>
 
     <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
         <span class="text-light">Copyright 2021 © AHUT_China All rights reserved.</span>
@@ -24,6 +28,8 @@
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript"></script>
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript"></script>
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/VueRouter&action=raw&ctype=text/javascript"></script>
+<!--<script src="https://unpkg.com/vue@next"></script>-->
+<!--<script src="https://unpkg.com/vue-router@4"></script>-->
 <script type="module" src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=raw&ctype=text/javascript"></script>
 
 </html>
