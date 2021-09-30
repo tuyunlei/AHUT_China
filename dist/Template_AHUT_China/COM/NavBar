@@ -1,5 +1,8 @@
 const CustomRouterLink = {
-    template: `<router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}"><slot></slot></router-link>`,
+    template: `
+    <router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}">
+        <slot></slot>
+    </router-link>`,
     props: ['to']
 }
 
@@ -79,13 +82,13 @@ export default {
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
                     <nav-item title="HOME"></nav-item>
                     <nav-item-dropdown title="TEAM">
-                        <dropdown-item title="Team Members" to="TeamMembers"></dropdown-item>
-                        <dropdown-item title="Attribution"></dropdown-item>
+                        <dropdown-item title="Team Members"></dropdown-item>
+                        <dropdown-item title="Attributions"></dropdown-item>
                         <dropdown-item title="Collaboration"></dropdown-item>
                         <dropdown-item title="Partnership"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT">
-                        <dropdown-item title="Description"></dropdown-item>
+                        <dropdown-item title="Description" to="Description"></dropdown-item>
                         <dropdown-item title="Design"></dropdown-item>
                         <dropdown-item title="Contribution"></dropdown-item>
                         <dropdown-item title="Proposed Implementation"></dropdown-item>

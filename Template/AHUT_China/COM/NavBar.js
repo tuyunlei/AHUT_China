@@ -1,5 +1,6 @@
 const CustomRouterLink = {
-    template: `<router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}">
+    template: `
+    <router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}">
         <slot></slot>
     </router-link>`,
     props: ['to']

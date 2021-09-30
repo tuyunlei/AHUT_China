@@ -20,7 +20,7 @@ sub_routes.map((sub) => {
     root_routes.push(route)
 })
 
-const routes = [{path: '/', redirect: {name: 'Home'}}]
+const routes = [{path: '/', redirect: {name: 'Home', params: {AHUT_China: 'AHUT_China'}}}]
 
 root_routes.map((route) => {
     route.path = '/IGEM/Team/AHUT_China' + route.path + '.html'
