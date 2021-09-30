@@ -1,38 +1,46 @@
 ## CSS
 
-[CSS/Default](https://2021.igem.org/Template:AHUT_China/CSS/Default)
+[/Default](https://2021.igem.org/Template:AHUT_China/CSS/Default)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Default&action=raw&ctype=text/css
 
-[CSS/Bootstrap](https://2021.igem.org/Template:AHUT_China/CSS/Bootstrap)
+[/Bootstrap](https://2021.igem.org/Template:AHUT_China/CSS/Bootstrap)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Bootstrap&action=raw&ctype=text/css
 
-[CSS/Main](https://2021.igem.org/Template:AHUT_China/CSS/Main)
+[/Main](https://2021.igem.org/Template:AHUT_China/CSS/Main) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Main&action=edit)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Main&action=raw&ctype=text/css
+
+[/NavBar](https://2021.igem.org/Template:AHUT_China/CSS/NavBar) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/NavBar&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/NavBar&action=raw&ctype=text/css
+
+[/Home](https://2021.igem.org/Template:AHUT_China/CSS/Home) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Home&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Home&action=raw&ctype=text/css
 
 
 
 ## JavaScript
 
-[JS/Popper](https://2021.igem.org/Template:AHUT_China/JS/Popper)
+[/Popper](https://2021.igem.org/Template:AHUT_China/JS/Popper)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Popper&action=raw&ctype=text/javascript
 
-[JS/Bootstrap](https://2021.igem.org/Template:AHUT_China/JS/Bootstrap)
+[/Bootstrap](https://2021.igem.org/Template:AHUT_China/JS/Bootstrap)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript
 
-[JS/Vue](https://2021.igem.org/Template:AHUT_China/JS/Vue)
+[/Vue](https://2021.igem.org/Template:AHUT_China/JS/Vue)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript
 
-[JS/VueRouter](https://2021.igem.org/Template:AHUT_China/JS/VueRouter)
+[/VueRouter](https://2021.igem.org/Template:AHUT_China/JS/VueRouter)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/VueRouter&action=raw&ctype=text/javascript
 
-[JS/Main](https://2021.igem.org/Template:AHUT_China/JS/Main)
+[/Main](https://2021.igem.org/Template:AHUT_China/JS/Main) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=edit)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=raw&ctype=text/javascript
 
@@ -40,15 +48,23 @@
 
 ## Components
 
-[NavBar](https://2021.igem.org/Template:AHUT_China/COM/NavBar)
+[/NavBar](https://2021.igem.org/Template:AHUT_China/COM/NavBar) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/NavBar&action=edit)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/NavBar&action=raw&ctype=text/javascript
 
+[/Home](https://2021.igem.org/Template:AHUT_China/COM/Home) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Home&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Home&action=raw&ctype=text/javascript
+
+[/Team/Members](https://2021.igem.org/Template:AHUT_China/COM/Team/Members) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/NavBar&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Members&action=raw&ctype=text/javascript
 
 
-## HTML
 
-[/test](https://2021.igem.org/Team:AHUT_China/test)
+## Pages
+
+[/test](https://2021.igem.org/Team:AHUT_China/test) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/test&action=edit)
 
 [/Empty](https://2021.igem.org/Team:AHUT_China/Empty)
 
@@ -73,3 +89,27 @@
 [T--AHUT_China--loading.gif](https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif)
 
 [T--AHUT_China--logo.png](https://2021.igem.org/wiki/images/4/46/T--AHUT_China--logo.png)
+
+
+
+
+
+
+
+### 添加新页面流程
+
+1. 在`Template/JS/Main.js`里添加路由：`sub_routes`
+2. 在Template/COM/里添加对应JS文件
+3. 在`NavBar.js`里找到对应的导航按钮，修改to属性
+
+
+
+### 发布dist
+
+- ##### Template/JS/Main.js
+
+  - NavBar和Home的链接
+
+  - `sub_routes.map`中`component`的链接（前边还有后缀）
+  - Home route 的path  从index.html改为 /
+  - `root_routes.map`中`route.path`

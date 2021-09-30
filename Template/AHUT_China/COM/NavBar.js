@@ -1,9 +1,19 @@
-
+const CustomRouterLink = {
+    template: `<router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}">
+        <slot></slot>
+    </router-link>`,
+    props: ['to']
+}
 
 const NavItem = {
+    components: {
+        'custom-link': CustomRouterLink
+    },
     template: `
     <li class="nav-item">
-        <router-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="{name: to}">{{ title }}</router-link>
+        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to">
+            {{ title }}
+        </custom-link>
     </li>
     `,
     props: {
@@ -28,11 +38,14 @@ const NavItemDropdown = {
 }
 
 const DropdownItem = {
+    components: {
+        'custom-link': CustomRouterLink
+    },
     template: `
         <li>
-            <router-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="{name: to}">
+            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to">
                 {{ title }}
-            </router-link>
+            </custom-link>
         </li>
     `,
     props: {
@@ -45,12 +58,6 @@ const DropdownItem = {
 }
 
 export default {
-    beforeCreate() {
-        console.log('NavBar before create')
-    },
-    mounted() {
-        console.log('NavBar mounted')
-    },
     components: {
         'nav-item': NavItem,
         'nav-item-dropdown': NavItemDropdown,
@@ -74,13 +81,13 @@ export default {
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
                     <nav-item title="HOME"></nav-item>
                     <nav-item-dropdown title="TEAM">
-                        <dropdown-item title="Team Members" to="TeamMembers"></dropdown-item>
-                        <dropdown-item title="Attribution"></dropdown-item>
+                        <dropdown-item title="Team Members"></dropdown-item>
+                        <dropdown-item title="Attributions"></dropdown-item>
                         <dropdown-item title="Collaboration"></dropdown-item>
                         <dropdown-item title="Partnership"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT">
-                        <dropdown-item title="Description"></dropdown-item>
+                        <dropdown-item title="Description" to="Description"></dropdown-item>
                         <dropdown-item title="Design"></dropdown-item>
                         <dropdown-item title="Contribution"></dropdown-item>
                         <dropdown-item title="Proposed Implementation"></dropdown-item>

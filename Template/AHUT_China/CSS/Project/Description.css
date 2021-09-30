@@ -1,0 +1,22 @@
+#description-container {
+    background-image: url("/IGEM/Team/AHUT_China/imgs/butterfly2.png");
+    background-repeat: repeat;
+}
+
+#description-container .container > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Julius Sans One";
+}
+
+#description-container .container > h2 {
+    font-family: "Ubuntu Mono";
+    margin-bottom: 12px;
+}
+
+#description-container .container > p {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Fira Code";
+}
