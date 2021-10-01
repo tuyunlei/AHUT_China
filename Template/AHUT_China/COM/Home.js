@@ -80,11 +80,7 @@ export default {
         </div>
     </div>
     `,
-    beforeCreate() {
-        console.log('Home before create')
-    },
     mounted() {
-        console.log('Home mounted')
         let groups = [].slice.call(document.querySelectorAll('.text-box-group'))
         groups.map(function (group) {
             let text_box = group.querySelector('.text-box')
