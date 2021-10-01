@@ -41,11 +41,21 @@
     background-color: gray;
 }
 
-#app p {
-    font-size: inherit;
-    text-align: inherit;
-    font-family: inherit;
-}
+/*#app p,*/
+/*#app h1,*/
+/*#app h2,*/
+/*#app h3,*/
+/*#app h4,*/
+/*#app h5,*/
+/*#app h6 {*/
+/*    color: inherit;*/
+/*    text-align: inherit;*/
+/*    font-family: inherit;*/
+/*}*/
+
+/*#app p {*/
+/*    font-size: inherit;*/
+/*}*/
 
 #app .fade-enter-active,
 #app .fade-leave-active {
