@@ -70,7 +70,7 @@ export default {
         <div class="container-fluid ps-xxl-5 ps-4 pe-xxl-4 pe-xl-0 pe-5">
             <a class="navbar-brand ms-2 ms-xxl-4 py-xl-0 py-2" href="#">
                 <img src="/dist/files/T--AHUT_China--logo.png" alt="" width="85" height="56">
-                <span class="ms-2 text-light fs-5">AHUT-China</span>
+                <span class="ms-2 text-light fs-5">AHUT_China</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -78,7 +78,7 @@ export default {
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+            <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
                     <nav-item title="HOME"></nav-item>
                     <nav-item-dropdown title="TEAM">
@@ -108,7 +108,7 @@ export default {
                         <dropdown-item title="Characterization"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP">
-                        <dropdown-item title="HP for Silver"></dropdown-item>
+                        <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
                         <dropdown-item title="Integrated HP for Gold"></dropdown-item>
                         <dropdown-item title="Education"></dropdown-item>
                     </nav-item-dropdown>

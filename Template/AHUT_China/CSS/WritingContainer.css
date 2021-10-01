@@ -15,11 +15,13 @@
 }
 
 .writing-container .container > h2 {
+    margin-left: -1rem;
     margin-bottom: 12px;
     font-family: "Ubuntu Mono", sans-serif;
 }
 
 .writing-container .container > p {
+    /*padding-left: 1rem;*/
     font-size: 20px;
     font-weight: 200;
     font-family: "Fira Code", sans-serif;
