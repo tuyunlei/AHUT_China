@@ -78,7 +78,7 @@ export default {
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse collapse show" id="navbarResponsive" style="">
+            <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
                     <nav-item title="HOME"></nav-item>
                     <nav-item-dropdown title="TEAM">
@@ -108,7 +108,7 @@ export default {
                         <dropdown-item title="Characterization"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP">
-                        <dropdown-item title="HP for Silver"></dropdown-item>
+                        <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
                         <dropdown-item title="Integrated HP for Gold"></dropdown-item>
                         <dropdown-item title="Education"></dropdown-item>
                     </nav-item-dropdown>

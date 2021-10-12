@@ -35,6 +35,12 @@
     z-index: 2;
 }
 
+#app .text-box > p {
+    margin-bottom: 4px;
+    text-align: inherit;
+    font-family: inherit;
+}
+
 #app .detail-box {
     opacity: 0;
     color: #FFA9B4;
@@ -72,8 +78,4 @@
     position: absolute;
     border: 20px solid transparent;
     border-right: 20px solid rgba(0, 0, 0, .6);
-}
-
-#app .text-box > p {
-    margin-bottom: 4px;
 }

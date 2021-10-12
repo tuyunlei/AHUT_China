@@ -35,6 +35,12 @@
     z-index: 2;
 }
 
+#app .text-box > p {
+    margin-bottom: 4px;
+    text-align: inherit;
+    font-family: inherit;
+}
+
 #app .detail-box {
     opacity: 0;
     color: #FFA9B4;

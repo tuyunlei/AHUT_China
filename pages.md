@@ -20,6 +20,10 @@
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Home&action=raw&ctype=text/css
 
+[/WritingContainer](https://2021.igem.org/Template:AHUT_China/CSS/WritingContainer) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/WritingContainer&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/WritingContainer&action=raw&ctype=text/css
+
 [/Project/Description](https://2021.igem.org/Template:AHUT_China/CSS/Project/Description) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Project/Description&action=edit)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Project/Description&action=raw&ctype=text/css
@@ -58,6 +62,10 @@
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Home&action=raw&ctype=text/javascript
 
+[/WritingContainer](https://2021.igem.org/Template:AHUT_China/COM/WritingContainer) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/WritingContainer&action=edit)
+
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/WritingContainer&action=raw&ctype=text/javascript
+
 [/Team/Members](https://2021.igem.org/Template:AHUT_China/COM/Team/Members) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Members&action=edit)
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Members&action=raw&ctype=text/javascript
@@ -66,7 +74,9 @@
 
 > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/Description&action=raw&ctype=text/javascript
 
+[/HP/HumanPractices](https://2021.igem.org/Template:AHUT_China/COM/HP/HumanPractices) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/HP/HumanPractices&action=edit)
 
+> https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/HP/HumanPractices&action=raw&ctype=text/javascript
 
 ## Pages
 
@@ -92,9 +102,26 @@
   - [T--AHUT_China--loading.gif](https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif)
   - [T--AHUT_China--logo.png](https://2021.igem.org/wiki/images/4/46/T--AHUT_China--logo.png)
   - [T--AHUT_China--butterfly.png](https://2021.igem.org/wiki/images/2/29/T--AHUT_China--butterfly.png)
-  - [T--AHUT_China--Description_01.jpg](https://2021.igem.org/wiki/images/e/e7/T--AHUT_China--Description_01.jpg)
-  - [T--AHUT_China--Description_02.jpg](https://2021.igem.org/wiki/images/c/c5/T--AHUT_China--Description_02.jpg)
-
+  - Description
+    - [T--AHUT_China--Description_01.jpg](https://2021.igem.org/wiki/images/e/e7/T--AHUT_China--Description_01.jpg)
+    - [T--AHUT_China--Description_02.jpg](https://2021.igem.org/wiki/images/c/c5/T--AHUT_China--Description_02.jpg)
+  - Human Practices
+    - [T--AHUT_China--HumanPractices_01.jpg](https://2021.igem.org/wiki/images/f/fb/T--AHUT_China--HumanPractices_01.jpg)
+    - [T--AHUT_China--HumanPractices_02.jpg](https://2021.igem.org/wiki/images/4/41/T--AHUT_China--HumanPractices_02.jpg)
+    - [T--AHUT_China--HumanPractices_03.jpg](https://2021.igem.org/wiki/images/e/ee/T--AHUT_China--HumanPractices_03.jpg)
+    - [T--AHUT_China--HumanPractices_04.jpg](https://2021.igem.org/wiki/images/7/71/T--AHUT_China--HumanPractices_04.jpg)
+    - [T--AHUT_China--HumanPractices_05.jpg](https://2021.igem.org/wiki/images/b/bb/T--AHUT_China--HumanPractices_05.jpg)
+    - [T--AHUT_China--HumanPractices_06.png](https://2021.igem.org/wiki/images/8/85/T--AHUT_China--HumanPractices_06.png)
+    - [T--AHUT_China--HumanPractices_07.jpg](https://2021.igem.org/wiki/images/7/77/T--AHUT_China--HumanPractices_07.jpg)
+    - [T--AHUT_China--HumanPractices_08.jpg](https://2021.igem.org/wiki/images/9/97/T--AHUT_China--HumanPractices_08.jpg)
+    - [T--AHUT_China--HumanPractices_09.jpg](https://2021.igem.org/wiki/images/8/88/T--AHUT_China--HumanPractices_09.jpg)
+    - [T--AHUT_China--HumanPractices_10.jpg](https://2021.igem.org/wiki/images/f/f9/T--AHUT_China--HumanPractices_10.jpg)
+    - [T--AHUT_China--HumanPractices_11.jpg](https://2021.igem.org/wiki/images/1/11/T--AHUT_China--HumanPractices_11.jpg)
+    - [T--AHUT_China--HumanPractices_12.jpg](https://2021.igem.org/wiki/images/1/11/T--AHUT_China--HumanPractices_11.jpg)
+    - [T--AHUT_China--HumanPractices_13.jpg](https://2021.igem.org/wiki/images/3/36/T--AHUT_China--HumanPractices_13.jpg)
+    - [T--AHUT_China--HumanPractices_14.jpg](https://2021.igem.org/wiki/images/8/85/T--AHUT_China--HumanPractices_14.jpg)
+    - [T--AHUT_China--HumanPractices_15.jpg](https://2021.igem.org/wiki/images/f/f3/T--AHUT_China--HumanPractices_15.jpg)
+  
 - #### Fonts:
 
   - [T--AHUT_China--FiraCode.ttf](https://2021.igem.org/wiki/images/7/73/T--AHUT_China--FiraCode.ttf)

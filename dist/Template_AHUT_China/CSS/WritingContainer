@@ -1,5 +1,20 @@
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('https://2021.igem.org/wiki/images/7/73/T--AHUT_China--FiraCode.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Julius Sans One';
+    src: url('https://2021.igem.org/wiki/images/2/22/T--AHUT_China--JuliusSansOne.ttf') format('truetype');
+}
+
 #app .writing-container {
-    background-image: url("/Team/AHUT_China/imgs/butterfly2.png");
+    background-image: url("https://2021.igem.org/wiki/images/2/29/T--AHUT_China--butterfly.png");
     background-repeat: repeat;
 }
 

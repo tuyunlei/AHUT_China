@@ -5,7 +5,7 @@ const Home = () => import('/Template/AHUT_China/COM/Home.js')
 const sub_routes = [
     {name: 'Attributions', com_path: '/Team/Attributions'},
     {name: 'Description', com_path: '/Project/Description'},
-    {name: 'Human_Practices', com_path: '/HumanPractices'},
+    {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
 ]
 
 const root_routes = [
@@ -21,7 +21,9 @@ sub_routes.map((sub) => {
     root_routes.push(route)
 })
 
-const routes = [{path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}}]
+const routes = [
+    {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}}
+]
 
 root_routes.map((route) => {
     route.path = '/Team/AHUT_China' + route.path + '.html'
