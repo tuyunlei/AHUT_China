@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Chalkduster';
-    src: url('/Team/AHUT_China/fonts/Chalkduster.ttf') format('truetype');
+    src: url('/resources/fonts/Chalkduster.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Futura-Heavy';
-    src: url('/Team/AHUT_China/fonts/Futura/Futura-Heavy.ttf') format('truetype');
+    src: url('/resources/fonts/Futura-Heavy.ttf') format('truetype');
 }
 
 #app .navbar {
