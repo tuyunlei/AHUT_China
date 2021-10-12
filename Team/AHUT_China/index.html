@@ -1,34 +1,35 @@
 <html>
-<meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Default.css">
+    <link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Main.css">
+</head>
+<body>
+    <div id="app">
+        <nav-bar></nav-bar>
 
-<link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Default.css">
-<link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Bootstrap.css">
-<link rel="stylesheet" type="text/css" href="../../Template/AHUT_China/CSS/Main.css">
+        <router-view v-slot="{ Component }">
+            <keep-alive>
+                <component :is="Component"/>
+            </keep-alive>
+        </router-view>
 
-<div id="app">
-    <nav-bar></nav-bar>
+        <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
+            <span class="text-light">Copyright 2021 © AHUT_China All rights reserved.</span>
+        </div>
 
-    <router-view v-slot="{ Component }">
-        <keep-alive>
-            <component :is="Component" />
-        </keep-alive>
-    </router-view>
-
-    <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
-        <span class="text-light">Copyright 2021 © AHUT_China All rights reserved.</span>
+        <transition name="fade">
+            <div v-if="loading" id="mask-view" class="zindex-popover">
+                <img src="imgs/loading.gif" width="128" height="128">
+            </div>
+        </transition>
     </div>
 
-    <transition name="fade">
-        <div v-if="loading" id="mask-view" class="zindex-popover">
-            <img src="imgs/loading.gif" width="128" height="128">
-        </div>
-    </transition>
-</div>
-
-<script src="../../Template/AHUT_China/JS/Popper.js"></script>
-<script src="../../Template/AHUT_China/JS/Bootstrap.js"></script>
-<script src="../../Template/AHUT_China/JS/Vue_Debug.js"></script>
-<script src="../../Template/AHUT_China/JS/VueRouter_Debug.js"></script>
-<script type="module" src="../../Template/AHUT_China/JS/Main.js"></script>
-
+    <script src="../../Template/AHUT_China/JS/Popper.js"></script>
+    <script src="../../Template/AHUT_China/JS/Bootstrap.js"></script>
+    <script src="../../Template/AHUT_China/JS/Vue_Debug.js"></script>
+    <script src="../../Template/AHUT_China/JS/VueRouter_Debug.js"></script>
+    <script type="module" src="../../Template/AHUT_China/JS/Main.js"></script>
+</body>
 </html>

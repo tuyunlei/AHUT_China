@@ -3,8 +3,9 @@ import NavBar from 'https://2021.igem.org/wiki/index.php?title=Template:AHUT_Chi
 const Home = () => import('https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Home&action=raw&ctype=text/javascript')
 
 const sub_routes = [
-    {name: 'Attributions', path: '/Team/Attributions'},
-    {name: 'Description', path: '/Project/Description'},
+    {name: 'Attributions', com_path: '/Team/Attributions'},
+    {name: 'Description', com_path: '/Project/Description'},
+    {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
 ]
 
 const root_routes = [
@@ -15,7 +16,7 @@ sub_routes.map((sub) => {
     let route = {
         name: sub.name,
         path: '/' + sub.name,
-        component: () => import('https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM' + sub.path + '&action=raw&ctype=text/javascript')
+        component: () => import('https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM' + sub.com_path + '&action=raw&ctype=text/javascript')
     }
     root_routes.push(route)
 })

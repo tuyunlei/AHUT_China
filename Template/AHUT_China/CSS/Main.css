@@ -1,10 +1,10 @@
 #app {
     background-color: #EED8CD;
-    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_default2.png), default;
+    cursor: url(/Team/AHUT_China/imgs/cursor_default2.png), default;
 }
 
 #app a {
-    cursor: url(/IGEM/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
 }
 
 #app li {
@@ -41,11 +41,21 @@
     background-color: gray;
 }
 
-#app p {
-    font-size: inherit;
-    text-align: inherit;
-    font-family: inherit;
-}
+/*#app p,*/
+/*#app h1,*/
+/*#app h2,*/
+/*#app h3,*/
+/*#app h4,*/
+/*#app h5,*/
+/*#app h6 {*/
+/*    color: inherit;*/
+/*    text-align: inherit;*/
+/*    font-family: inherit;*/
+/*}*/
+
+/*#app p {*/
+/*    font-size: inherit;*/
+/*}*/
 
 #app .fade-enter-active,
 #app .fade-leave-active {

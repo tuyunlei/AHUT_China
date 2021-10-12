@@ -1,0 +1,35 @@
+#app .writing-container {
+    background-image: url("/Team/AHUT_China/imgs/butterfly2.png");
+    background-repeat: repeat;
+}
+
+#app .writing-container .container {
+    background-color: #E4C1BF
+}
+
+#app .writing-container .container > h1 {
+    color: inherit;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+#app .writing-container .container > h2 {
+    color: inherit;
+    margin-left: -1rem;
+    margin-bottom: 12px;
+    font-family: "Ubuntu Mono", sans-serif;
+}
+
+#app .writing-container .container > h3 {
+    color: inherit;
+}
+
+#app .writing-container .container > p {
+    /*padding-left: 1rem;*/
+    color: inherit;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Fira Code", sans-serif;
+}
