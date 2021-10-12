@@ -4,13 +4,13 @@ export default {
 
     <div class="container-fluid" style="padding: 0 128px;">
         <div class="mt-5 rounded-32" style="padding: 40px; background-color: #E4C1BF;">
-            <video class="rounded-32" style="width: 100%;" src="/Team/AHUT_China/video/main.mp4" 
+            <video class="rounded-32" style="width: 100%;" src="/resources/videos/main.mp4" 
             type="video/mp4" autoplay="autoplay" controls="controls"></video>
         </div>
     </div>
 
     <div class="bg-light" style="position: relative;">
-        <img id="background" src="https://2021.igem.org/wiki/images/d/d3/T--AHUT_China--home_background.jpg" alt="background">
+        <img id="background" src="/resources/images/background2.jpg" alt="background">
 
         <p id="background-tip">Tips: Move the cursor over the text below to view the details.</p>
 

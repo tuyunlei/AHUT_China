@@ -94,15 +94,15 @@
 
 - #### Images:
 
-  | Name                                                                                 | File URL                                                                  | Local Path                                                                       |
-  | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-  | [SCHOOL_1_2.jpg](https://2021.igem.org/File:T--AHUT_China--SCHOOL_1_2.jpg)           | https://2021.igem.org/wiki/images/2/28/T--AHUT_China--SCHOOL_1_2.jpg      | [./resources/images/SCHOOL_1_2.jpg](./resources/images/SCHOOL_1_2.jpg)           |
-  | [cursor_default.png](https://2021.igem.org/File:T--AHUT_China--cursor_default.png)   | https://2021.igem.org/wiki/images/c/cf/T--AHUT_China--cursor_default.png  | [./resources/images/cursor_default.png](./resources/images/cursor_default.png)   |
-  | [cursor_pointer.png](https://2021.igem.org/File:T--AHUT_China--cursor_pointer.png)   | https://2021.igem.org/wiki/images/c/cf/T--AHUT_China--cursor_pointer.png  | [./resources/images/cursor_pointer.png](./resources/images/cursor_pointer.png)   |
-  | [home_background.jpg](https://2021.igem.org/File:T--AHUT_China--home_background.jpg) | https://2021.igem.org/wiki/images/d/d3/T--AHUT_China--home_background.jpg | [./resources/images/home_background.jpg](./resources/images/home_background.jpg) |
-  | [loading.gif](https://2021.igem.org/File:T--AHUT_China--loading.gif)                 | https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif         | [./resources/images/loading.gif](./resources/images/loading.gif)                 |
-  | [logo.png](https://2021.igem.org/File:T--AHUT_China--logo.png)                       | https://2021.igem.org/wiki/images/4/46/T--AHUT_China--logo.png            | [./resources/images/logo.png](./resources/images/logo.png)                       |
-  | [butterfly.png](https://2021.igem.org/File:T--AHUT_China--butterfly.png)             | https://2021.igem.org/wiki/images/2/29/T--AHUT_China--butterfly.png       | [./resources/images/butterfly.png](./resources/images/butterfly.png)             |
+  | Name                                                         | File URL                                                     | Local Path                                                   |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [SCHOOL_1_2.jpg](https://2021.igem.org/File:T--AHUT_China--SCHOOL_1_2.jpg) | https://2021.igem.org/wiki/images/2/28/T--AHUT_China--SCHOOL_1_2.jpg | [./resources/images/SCHOOL_1_2.jpg](./resources/images/SCHOOL_1_2.jpg) |
+  | [cursor_default.png](https://2021.igem.org/File:T--AHUT_China--cursor_default.png) | https://2021.igem.org/wiki/images/c/cf/T--AHUT_China--cursor_default.png | [./resources/images/cursor_default2.png](./resources/images/cursor_default2.png) |
+  | [cursor_pointer.png](https://2021.igem.org/File:T--AHUT_China--cursor_pointer.png) | https://2021.igem.org/wiki/images/c/cf/T--AHUT_China--cursor_pointer.png | [./resources/images/cursor_pointer2.png](./resources/images/cursor_pointer2.png) |
+  | [home_background.jpg](https://2021.igem.org/File:T--AHUT_China--home_background.jpg) | https://2021.igem.org/wiki/images/d/d3/T--AHUT_China--home_background.jpg | [./resources/images/background2.jpg](./resources/images/background2.jpg) |
+  | [loading.gif](https://2021.igem.org/File:T--AHUT_China--loading.gif) | https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif | [./resources/images/loading.gif](./resources/images/loading.gif) |
+  | [logo.png](https://2021.igem.org/File:T--AHUT_China--logo.png) | https://2021.igem.org/wiki/images/4/46/T--AHUT_China--logo.png | [./resources/images/logo.png](./resources/images/logo.png)   |
+  | [butterfly.png](https://2021.igem.org/File:T--AHUT_China--butterfly.png) | https://2021.igem.org/wiki/images/2/29/T--AHUT_China--butterfly.png | [./resources/images/butterfly2.png](./resources/images/butterfly2.png) |
 
   ##### Description
 
@@ -133,13 +133,13 @@
 
 - #### Fonts:
 
-  | Name                                                                                 | File URL                                                                        | Local Path                                                                 |
-  | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-  | [FiraCode.ttf](https://2021.igem.org/File:T--AHUT_China--FiraCode.ttf)               | https://2021.igem.org/wiki/images/7/73/T--AHUT_China--FiraCode.ttf              | [./resources/fonts/FiraCode.ttf](./resources/fonts/FiraCode.ttf)           |
-  | [JuliusSansOne.ttf](https://2021.igem.org/File:T--AHUT_China--JuliusSansOne.ttf)     | https://2021.igem.org/wiki/images/2/22/T--AHUT_China--JuliusSansOne.ttf         | [./resources/fonts/JuliusSansOne.ttf](./resources/fonts/JuliusSansOne.ttf) |
-  | [Chalkduster.ttf](https://2021.igem.org/File:T--AHUT_China--Chalkduster.ttf)         | https://2021.igem.org/wiki/images/e/e4/T--AHUT_China--Chalkduster.ttf           | None                                                                       |
-  | [Futura-Heavy.ttf](https://2021.igem.org/File:T--AHUT_China--Futura-Heavy.ttf)       | https://2021.igem.org/wiki/images/7/72/T--AHUT_China--Futura-Heavy.ttf          | None                                                                       |
-  | [ubuntuMonoRegular](https://2021.igem.org/File:T--KCIS_NewTaipei--ubuntuMonoRegular) | https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf | None                                                                       |
+  | Name                                                         | File URL                                                     | Local Path                                                   |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | [FiraCode.ttf](https://2021.igem.org/File:T--AHUT_China--FiraCode.ttf) | https://2021.igem.org/wiki/images/7/73/T--AHUT_China--FiraCode.ttf | [./resources/fonts/FiraCode.ttf](./resources/fonts/FiraCode.ttf) |
+  | [JuliusSansOne.ttf](https://2021.igem.org/File:T--AHUT_China--JuliusSansOne.ttf) | https://2021.igem.org/wiki/images/2/22/T--AHUT_China--JuliusSansOne.ttf | [./resources/fonts/JuliusSansOne.ttf](./resources/fonts/JuliusSansOne.ttf) |
+  | [Chalkduster.ttf](https://2021.igem.org/File:T--AHUT_China--Chalkduster.ttf) | https://2021.igem.org/wiki/images/e/e4/T--AHUT_China--Chalkduster.ttf | [./resources/fonts/Chalkduster.ttf](./resources/fonts/Chalkduster.ttf) |
+  | [Futura-Heavy.ttf](https://2021.igem.org/File:T--AHUT_China--Futura-Heavy.ttf) | https://2021.igem.org/wiki/images/7/72/T--AHUT_China--Futura-Heavy.ttf | [./resources/fonts/Futura-Heavy.ttf](./resources/fonts/Futura-Heavy.ttf) |
+  | [ubuntuMonoRegular](https://2021.igem.org/File:T--KCIS_NewTaipei--ubuntuMonoRegular) | https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf | [./resources/fonts/UbuntuMono.ttf](./resources/fonts/UbuntuMono.ttf) |
 
 ### 添加新页面流程
 

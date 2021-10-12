@@ -1,29 +1,29 @@
 #app video::-webkit-media-controls-play-button {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-webkit-media-controls-volume-slider {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-webkit-media-controls-mute-button {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-webkit-media-controls-fullscreen-button {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-internal-media-controls-overflow-button {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-webkit-media-controls-timeline {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app video::-internal-media-controls-overflow-menu-list-item {
-    cursor: url(/Team/AHUT_China/imgs/cursor_pointer2.png), pointer;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app .text-box {
