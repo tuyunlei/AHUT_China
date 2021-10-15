@@ -51,12 +51,12 @@ export default {
         <p>Xiangxian Tong、Tao Yu</p>
         <p>Write HP materials and coordinate with other team memebers: Fengyue Sun</p>
 
-        <h2>Sponsor：</h2>
+        <h2>Sponsor</h2>
         <div style="text-align: center;">
             <img class="img-fluid" alt="Sponsors" src="/resources/images/Attributions_01.png">
         </div>
          
-        <h2>Acknowledgements：</h2>
+        <h2>Acknowledgements</h2>
         <p>Our team consists of 14 mentors in total, including Xiangrong Xu, Hao Xu, Liang Ma, Zi Liu, Ruilan Cao, Haiyan Wang, Guozheng Huang, Xia Xu, Tingxuan Yan, she huili, Tao Tao, Bailu Fei, Shanshan Xu, Huiling JI, etc.</p> 
         <p>Each of our instructors offered us many ideas and professional guidance for our project, while they also offered us labs and materials.Our PI is Xiangong Xu and our secondary PI is Hao Xu & Liang Ma. Professors Xiangrong Xu and Hao Xu offered us some HP content and advice.</p>
         <p>Liang Ma and Zi Liu were mainly responsible for the guidance of wet lab, and we mainly conducted experiments in Dr. Liang Ma's lab. We also utilized some equipment from the BERC-AHUT Biochemistry Center by Professors Guozheng Huang and Xia Xu.</p>
