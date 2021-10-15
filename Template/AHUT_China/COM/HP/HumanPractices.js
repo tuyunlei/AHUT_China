@@ -86,10 +86,7 @@ export default {
         <h2>12.Monthly meetings</h2>
         <p>Why are we doing all of this?</p>
         <p>Every team's project in iGEM is not perfect at the beginning. In order to keep improving the project, each team holds team meetings to discuss repeatedly, and The team members work better with each other. It was important for our whole team to have meetings on time for some discussions. Our college iGEM project members meet once a week to discuss how to solve the current problems and what to do next. Starting from X month X, iGEM members keep the habit of meeting once a month to discuss.</p>
-<!--        -->
-<!--        <h2>12.Monthly meetings</h2>-->
-<!--        <p>Why are we doing all of this?</p>-->
-<!--        <p>Every team's project in iGEM is not perfect at the beginning. In order to keep improving the project, each team holds team meetings to discuss repeatedly, and The team members work better with each other. It was important for our whole team to have meetings on time for some discussions. The members of our college iGEM project meet once a week to discuss how to solve the current problems and what to do next. Starting from X month X, iGEM members keep the habit of meeting once a month to discuss.</p>-->
+        
         <h3>February</h3>
         <p>The meeting includes:</p>
         <p>Division of labor among the members of this meeting</p>

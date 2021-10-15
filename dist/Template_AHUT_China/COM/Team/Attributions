@@ -1,4 +1,4 @@
-import WritingContainer from '/Template/AHUT_China/COM/WritingContainer.js';
+import WritingContainer from 'https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/WritingContainer&action=raw&ctype=text/javascript';
 
 export default {
     components: {
@@ -6,7 +6,7 @@ export default {
     },
     template: `    
     <writing-container>
-        <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Team/Attributions.css">
+        <link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Team/Attributions&action=raw&ctype=text/css">
 
         <h1>Attributions</h1>
         <hr/>
@@ -53,7 +53,7 @@ export default {
         <p>Write HP materials and coordinate with other team memebers: Fengyue Sun</p>
 
         <h2>Sponsor</h2>
-        <img class="img-fluid" alt="Sponsors" src="/resources/images/Attributions_01.png">
+        <img class="img-fluid" alt="Sponsors" src="https://2021.igem.org/wiki/images/5/53/T--AHUT_China--Attributions_01.png">
 
         <h2>Acknowledgements</h2>
         <p>Our team consists of 14 mentors in total, including Xiangrong Xu, Hao Xu, Liang Ma, Zi Liu, Ruilan Cao, Haiyan Wang, Guozheng Huang, Xia Xu, Tingxuan Yan, she huili, Tao Tao, Bailu Fei, Shanshan Xu, Huiling JI, etc.</p> 
