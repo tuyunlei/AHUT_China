@@ -6,7 +6,7 @@ export default {
     },
     template: `
     <writing-container>
-        <h1 class="pt-2">Education</h1>
+        <h1>Education</h1>
         <hr/>
 
         <p>We have organized a number of activities, from children to university students, to promote knowledge of synthetic biology.</p>
