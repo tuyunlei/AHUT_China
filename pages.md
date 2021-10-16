@@ -82,6 +82,10 @@
 
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/Description&action=raw&ctype=text/javascript
 
+  - [/Project/ProposedImplementation](https://2021.igem.org/Template:AHUT_China/COM/Project/ProposedImplementation) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/ProposedImplementation&action=edit)
+
+  > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/ProposedImplementation&action=raw&ctype=text/javascript
+
 - ### HP
 
   - [/HP/HumanPractices](https://2021.igem.org/Template:AHUT_China/COM/HP/HumanPractices) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/HP/HumanPractices&action=edit)
