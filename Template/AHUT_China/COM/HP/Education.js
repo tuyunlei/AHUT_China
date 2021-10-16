@@ -6,9 +6,8 @@ export default {
     },
     template: `
     <writing-container>
-        <h1 class="pt-2">Education</h1>
+        <h1>Education</h1>
         <hr/>
-        
         <p>We have organized a number of activities, from children to university students, to promote knowledge of synthetic biology.</p>
         <h2>1.Project publicity in kindergarten</h2>
         <img class="img-fluid" alt="Education_01" src="/resources/images/Education_01.jpg">

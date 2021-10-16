@@ -4,7 +4,7 @@
 }
 
 #app .writing-container .container {
-    background-color: #E4C1BF
+    background-color: #DBA8AF
 }
 
 #app .writing-container .container > h1 {
@@ -13,12 +13,16 @@
     font-weight: 900;
     text-align: center;
     font-family: "Julius Sans One", sans-serif;
+    margin-top: 1.5rem;
 }
 
 #app .writing-container .container > h2 {
     color: inherit;
-    margin-left: -1rem;
-    margin-bottom: 12px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #dc8b97;
     font-family: "Ubuntu Mono", sans-serif;
 }
 
@@ -27,9 +31,16 @@
 }
 
 #app .writing-container .container > p {
-    /*padding-left: 1rem;*/
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: inherit;
     font-size: 20px;
     font-weight: 200;
     font-family: "Fira Code", sans-serif;
+}
+
+#app .writing-container .img-fluid {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem 4rem;
 }
