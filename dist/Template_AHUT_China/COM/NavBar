@@ -91,7 +91,7 @@ export default {
                         <dropdown-item title="Description" to="Description"></dropdown-item>
                         <dropdown-item title="Design"></dropdown-item>
                         <dropdown-item title="Contribution"></dropdown-item>
-                        <dropdown-item title="Proposed Implementation"></dropdown-item>
+                        <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
                         <dropdown-item title="Proof of Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area"></dropdown-item>
                         <dropdown-item title="Engineering"></dropdown-item>
