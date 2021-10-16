@@ -8,8 +8,9 @@ export default {
     <writing-container>
         <h1>Education</h1>
         <hr/>
-
         <p>We have organized a number of activities, from children to university students, to promote knowledge of synthetic biology.</p>
+        <hr/>
+
         <h2>1.Project publicity in kindergarten</h2>
         <img class="img-fluid" alt="Education_01" src="https://2021.igem.org/wiki/images/f/f0/T--AHUT_China--Education_01.jpg">
         <p>After taking protective measures, the AHUT-China team came to Hu Dong Road Primary School, aiming to introduce the prevention and characteristics of the malignancy to the children and teachers, and introduced to them that malignant tumor can occur at any age, but the incidence rate increased with age. In childhood, the most common are leukemia, brain tumor, and malignant lymphatic cancer; Liver cancer and leukemia are common in young adults; Middle age and old age are mainly stomach, esophagus, cervix, lung, and lung cancer. Then we told the children about our team's project used probiotic secreted proteins to target breast cancer in the iGEM competition this year. Malignant tumor diseases will develop significantly in the future. Therefore, malignant tumor diseases can not be ignored. We should encourage children to establish a correct attitude towards tumors from an early age.</p>
