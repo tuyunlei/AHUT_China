@@ -3,6 +3,7 @@ import NavBar from '/Template/AHUT_China/COM/NavBar.js'
 const Home = () => import('/Template/AHUT_China/COM/Home.js')
 
 const sub_routes = [
+    {name: 'Model', com_path: '/Model'},
     {name: 'Attributions', com_path: '/Team/Attributions'},
     {name: 'Description', com_path: '/Project/Description'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
