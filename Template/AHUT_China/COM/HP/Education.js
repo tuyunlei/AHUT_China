@@ -10,7 +10,7 @@ export default {
         <hr/>
         <p>We have organized a number of activities, from children to university students, to promote knowledge of synthetic biology.</p>
         <h2>1.Project publicity in kindergarten</h2>
-        <img class="img-fluid" alt="Education_01" src="/resources/images/Education_01.jpg">
+        <img-fluid alt="Education_01" src="/resources/images/Education_01.jpg"></img-fluid>
         <p>After taking protective measures, the AHUT-China team came to Hu Dong Road Primary School, aiming to introduce the prevention and characteristics of the malignancy to the children and teachers, and introduced to them that malignant tumor can occur at any age, but the incidence rate increased with age. In childhood, the most common are leukemia, brain tumor, and malignant lymphatic cancer; Liver cancer and leukemia are common in young adults; Middle age and old age are mainly stomach, esophagus, cervix, lung, and lung cancer. Then we told the children about our team's project used probiotic secreted proteins to target breast cancer in the iGEM competition this year. Malignant tumor diseases will develop significantly in the future. Therefore, malignant tumor diseases can not be ignored. We should encourage children to establish a correct attitude towards tumors from an early age.</p>
         <h2>2. Project publicity in Universitiy.</h2>
         <p>In recent years, the number of people suffering from malignant tumor diseases has been increasing. Therefore, to make everyone treat malignant tumors correctly, find tumor diseases in advance, and actively cooperate with hospital treatment to achieve the effect of cure, iGEM team members carried out relevant knowledge publicity at Anhui University of technology.</p>

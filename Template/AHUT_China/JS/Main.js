@@ -47,11 +47,13 @@ const app = Vue.createApp({
         }
     },
 })
+    .component('img-fluid', {
+        template: `<img class="img-fluid">`
+    })
+    .use(router)
 
 // app.config.devtools = true
 app.config.performance = true
-
-app.use(router)
 
 router.afterEach(() => vm.$nextTick(() => vm.loading = false))
 
