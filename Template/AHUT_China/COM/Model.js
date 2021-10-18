@@ -153,8 +153,8 @@ export default {
         <p>We set up several groups of control experiments and added different concentrations of protein to detect the effect of protein concentration on cell survival and inhibition rate. The experimental data are shown in the table above.</p>
         <img-fluid alt="Model_05" src="/resources/images/Model_05.jpg" caption="Fig.5 experimental diagram of trail cytotoxicity"></img-fluid>
         <p>According to the experimental data and charts, when the protein concentration reaches 0.01mg/ml, the survival rate of cells decreases significantly, that is, when the protein concentration is 0.01mg/ml, it is the time to maximize the inhibition efficiency of cancer cells, and it is also the most economical and lowest cost stage to control cancer cells.</p>
-        <img-fluid alt="Model_06" src="/resources/images/Model_06.png" caption="Fig.6 changes of cell inhibition rate."></img-fluid>
-        <img-fluid alt="Model_07" src="/resources/images/Model_07.png" caption="Fig.7 changes of cell inhibition rate."></img-fluid>
+        <img-fluid alt="Model_06" src="/resources/images/Model_06.jpg" caption="Fig.6 changes of cell inhibition rate."></img-fluid>
+        <img-fluid alt="Model_07" src="/resources/images/Model_07.jpg" caption="Fig.7 changes of cell inhibition rate."></img-fluid>
 
         <h2>8.Conclusion</h2>
         <p>1. For the changes in the number and location of probiotics and cancer cells in patients, we constructed a probiotic cancer cell model with time-delay diffusion effect, modeled the two-dimensional spatial distribution of probiotics and cancer cells in patients based on time change, and obtained that with the change of time, the number of cancer cells first increased, reached the peak and then decreased gradually. It meets our experimental expectations. The number of probiotics increased gradually, but the growth rate decreased gradually. Therefore, probiotics do not overproduce in patients. Therefore, it is also in line with the experimental goal.</p>
@@ -172,8 +172,16 @@ export default {
         <p class="fs-6">[8]\tCUI S． Analysis of a free boundary problem modeling tumor growth ［J］． Acta Math Appl Sin Engl Ser，2005， 21: 1071 － 1082．</p>
     </writing-container>
     `,
+    mounted() {
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
+    },
     updated() {
-        const {typesetElement} = this.$refs
-        MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
     }
 }
