@@ -52,6 +52,12 @@ const app = Vue.createApp({
     .component('img-fluid', {
         template: `<img class="img-fluid">`
     })
+    .component('img-caption', {
+        template: `<p class="img-caption"><slot></slot></p>`
+    })
+    .component('table-caption', {
+        template: `<p class="table-caption"><slot></slot></p>`
+    })
     .use(router)
 
 // app.config.devtools = true
@@ -59,4 +65,4 @@ app.config.performance = true
 
 router.afterEach(() => vm.$nextTick(() => vm.loading = false))
 
-const vm = app.mount('#app')
+window.vm = app.mount('#app')
