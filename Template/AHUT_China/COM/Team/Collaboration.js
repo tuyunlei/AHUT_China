@@ -6,10 +6,15 @@ export default {
     },
     template: `    
     <writing-container>
-<!--        <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Team/Attributions.css">-->
+<!--        <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Team/Collaboration.css">-->
 
         <h1>Collaboration</h1>
         <hr/>
+        <div id="collaboration-header" class="row align-items-center" style="padding-left: 10rem; padding-right: 10rem;">
+            <img class="p-5 col-5" alt="Collaboration_01" src="/resources/images/Collaboration_01.png">
+            <span class="col-2 text-center" style="font-size: 4rem;">&</span>
+            <img class="p-5 col-5" alt="Collaboration_02" src="/resources/images/Collaboration_02.png">
+        </div>
         <p>Science and technology can not develop without human practice. And the cooperation and communication between teams can not only promote the development of the two sides, but also build an essential bridge for the progress of Science and technology. In this year’s iGEM contest, we have established a relationship of deep communication can collaboration with the team of University of Science and Technology of China  (USTC) </p>
         <hr/>
        

@@ -1,0 +1,8 @@
+#collaboration-header {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#collaboration-header > span {
+    font-size: 4rem;
+}
