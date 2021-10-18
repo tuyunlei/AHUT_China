@@ -84,7 +84,7 @@ export default {
                     <nav-item-dropdown title="TEAM">
                         <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
-                        <dropdown-item title="Collaboration"></dropdown-item>
+                        <dropdown-item title="Collaboration" to="Collaboration"></dropdown-item>
                         <dropdown-item title="Partnership"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT">

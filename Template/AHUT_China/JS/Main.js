@@ -5,6 +5,7 @@ const Home = () => import('/Template/AHUT_China/COM/Home.js')
 const sub_routes = [
     {name: 'Model', com_path: '/Model'},
     {name: 'Attributions', com_path: '/Team/Attributions'},
+    {name: 'Collaboration', com_path: '/Team/Collaboration'},
     {name: 'Description', com_path: '/Project/Description'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
     {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
