@@ -6,9 +6,9 @@ export default {
     },
     template: `    
     <writing-container>
-<!--        <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Team/Collaboration.css">-->
+<!--        <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Team/Collaborations.css">-->
 
-        <h1>Collaboration</h1>
+        <h1>Collaborations</h1>
         <hr/>
         <div id="collaboration-header" class="row align-items-center" style="padding-left: 10rem; padding-right: 10rem;">
             <img class="p-5 col-5" alt="Collaboration_01" src="/resources/images/Collaboration_01.png">
