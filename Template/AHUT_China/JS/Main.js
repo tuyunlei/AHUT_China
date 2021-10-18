@@ -50,7 +50,13 @@ const app = Vue.createApp({
     },
 })
     .component('img-fluid', {
-        template: `<img class="img-fluid">`
+        template: `
+        <div>
+            <img :alt="alt" :src="src" class="img-fluid" :class="{'pb-4': !caption}">
+            <p v-if="caption" class="img-caption">{{caption}}</p>
+        </div>
+        `,
+        props: ['alt', 'src', 'caption'],
     })
     .component('img-caption', {
         template: `<p class="img-caption"><slot></slot></p>`
