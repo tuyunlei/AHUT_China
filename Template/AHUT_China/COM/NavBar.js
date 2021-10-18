@@ -69,7 +69,7 @@ export default {
     <nav class="navbar navbar-light navbar-expand-xl rounded-pill-xl rounded-top-xl py-0">
         <div class="container-fluid ps-xxl-5 ps-4 pe-xxl-4 pe-xl-0 pe-5">
             <a class="navbar-brand ms-2 ms-xxl-4 py-xl-0 py-2" href="#">
-                <img src="/resources/images/logo2.jpg" alt="" width="85" height="56">
+                <img src="/resources/images/logo2.jpg" alt="logo" width="85" height="56">
                 <span class="ms-2 text-light fs-5">AHUT_China</span>
             </a>
 
@@ -84,14 +84,14 @@ export default {
                     <nav-item-dropdown title="TEAM">
                         <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
-                        <dropdown-item title="Collaboration"></dropdown-item>
+                        <dropdown-item title="Collaboration" to="Collaboration"></dropdown-item>
                         <dropdown-item title="Partnership"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT">
                         <dropdown-item title="Description" to="Description"></dropdown-item>
                         <dropdown-item title="Design"></dropdown-item>
                         <dropdown-item title="Contribution"></dropdown-item>
-                        <dropdown-item title="Proposed Implementation"></dropdown-item>
+                        <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
                         <dropdown-item title="Proof of Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area"></dropdown-item>
                         <dropdown-item title="Engineering"></dropdown-item>
@@ -112,7 +112,7 @@ export default {
                         <dropdown-item title="Integrated HP for Gold"></dropdown-item>
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item title="MODEL"></nav-item>
+                    <nav-item title="MODEL" to="Model"></nav-item>
                     <nav-item title="JUDGING FORM"></nav-item>
                 </ul>
             </div>

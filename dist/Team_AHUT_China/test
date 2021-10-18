@@ -19,11 +19,21 @@
 
     <transition name="fade">
         <div v-if="loading" id="mask-view" class="zindex-popover">
-            <img src="https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif" width="128" height="128">
+            <img alt="loading" src="https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif" width="128" height="128">
         </div>
     </transition>
 </div>
 
+<script async src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [['$','$'], ['\\(', '\\)']],
+        }
+    });
+
+    MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+</script>
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Popper&action=raw&ctype=text/javascript"></script>
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript"></script>
 <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript"></script>
