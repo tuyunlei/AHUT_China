@@ -28,6 +28,7 @@ export default {
         <p>(3) It is assumed that the flow rate of body fluid in the experimental individual remains unchanged.</p>
 
         <h2>4.Symbol Explanation</h2>
+        <table-caption>Table.1 Symbol Explanation</table-caption>
         <table class="table text-center">
             <thead>
             <tr>
@@ -67,7 +68,6 @@ export default {
                 <td>Rate of cancer cell stimulation of E. coli proliferation</td>
             </tr>
             </tbody>
-            <p>Fig. 1 Symbol Explanation</p>
         </table>
 
         <h2>5.Probiotics-cancer cell model with diffusion effect</h2>
@@ -99,19 +99,16 @@ export default {
         <h2>6.Model Results</h2>
         <p>We use MATLAB to solve the above E. coli cancer cell model with time-delay diffusion effect, and simulate the diffusion process of the modified E. coli and cancer cells in the two-dimensional direction of the patient. It can be seen from the figure that the modified E. coli and cancer cells will interact with time under given initial test conditions, and finally in a long enough time, A concave convex shape as shown below is approximately formed in the patient's body space. The results of the model show that when the modified E. coli is introduced into the patient, E. coli and cancer cells near the tumor interact for a period of time, E. coli and cancer cells will show uneven distribution in the two-dimensional space of the patient.</p>
         <h3>6.1 changes of cancer cells in patients over time:</h3>
-        <img-fluid alt="Model_01" src="https://2021.igem.org/wiki/images/1/16/T--AHUT_China--Model_01.jpg"></img-fluid>
-        <p>Fig. 1 Distribution of cancer cells in patients over </p>
-        <img-fluid alt="Model_02" src="https://2021.igem.org/wiki/images/f/f5/T--AHUT_China--Model_02.jpg"></img-fluid>
-        <p>Fig. 2 two dimensional distribution of cancer cells over time</p>
+        <img-fluid alt="Model_01" src="https://2021.igem.org/wiki/images/1/16/T--AHUT_China--Model_01.jpg" caption="Fig.1 Distribution of cancer cells in patients over "></img-fluid>
+        <img-fluid alt="Model_02" src="https://2021.igem.org/wiki/images/f/f5/T--AHUT_China--Model_02.jpg" caption="Fig.2 two dimensional distribution of cancer cells over time"></img-fluid>
         <p>From the above matlab solution results, we can see that with the change of time, the number of cancer cells increases first and then decreases in patients. When the time t was in the range of 0-50, the cancer cells gradually increased, reached the peak at t = 50, and gradually decreased after t = 50. It can be seen that with the introduction of corresponding probiotics to patients, the cancer cells have been restrained to a certain extent. Therefore, our experiment has certain research value for the future against breast cancer and other diseases.</p>
         <h3>6.2 changes of E. coli in patients over time:</h3>
-        <img-fluid alt="Model_03" src="https://2021.igem.org/wiki/images/3/30/T--AHUT_China--Model_03.jpg"></img-fluid>
-        <p>Fig. 3 distribution of Escherichia coli in patients over time</p>
-        <img-fluid alt="Model_04" src="https://2021.igem.org/wiki/images/d/db/T--AHUT_China--Model_04.jpg"></img-fluid>
-        <p>Fig. 4 two dimensional distribution of Escherichia coli over time</p>
+        <img-fluid alt="Model_03" src="https://2021.igem.org/wiki/images/3/30/T--AHUT_China--Model_03.jpg" caption="Fig.3 distribution of Escherichia coli in patients over time"></img-fluid>
+        <img-fluid alt="Model_04" src="https://2021.igem.org/wiki/images/d/db/T--AHUT_China--Model_04.jpg" caption="Fig.4 two dimensional distribution of Escherichia coli over time"></img-fluid>
         <p>According to the results drawn by the above MATLAB, we can see that the two-dimensional change of E. coli in patients is: with the gradual increase of time, the number of E. coli gradually increases. And with the increase of time, the growth rate of E. coli gradually decreased, that is, at the beginning, E. coli increased at a large growth rate. Gradually, with the increase of the number of E. coli, the growth rate of E. coli decreased slowly. And the number of E. coli tends to peak. It can be seen that our modified probiotics can survive and reproduce smoothly in patients, and will not overproduce in patients.</p>
 
         <h2>7.Data and results of cytotoxicity test</h2>
+        <table-caption>Table.2 cytotoxicity test data</table-caption>
         <table class="table">
             <tbody>
                 <tr>
@@ -154,13 +151,10 @@ export default {
         </table>
 
         <p>We set up several groups of control experiments and added different concentrations of protein to detect the effect of protein concentration on cell survival and inhibition rate. The experimental data are shown in the table above.</p>
-        <img-fluid alt="Model_05" src="https://2021.igem.org/wiki/images/2/2c/T--AHUT_China--Model_05.jpg"></img-fluid>
-        <p>Fig. 5 experimental diagram of trail cytotoxicity</p>
+        <img-fluid alt="Model_05" src="https://2021.igem.org/wiki/images/2/2c/T--AHUT_China--Model_05.jpg" caption="Fig.5 experimental diagram of trail cytotoxicity"></img-fluid>
         <p>According to the experimental data and charts, when the protein concentration reaches 0.01mg/ml, the survival rate of cells decreases significantly, that is, when the protein concentration is 0.01mg/ml, it is the time to maximize the inhibition efficiency of cancer cells, and it is also the most economical and lowest cost stage to control cancer cells.</p>
-        <img-fluid alt="Model_06" src="https://2021.igem.org/wiki/images/d/d4/T--AHUT_China--Model_06.png"></img-fluid>
-        <p>Fig. 6 changes of cell inhibition rate.</p>
-        <img-fluid alt="Model_07" src="https://2021.igem.org/wiki/images/e/e8/T--AHUT_China--Model_07.png"></img-fluid>
-        <p>Fig. 7 changes of cell inhibition rate.</p>
+        <img-fluid alt="Model_06" src="https://2021.igem.org/wiki/images/d/d4/T--AHUT_China--Model_06.png" caption="Fig.6 changes of cell inhibition rate."></img-fluid>
+        <img-fluid alt="Model_07" src="https://2021.igem.org/wiki/images/e/e8/T--AHUT_China--Model_07.png" caption="Fig.7 changes of cell inhibition rate."></img-fluid>
 
         <h2>8.Conclusion</h2>
         <p>1. For the changes in the number and location of probiotics and cancer cells in patients, we constructed a probiotic cancer cell model with time-delay diffusion effect, modeled the two-dimensional spatial distribution of probiotics and cancer cells in patients based on time change, and obtained that with the change of time, the number of cancer cells first increased, reached the peak and then decreased gradually. It meets our experimental expectations. The number of probiotics increased gradually, but the growth rate decreased gradually. Therefore, probiotics do not overproduce in patients. Therefore, it is also in line with the experimental goal.</p>
@@ -168,14 +162,14 @@ export default {
 
         <br/>
         <h1>Reference</h1>
-        <p>[1]\t唐思甜,两类具有体液免疫的病毒感染模型研究,【D】,新疆大学,2019,undefined</p>
-        <p>[2]\t韩云丽,若干病毒感染模型的动力学分析,【D】,中北大学,2015,undefined</p>
-        <p>[3]\t任新志,几类空间异质反应扩散模型研究,【D】,西南大学,2018,undefined</p>
-        <p>[4]\t黄雪玲;王振友,复杂动态微环境中多成分的肿瘤生长对流扩散反应模型,【J】,湖南理工学院学报(自然科学版),2017,20-26,20-26</p>
-        <p>[5]\t张久远;冯兆永;刘成霞;卫雪梅,关于肿瘤细胞破坏并入侵正常组织或细胞质基质的数学模型的分析,【J】,中山大学学报(自然科学版),2013,53-59,53-59</p>
-        <p>[6]\t黄秀婵,具有非连续治疗措施HIV感染模型的定性研究,【D】,西安科技大学,2019,undefined</p>
-        <p>[7]\t董亚莹,三类反应扩散方程的正解,【D】,西北大学,2016,undefined</p>
-        <p>[8]\t李善兵,两类反应扩散模型的动力学行为,【D】,陕西师范大学,2016,undefined</p>
+        <p class="fs-6">[1]\tTANG Sitian.The Research on two types of virus infection model with humoral imminity【D】,Xinjiang University  ,2019,undefined</p>
+        <p class="fs-6">[2]\tTuring Instability and Turing–Hopf Bifurcation in Diffusive Schnakenberg Systems with Gene Expression Time Delay[J] . Weihua Jiang,Hongbin Wang,Xun Cao.  Journal of Dynamics and Differential Equations . 2019 (4)</p>
+        <p class="fs-6">[3]\tWEI X，CUI S． Existence and uniqueness of global solu- tions for a mathematical model of antiangiogenesis in tumor growth ［J］． Nonlinear Analysis: Real World Ap- plications，2008，9: 1827 － 1836．</p>
+        <p class="fs-6">[4]\tZHANG Jiuyuan.etc (2013) Analysis of a mathematical modeling of cancer cell breakout and invasion of normal tissue or extracellular matrix, Zhongshan Daxue Xuebao/Acta Scientiarum Natralium Universitatis Sunyatseni,52(3), 48–54. doi: 10.13471/j.cnki.acta.snus.2013.03.008.</p>
+        <p class="fs-6">[5]\tCompetition of Spatial and Temporal Instabilities under Time Delay near Codimension-Two Turing—Hopf Bifurcations[J] . Wang Hui-Juan,Ren Zhi.  Communications in Theoretical Physics . 2011 (2)</p>
+        <p class="fs-6">[6]\tANDASARI V，GERISCH A，LOLAS G，et al． Mathe- matical modeling of cancer cell invasion of tissue: biologi- cal insight from mathematical analysis and computational simulation ［J］． Math Biol，2011，23: 141 － 171．</p>
+        <p class="fs-6">[7]\tCHAPLAIN M A J，LOLAS G． Mathematical modeling of cancer invasion of tissue: the role of the urokinase plas- minogen activation system ［J］． Math Mod Meth in Appl Sci，2005，11: 1685 － 1734．</p>
+        <p class="fs-6">[8]\tCUI S． Analysis of a free boundary problem modeling tumor growth ［J］． Acta Math Appl Sin Engl Ser，2005， 21: 1071 － 1082．</p>
     </writing-container>
     `,
     updated() {

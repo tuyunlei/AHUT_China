@@ -69,7 +69,7 @@ export default {
     <nav class="navbar navbar-light navbar-expand-xl rounded-pill-xl rounded-top-xl py-0">
         <div class="container-fluid ps-xxl-5 ps-4 pe-xxl-4 pe-xl-0 pe-5">
             <a class="navbar-brand ms-2 ms-xxl-4 py-xl-0 py-2" href="#">
-                <img src="/resources/images/logo2.jpg" alt="" width="85" height="56">
+                <img src="/resources/images/logo2.jpg" alt="logo" width="85" height="56">
                 <span class="ms-2 text-light fs-5">AHUT_China</span>
             </a>
 
