@@ -3,6 +3,7 @@ import NavBar from 'https://2021.igem.org/wiki/index.php?title=Template:AHUT_Chi
 const Home = () => import('https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Home&action=raw&ctype=text/javascript')
 
 const sub_routes = [
+    {name: 'Model', com_path: '/Model'},
     {name: 'Attributions', com_path: '/Team/Attributions'},
     {name: 'Description', com_path: '/Project/Description'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
@@ -48,11 +49,13 @@ const app = Vue.createApp({
         }
     },
 })
+    .component('img-fluid', {
+        template: `<img class="img-fluid">`
+    })
+    .use(router)
 
 // app.config.devtools = true
 app.config.performance = true
-
-app.use(router)
 
 router.afterEach(() => vm.$nextTick(() => vm.loading = false))
 

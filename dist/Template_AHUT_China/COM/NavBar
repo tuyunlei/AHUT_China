@@ -112,7 +112,7 @@ export default {
                         <dropdown-item title="Integrated HP for Gold"></dropdown-item>
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item title="MODEL"></nav-item>
+                    <nav-item title="MODEL" to="Model"></nav-item>
                     <nav-item title="JUDGING FORM"></nav-item>
                 </ul>
             </div>
