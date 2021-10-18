@@ -212,6 +212,21 @@
     | [Collaboration_05.jpg](https://2021.igem.org/File:T--AHUT_China--Collaboration_05.jpg) | https://2021.igem.org/wiki/images/2/21/T--AHUT_China--Collaboration_05.jpg | [./resources/images/Collaboration_05.jpg](./resources/images/Collaboration_05.jpg) |
     | [Collaboration_06.jpg](https://2021.igem.org/File:T--AHUT_China--Collaboration_06.jpg) | https://2021.igem.org/wiki/images/d/d6/T--AHUT_China--Collaboration_06.jpg | [./resources/images/Collaboration_06.jpg](./resources/images/Collaboration_06.jpg) |
 
+  - ##### Partnership
+
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [Partnership_01.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_01.jpg) | https://2021.igem.org/wiki/images/0/01/T--AHUT_China--Partnership_01.jpg | [./resources/images/Partnership_01.jpg](./resources/images/Partnership_01.jpg) |
+    | [Partnership_02.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_02.jpg) | https://2021.igem.org/wiki/images/f/f2/T--AHUT_China--Partnership_02.jpg | [./resources/images/Partnership_02.jpg](./resources/images/Partnership_02.jpg) |
+    | [Partnership_03.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_03.jpg) | https://2021.igem.org/wiki/images/1/10/T--AHUT_China--Partnership_03.jpg | [./resources/images/Partnership_03.jpg](./resources/images/Partnership_03.jpg) |
+    | [Partnership_04.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_04.jpg) | https://2021.igem.org/wiki/images/9/98/T--AHUT_China--Partnership_04.jpg | [./resources/images/Partnership_04.jpg](./resources/images/Partnership_04.jpg) |
+    | [Partnership_05.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_05.jpg) | https://2021.igem.org/wiki/images/2/23/T--AHUT_China--Partnership_05.jpg | [./resources/images/Partnership_05.jpg](./resources/images/Partnership_05.jpg) |
+    | [Partnership_06.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_06.jpg) | https://2021.igem.org/wiki/images/2/29/T--AHUT_China--Partnership_06.jpg | [./resources/images/Partnership_06.jpg](./resources/images/Partnership_06.jpg) |
+    | [Partnership_07.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_07.jpg) | https://2021.igem.org/wiki/images/f/f4/T--AHUT_China--Partnership_07.jpg | [./resources/images/Partnership_07.jpg](./resources/images/Partnership_07.jpg) |
+    | [Partnership_08.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_08.jpg) | https://2021.igem.org/wiki/images/3/3e/T--AHUT_China--Partnership_08.jpg | [./resources/images/Partnership_08.jpg](./resources/images/Partnership_08.jpg) |
+    | [Partnership_09.jpg](https://2021.igem.org/File:T--AHUT_China--Partnership_09.jpg) | https://2021.igem.org/wiki/images/0/03/T--AHUT_China--Partnership_09.jpg | [./resources/images/Partnership_09.jpg](./resources/images/Partnership_09.jpg) |
+    | [Partnership_10.png](https://2021.igem.org/File:T--AHUT_China--Partnership_10.png) | https://2021.igem.org/wiki/images/1/1c/T--AHUT_China--Partnership_10.png | [./resources/images/Partnership_10.png](./resources/images/Partnership_10.png) |
+
 - #### Fonts:
 
   | Name                                                         | File URL                                                     | Local Path                                                   |
