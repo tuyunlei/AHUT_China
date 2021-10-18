@@ -172,8 +172,16 @@ export default {
         <p class="fs-6">[8]\tCUI S． Analysis of a free boundary problem modeling tumor growth ［J］． Acta Math Appl Sin Engl Ser，2005， 21: 1071 － 1082．</p>
     </writing-container>
     `,
+    mounted() {
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
+    },
     updated() {
-        const {typesetElement} = this.$refs
-        MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
     }
 }
