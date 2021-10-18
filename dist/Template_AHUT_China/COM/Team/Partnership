@@ -1,4 +1,4 @@
-import WritingContainer from '/Template/AHUT_China/COM/WritingContainer.js';
+import WritingContainer from 'https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/WritingContainer&action=raw&ctype=text/javascript'
 
 export default {
     components: {
@@ -12,7 +12,7 @@ export default {
     <p>In the process of cooperation, we decided to cooperate on the experiment, so as to further understand and practice the purpose of iGEM after discussion and communication.</p> 
     <p>In order to deepen the public’s understanding of the iGEM project, the USTC team took the form of “ The Magic World of Synthetic Biology Week” to promote iGEM Contest. During this week, members would be divided into different groups, and use different ways to attract more people’s attention and render them understand more about the project. Here the USTC team had put our team in charge of two interesting experiments to help them achieve their goals together.</p>
     
-    <img-fluid alt="Partnership_01" src="/resources/images/Partnership_01.jpg" caption="Image 1: Promotional Conceptual Poster"></img-fluid>
+    <img-fluid alt="Partnership_01" src="https://2021.igem.org/wiki/images/0/01/T--AHUT_China--Partnership_01.jpg" caption="Image 1: Promotional Conceptual Poster"></img-fluid>
     
     <h2>Experiment 1: extraction of DNA from fruits</h2>
     <p>Fruit:bananas</p>
@@ -21,10 +21,10 @@ export default {
     <p>3）Add 15ml detergent, stir it for 5 minutes or so</p>
     <p>4）Add 4g Nacl to the fluid, stir it for 5 minutes</p> 
     <p>5）Filter the fluid (50ml beaker) , add 15ml ice ethanol to the filtrate, stand it still to acquire white flocculent precipitate (crude DNA extract)</p> 
-<!--    <div class="row px-5 pb-5">-->
-        <img class="col-4 px-5" alt="Partnership_02" src="/resources/images/Partnership_02.jpg">
-        <img class="col-4 px-5" alt="Partnership_03" src="/resources/images/Partnership_03.jpg">
-        <img class="col-4 px-5" alt="Partnership_04" src="/resources/images/Partnership_04.jpg">
+    <div class="row px-5 pb-5">
+        <img class="col-4 px-5" alt="Partnership_02" src="https://2021.igem.org/wiki/images/f/f2/T--AHUT_China--Partnership_02.jpg">
+        <img class="col-4 px-5" alt="Partnership_03" src="https://2021.igem.org/wiki/images/1/10/T--AHUT_China--Partnership_03.jpg">
+        <img class="col-4 px-5" alt="Partnership_04" src="https://2021.igem.org/wiki/images/9/98/T--AHUT_China--Partnership_04.jpg">
     </div>
     
     <h2>Experiment 2: Fluorescence</h2>
@@ -36,13 +36,13 @@ export default {
     
     <h2>Results:</h2>
     <div class="row">
-        <img-fluid class="col-6" alt="Partnership_05" src="/resources/images/Partnership_05.jpg"></img-fluid>
-        <img-fluid class="col-6" alt="Partnership_06" src="/resources/images/Partnership_06.jpg"></img-fluid>
+        <img-fluid class="col-6" alt="Partnership_05" src="https://2021.igem.org/wiki/images/2/23/T--AHUT_China--Partnership_05.jpg"></img-fluid>
+        <img-fluid class="col-6" alt="Partnership_06" src="https://2021.igem.org/wiki/images/2/29/T--AHUT_China--Partnership_06.jpg"></img-fluid>
     </div>
     <p>In order to further deepen the cooperative relationship and let the USTC team know more about our project, we invited the USTC team to help us do the induced expression and detection experiment of eukaryotic gene in E. coli BL21 (DE3). At the same time, we can also verify the accuracy and implementation of our team's experimental project through this experiment.</p>
     <p style="color: red;">The experimental report completed by USTC team is as follows:</p>
     <p>\tInduced expression and detection of eukaryotic gene in Escherichia coli BL21 (DE3)</p>
-    
+
     <h2>1. equipment</h2>
     <p>Pipette gun, gun head, bioclean bench , bacterial culture shaker, electrophoresis instrument power supply and electrophoresis tank, low-temperature high-speed centrifuge, centrifuge tube, latex gloves, constant temperature biochemical incubator and microwave oven.</p>
     
@@ -65,8 +65,8 @@ export default {
     <p>5.\tAdd 150 to the precipitation μ L cell lysate was resuspended and precipitated.</p>
     <p>6.\tAdd 37.5 to the suspension μ L 5xsds was boiled in boiling water for 5min and vortex oscillated.</p>
     <div class="row">
-        <img-fluid class="col-6" alt="Partnership_07" src="/resources/images/Partnership_07.jpg"></img-fluid>
-        <img-fluid class="col-6" alt="Partnership_08" src="/resources/images/Partnership_08.jpg"></img-fluid>
+        <img-fluid class="col-6" alt="Partnership_07" src="https://2021.igem.org/wiki/images/f/f4/T--AHUT_China--Partnership_07.jpg"></img-fluid>
+        <img-fluid class="col-6" alt="Partnership_08" src="https://2021.igem.org/wiki/images/3/3e/T--AHUT_China--Partnership_08.jpg"></img-fluid>
     </div>
     
     <h3>Protein detection:</h3>
@@ -74,8 +74,8 @@ export default {
     <p>2. Electrophoresis: Maker 1.5μl;  Sample 5μl. It is divided into four tracks: experimental group, experimental group, control group and control group. Glue running starts at 7 p.m. on September 11 and ends at 8:30 p.m.</p>
     <p>3. Test dyeing: Test dyeing of Coomassie brilliant blue for 1.5min</p>
     <p>4. Elution: wash with distilled water until the background is colorless</p>
-    <img-fluid alt="Partnership_09" src="/resources/images/Partnership_09.jpg" caption="(Ladder Atlas)"></img-fluid>
-    <img class="img-fluid" alt="Partnership_10" src="/resources/images/Partnership_10.png">
+    <img-fluid alt="Partnership_09" src="https://2021.igem.org/wiki/images/0/03/T--AHUT_China--Partnership_09.jpg" caption="(Ladder Atlas)"></img-fluid>
+    <img class="img-fluid" alt="Partnership_10" src="https://2021.igem.org/wiki/images/1/1c/T--AHUT_China--Partnership_10.png">
     <p class="img-caption">1,2: control group<br/>3,4: experimental group</p>
     
     <h3>Result analysis:</h3>
