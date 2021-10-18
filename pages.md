@@ -110,7 +110,7 @@
 
 - [/Empty](https://2021.igem.org/Team:AHUT_China/Empty)
 
-- **Index:** [/](https://2021.igem.org/Team:AHUT_China) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China&action=edit)
+- **Index:**  [Team](https://2021.igem.org/Team:AHUT_China) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China&action=edit) [Template Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China&action=edit)
 
 - [/Model](https://2021.igem.org/Team:AHUT_China/Model) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Model&action=edit)
 
@@ -198,8 +198,8 @@
     | [Model_03.jpg](https://2021.igem.org/File:T--AHUT_China--Model_03.jpg) | https://2021.igem.org/wiki/images/3/30/T--AHUT_China--Model_03.jpg | [./resources/images/Model_03.jpg](./resources/images/Model_03.jpg) |
     | [Model_04.jpg](https://2021.igem.org/File:T--AHUT_China--Model_04.jpg) | https://2021.igem.org/wiki/images/d/db/T--AHUT_China--Model_04.jpg | [./resources/images/Model_04.jpg](./resources/images/Model_04.jpg) |
     | [Model_05.jpg](https://2021.igem.org/File:T--AHUT_China--Model_05.jpg) | https://2021.igem.org/wiki/images/2/2c/T--AHUT_China--Model_05.jpg | [./resources/images/Model_05.jpg](./resources/images/Model_05.jpg) |
-    | [Model_06.png](https://2021.igem.org/File:T--AHUT_China--Model_06.png) | https://2021.igem.org/wiki/images/d/d4/T--AHUT_China--Model_06.png | [./resources/images/Model_06.png](./resources/images/Model_06.png) |
-    | [Model_07.png](https://2021.igem.org/File:T--AHUT_China--Model_07.png) | https://2021.igem.org/wiki/images/e/e8/T--AHUT_China--Model_07.png | [./resources/images/Model_07.png](./resources/images/Model_07.png) |
+    | [Model_06.jpg](https://2021.igem.org/File:T--AHUT_China--Model_06.jpg) | https://2021.igem.org/wiki/images/3/36/T--AHUT_China--Model_06.jpg | [./resources/images/Model_06.jpg](./resources/images/Model_06.jpg) |
+    | [Model_07.jpg](https://2021.igem.org/File:T--AHUT_China--Model_07.jpg) | https://2021.igem.org/wiki/images/1/14/T--AHUT_China--Model_07.jpg | [./resources/images/Model_07.jpg](./resources/images/Model_07.jpg) |
 
   - ##### Collaboration
 
