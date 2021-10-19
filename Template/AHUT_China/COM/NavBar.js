@@ -22,23 +22,32 @@ const NavItem = {
     template: `
     <li class="nav-item">
         <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to" :hash="hash">
-            {{ title }}
+            <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
+            <span v-if="title">{{ title }}</span>
         </custom-link>
     </li>
     `,
-    props: ['title', 'to', 'hash'],
+    props: ['title', 'to', 'hash', 'icon'],
 }
 
 const NavItemDropdown = {
     template: `
     <li class="nav-item dropdown">
-        <a class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">{{ title }}</a>
+        <span class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">
+            <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
+            <span>{{ title }}</span>
+        </span>
         <ul class="dropdown-menu">
             <slot></slot>
         </ul>
     </li>
     `,
-    props: ['title'],
+    props: ['title', 'icon'],
+    computed: {
+        icon_src() {
+            return `/resources/images/icons/${this.icon}.png`
+        }
+    }
 }
 
 const DropdownItem = {
@@ -77,14 +86,14 @@ export default {
 
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
-                    <nav-item title="HOME"></nav-item>
-                    <nav-item-dropdown title="TEAM">
+                    <nav-item style="text-align: center;" title="HOME" icon="home2"></nav-item>
+                    <nav-item-dropdown title="TEAM" icon="team">
                         <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
                         <dropdown-item title="Collaborations" to="Collaborations"></dropdown-item>
                         <dropdown-item title="Partnership" to="Partnership"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item-dropdown title="PROJECT">
+                    <nav-item-dropdown title="PROJECT" icon="project">
                         <dropdown-item title="Description" to="Description"></dropdown-item>
                         <dropdown-item title="Design"></dropdown-item>
                         <dropdown-item title="Contribution"></dropdown-item>
@@ -93,24 +102,24 @@ export default {
                         <dropdown-item title="Excellence in Another Area"></dropdown-item>
                         <dropdown-item title="Engineering"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item-dropdown title="EXPERIMENTS">
+                    <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
                         <dropdown-item title="Protocol"></dropdown-item>
                         <dropdown-item title="Results"></dropdown-item>
                         <dropdown-item title="Safety"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item-dropdown title="PARTS">
+                    <nav-item-dropdown title="PARTS" icon="parts">
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
                         <dropdown-item title="Improved Parts"></dropdown-item>
                         <dropdown-item title="Characterization"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item-dropdown title="HP">
+                    <nav-item-dropdown title="HP" icon="hp">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
                         <dropdown-item title="Integrated HP for Gold" to="Human_Practices" hash="#gold"></dropdown-item>
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
-                    <nav-item title="MODEL" to="Model"></nav-item>
-                    <nav-item title="JUDGING FORM"></nav-item>
+                    <nav-item title="MODEL" to="Model" icon="model"></nav-item>
+<!--                    <nav-item title="JUDGING FORM"></nav-item>-->
                 </ul>
             </div>
         </div>

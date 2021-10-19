@@ -19,23 +19,23 @@ const root_routes = [
     {name: 'Home', path: '/index', component: Home},
 ]
 
-sub_routes.map((sub) => {
+for (let sub of sub_routes) {
     let route = {
         name: sub.name,
         path: '/' + sub.name,
         component: () => import('/Template/AHUT_China/COM' + sub.com_path + '.js')
     }
     root_routes.push(route)
-})
+}
 
 const routes = [
     {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}},
 ]
 
-root_routes.map((route) => {
+for (let route of root_routes) {
     route.path = '/Team/AHUT_China' + route.path + '.html'
     routes.push(route)
-})
+}
 
 const router = VueRouter.createRouter({
     routes,
@@ -67,10 +67,8 @@ const app = Vue.createApp({
 })
     .component('img-fluid', {
         template: `
-        <div>
-            <img :alt="alt" :src="src" class="img-fluid" :class="{'pb-4': !caption}">
-            <p v-if="caption" class="img-caption">{{caption}}</p>
-        </div>
+        <img v-bind="$attrs" :alt="alt" :src="src" class="img-fluid" :class="{'pb-4': !caption}">
+        <p v-if="caption" class="img-caption">{{caption}}</p>
         `,
         props: ['alt', 'src', 'caption'],
     })
