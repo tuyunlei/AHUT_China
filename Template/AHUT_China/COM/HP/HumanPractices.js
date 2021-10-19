@@ -9,130 +9,72 @@ export default {
         <h1>Human Practices</h1>
         <hr/>
         
-        <h2>1.\tThe Interview at Yushan Lake Park</h2>
+        <h2>1.The Interview at Yushan Lake Park</h2>
         <img-fluid alt="Human_Practices_01" src="/resources/images/HumanPractices_01.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_02" src="/resources/images/HumanPractices_02.jpg"></img-fluid>
-        <p>As the number of deaths from malignant tumors continues to rise, we carried out research into the development of malignant tumors in the elderly focuses on the differences between existing treatments and our products. We endeavor to extract substances from mulberry leaves that effectively kill tumor cells to replace the expensive targeted drugs.</p>
-        <p>In July 2021, we conducted interviews at Yushan Lake Park, Ma'anshan City, in order to investigate the people's understanding of malignant tumors, tumor treatment methods and therapeutic drugs.Through the investigation, we found that the public does not fully understand malignant tumors and their treatment, and there are many misunderstandings.For example, some people have partial faith or dependence on certain health products. In addition, some people fear that the more nutritious food they eat, the faster tumor cells grow. Furthermore, some people believe that tumors can be cured entirely after resection. Moreover, families that cannot afford treatments give up treating, believing that a tumor equals a terminal illness.</p>
-        <p>So we introduced people to the concept, the characteristics, and the formation conditions of a tumor. Primarily, we introduce the idea of using probiotic secreted proteins to target breast cancer to replace expensive targeted drugs, allowing more people to receive treatment instead of giving up the chance to heal because of expensive medical bills. Therefore, people will not fear tumors but face them bravely.</p>
-        <p>Our human practice (HP), Yushan Lake Park interview, is of great significance as it promotes the iGEM competition to the public and introduces the AHUT-China team. At the same time, it renders the public know of the malignant tumors.</p>
-        
-        <h2>2.\tOur discussion with the AHUT Industrial Robotics Competition team</h2>
-        <img-fluid alt="Human_Practices_03" src="/resources/images/HumanPractices_03.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_04" src="/resources/images/HumanPractices_04.jpg"></img-fluid>
-        <p>We discuss the guiding significance of industrial robots to automatic assembly line production to speed up the drug R & D cycle.</p>
-        
-        <h2>3.\tField investigation in the oncology department of  Ma’anshan People’s Hospital </h2>
-        <img-fluid alt="Human_Practices_05" src="/resources/images/HumanPractices_05.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_06" src="/resources/images/HumanPractices_06.png"></img-fluid>
-        <p>In order to understand the specific treatment process and treatment drugs for malignant tumors, our team contacted the oncology staff of Ma'anshan People's Hospital in August. On the premise of personal protection and not interrupting the regular treatment of the medical staff, we witnessed how they work with tumors.</p>
-        <p>A malignant tumor is one of the primary diseases that harm human health. The treatment of tumors is the comprehensive application of surgery, radiotherapy, chemotherapy, interventional therapy, and biological therapy.</p>
-        <p>Meanwhile, we understand that the side effects of cancer treatment can sometimes be more harmful to the body than cancer itself because when drugs are used, the side effects can cause significant damage to normal tissue cells. In addition, while the patient holds a low tolerance to the effects and an abnormal immune system due to the disease, the patient's immune function will further decline with the drug injury. So, the patient is confronting huge risks. The vast risks have been a huge inspiration for our team's research.</p>
-        
-        <h2>4.\tMulti-channel propaganda (Wechat, friend circle, public account)</h2>
-        <p>AHUT_China upgraded its WeChat public account (Instagram and Twitter account) in 2021. During the implementation of the project this year, more than 3 original articles have been published since the establishment of the team. This year , we actively carry out social practice through such an external publicity platf1orm to promote the iGEM contest and introduce our project.</p>
+        <p>As the number of deaths from cancer continues to rise, the team broke with tradition and the high cost of treating women with breast cancer through statistical analysis of their treatment options, instead of expensive targeted drugs, the team’s new product targets breast cancer with proteins secreted by probiotics. In 2021, we conducted interviews in Yushan Lake Park, Ma on shan, to find out what people knew about breast cancer and how to treat and treat it. Through our research, our team found that the understanding of breast cancer and its treatment is not deep, and there are many misunderstandings. For example: partial or dependent on certain health care products, no one in the family has had breast cancer, they certainly will not later, many young women believe that breast cancer only exists in menopausal women, can be cured after removal. Some families are not rich enough to give up cancer treatment, believing that having cancer is equivalent to having terminal illness.</p>
+        <p>So we introduced people to the concept of breast cancer, characteristics, formation conditions and cancer prevention measures, and to correct people’s long-standing misconception, such as long-term use of hormone drugs and breast cancer has a direct relationship; Family history is not the main factor of breast cancer, no healthy living habits and healthy eating habits, as well as the lack of correct awareness of prevention is the fundamental measure leading to breast cancer; They were also shown the results of the latest Breast Cancer Survey: Breast Cancer is occurring at a younger age in women, with about 50 per cent of young women aged 20-30 suffering from breast hyperplasia. Although Hyperplasia of the breast is not breast cancer, but if its further development, it is very likely to become cancerous. In particular, our team has developed a program that targets breast cancer with probiotic secreted proteins, so that more people can be treated, rather than facing the cancer head on because of expensive medical bills, no more fear of cancer. </p>
+        <p>Our Human Practice-yushan Lake Park interview activities are of great significance, both to promote the iGEM competition to the masses, and also introduced our AHUT-China team. At the same time, the event to more public understanding of breast cancer-related knowledge, encourage the public to check-up on time, actively cooperate with the hospital treatment, thus reducing the incidence rate.</p>
+
+        <h2>2.Multi-channel propaganda (Wechat, friend circle, public account)</h2>
+        <p>AHUT_China upgraded its WeChat public account in 2021. During the implementation of the project this year, more than 10 original articles have been published since the establishment of the team. This year , we actively carry out social practice through such an external publicity platf1orm to promote the iGEM contest and introduce our project.</p>
         <p>After human practice, the AHUT-China team will promptly write a summary and translate it into English, published on its Wechat public account, Instagram account, and Twitter account.</p>
         <p>The office account of Anhui University of Technology's public account, iGEM, features three modules on Project Progress, Collaboration&Communication, and Popular Science Articles, which readers can consult.</p>
-        <p>The Project Progress module includes the promotion team, the experiment process, and the Logo display. Our articles are regularly reported and updated weekly. In addition, the team holds regular meetings, from the 2021.2 weekly report to 2021.9.</p>
-        <p>More importantly, the Collaboration&Communication module is divided into two parts. First, HP pat has documented some human practices, such as an interview at Yushan Lake Park and a visit to Ma'anshan Fengyuan Pharmaceutical Co. Ltd. Collaboration part describes our interactions with iGEM teams of other universities.</p>
-        <p>Popular Science Articles module focuses on synthetic biology popular science. It promotes the International Genetically Engineered Machine Competition (iGEM), held annually by the Massachusetts Institute of Technology (MIT) since 2005, and is the highest international academic competition in synthetic biology. Furthermore, all the information is relevant to our team's experiments.</p>
-        <p>The iGEM public account of Anhui University of Technology (AHUT) is aimed at schools and society, where Wechat users can access iGEM information. Thus, we can raise awareness of the International Genetically Engineered Machine Competition (iGEM) and create a good image of the AHUT_China team.</p>
+        <p>The Project Progress module includes the promotion team, the experiment process, and the Logo display. Our articles are regularly reported and updated weekly. In addition, the team holds regular meetings,from the 2021-3-15 weekly to 2021-10-10.</p>
+        <p>The popular Science Articles module focuses on synthetic biology popular science. It promotes the International Genetically Engineered Machine Competition (iGEM), held annually by the Massachusetts Institute of Technology (MIT) since 2005, and is the highest international academic competition in synthetic biology. Furthermore, all the information is relevant to our team's experiments.</p>
+        <p>The iGEM public account of Anhui University of Technology (AHUT) is aimed at schools and society, where Wechat users can access iGEM information. Thus, we can raise awareness of the International Genetically Engineered Machine Competition (iGEM) and create a good image of the AHUT_China team.At the same time, it also made a great contribution to the promotion of our project.</p>
         
-        <h2>5.\tProject publicity in kindergarten</h2>
-        <p>After taking protective measures, the AHUT-China team came to Hu Dong Road Primary School, aiming to introduce the prevention and characteristics of the malignancy to the children and teachers, malignant tumor can occur at any age, but the incidence rate increased with age. In childhood, the most common are leukemia, brain tumor, and malignant lymphatic cancer; Liver cancer and leukemia are common in young adults; Middle age and old age are mainly stomach, esophagus, cervix, lung, and lung cancer. Then we told the children about our team's project. Malignant tumor diseases will developin the future. Therefore, malignant tumor diseases can not be ignored. We should encourage children to establish a correct attitude towards tumors from an early age.</p>
-        <img-fluid alt="Human_Practices_07" src="/resources/images/HumanPractices_07.jpg"></img-fluid>
-        
-        <h2>6.\tProject publicity in Universitiy.</h2>
-        <p>In recent years, the number of people suffering from malignant tumor diseases has been increasing. Therefore, to make everyone treat malignant tumors correctly, find tumor diseases in advance, and actively cooperate with hospital treatment to achieve the effect of cure, iGEM team members carried out relevant knowledge publicity at Anhui University of technology.</p>
-        <p>The publicity activities were carried out through offline meetings and seminars in the teaching building of AHUT, aiming to popularize the knowledge of synthetic biology among college students and awaken people's understanding of the importance of malignant tumors. The following is the specific content and process of one of the activities:</p>
-        <p>In September 2021, our team carried out a publicity activity with the theme of "characteristics, preventive measures, and therapeutic drugs of malignant tumors" at Anhui University of technology. Same day，Our team members arrived at the venue in advance for venue arrangement and publicity rehearsal. At the meeting, the team leader of iGEM spent one hour popularizing the basic knowledge of malignant tumors for the audience: normal human cells form new cells through growth and division. The cells will die after aging or damage to maintain the dynamic balance of the body. When the body cells divide and spread unrestricted to form new organisms, which are called tumors. The preventive measures for college students' malignant tumors mainly include strengthening cancer prevention health education, improving cognition and self-protection ability, paying attention to hygiene and changing lousy lifestyle, avoiding high-fat, low vitamin and low cellulose diet, etc. Taking this opportunity, we also publicized the project carried out by our team in the iGEM competition that probiotic secreted proteins to target breast cancer to replace expensive targeted drugs. After the meeting, the audience all representatives expressed their heartfelt feelings, indicating that the content of the speech aroused the health awareness of the audience. Thus, the publicity activity has achieved great success, and the publicity scope covers the entire university campus and even off-campus.</p>
-        
-        <h2>7.\tSocial survey</h2>
+        <h2>3. Social survey</h2>
         <p>In September, our team conducted a social survey of "how much I know about malignant tumors" in several elderly activity centers.</p>
-        
-        <p>(1) At what age do you think malignant tumors will occur?</p>
-        <p>(2) What do you know about the treatment options for malignant tumors?</p>
-        <p>(3) Do you think the cure rate of malignant tumors treated with drugs is high at this stage?</p>
-        <p>(4) What preventive measures do you know about malignant tumors?</p>
-        <p>About 65% of people give all the answers, but most are unclear about the specific prevention and treatment of malignant tumors.</p>
-        <p>This also encourages us to carry out propaganda on malignant tumors actively, popularize preventive measures for malignant tumors, and reduce the incidence rate.</p>
-        <img-fluid alt="Human_Practices_08" src="/resources/images/HumanPractices_08.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_09" src="/resources/images/HumanPractices_09.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_10" src="/resources/images/HumanPractices_10.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_11" src="/resources/images/HumanPractices_11.jpg"></img-fluid>
+        <p>The questionnaire includes:</p>
+        <p>(1) What Age do you think breast cancer will occur?</p> 
+        <p>(2) what do you know about breast cancer treatment?</p> 
+        <p>(3)Do you think there is a high cure rate for breast cancer at this stage?</p> 
+        <p>(4)Do you know what lifestyle habits/lifestyles can reduce the incidence of breast cancer?</p>
+        <p>About 65% of people gave all the answers, but most were unclear about specific treatments for malignant tumors and ways to reduce their incidence. The analysis of the results of the questionnaire shows that the majority of the people still maintain the traditional view of cancer, which also encourages us to actively carry out large-scale propaganda work of malignant tumors, popularize preventive measures of malignant tumors, and reduce the incidence rate. Through this campaign, we will awaken the public’s inner awareness of the fight against cancer, calling for people to look at cancer positively, believe that modern medicine is constantly improving, treatment methods are constantly improving. And introduced people to the project our team was working on.</p>
+        <img-fluid alt="Human_Practices_03" src="/resources/images/HumanPractices_03.jpg"></img-fluid>
+        <img-fluid alt="Human_Practices_04" src="/resources/images/HumanPractices_04.jpg"></img-fluid>
+        <img-fluid alt="Human_Practices_05" src="/resources/images/HumanPractices_05.jpg"></img-fluid>
 
-        <h2>8.\tAn exclusive interview with Dr. Jufen Yan</h2>
-        <p>During the experiment, we still had questions about the drug treatment of malignant tumors. Therefore, we made an exclusive interview with Dr. Jufen Yan , an expert in microorganisms and drugs. " At present, there is no good treatment for malignant tumors, and some chemical drugs and radiotherapy have serious side effects, for which we need some new treatments. In particular, some targeted therapies to reduce the generation of drug side effects, "she said. After hearing our introduction to the project, she praised that our project is novel and can provide new ideas for the treatment of malignant tumors. At the same time, she also explained to us the drug R & D and clinical research in detail : A new drug can be submitted to the regulatory authorities for a new drug application only if it completes all three stages clinical trials and analyzes all the information and data, and the safety and efficacy of the drug is demonstrated. A new drug sometimes takes over a dozen years.</p>
-        <p>Dr.Jufen Yan 's words have given us great inspiration. Next, our team will further optimize our project in order to obtain better treatment effect.</p>
-        <img-fluid alt="Human_Practices_16" src="/resources/images/HumanPractices_16.jpg"></img-fluid>
+        <h2>4. Love life and be optimistic</h2>
+        <p>The theme of the 2021 is “Healthy Chinese health home-care for life, scientific prevention of Cancer”, “Light the way to fight cancer, help a healthy China”. Since 2010, China’s cancer incidence and mortality rate has been rising, the National Cancer Center recently released the latest data show that China’s cancer new growth rate of 3% , accounting for a quarter of the world’s new cancer cases.</p> 
+        <p>Many people in our country lose their lives every year because of cancer. It has brought harm and burden to many families. Mental Health of cancer patients is very important. Some patients were diagnosed with cancer, talk about “Cancer”color change, more depressed, often feel worried. The emergence of these phenomena, the treatment is very adverse. Therefore, we should give patients psychological comfort, encourage them to fight against cancer for a long time, and actively cooperate with doctors to carry out standard treatment.</p> 
+        <p>In the means of cancer prevention, besides following the basic principles of reasonable diet, moderate exercise, quitting smoking and limiting alcohol, and keeping healthy mentality, proper external intervention is also an effective means of preventing tumor diseases. The young healthy immune cells stored by high-tech means can effectively prevent the occurrence of tumor diseases when the immune function of human body is low and tumors are high.</p>
+        <p>In response to the theme of the National Cancer Prevention Publicity, we launched the “Care for cancer patients, start from the heart”campaign through the wechat public account. Through various forms such as letter writing, painting and message writing, we will encourage cancer patients to speak out. Once the event was launched, it received an enthusiastic response.</p>
+
+        <h2 id="gold">5.Our discussion with the AHUT Industrial Robotics Competition team</h2>
+        <img-fluid alt="Human_Practices_06" src="/resources/images/HumanPractices_06.jpg"></img-fluid>
+        <img-fluid alt="Human_Practices_07" src="/resources/images/HumanPractices_07.jpg"></img-fluid>
+        <p>We discuss the guiding significance of industrial robots to automatic assembly line production to speed up the drug R & D cycle.</p>
+
+        <h2>6.Field investigation in the oncology department of Ma'anshan People's Hospital</h2> 
+        <p>The team members went to the Oncology Department of Ma'anshan People's Hospital for field investigation</p>
+        <img-fluid alt="Human_Practices_08" src="/resources/images/HumanPractices_08.jpg"></img-fluid>
+        <img-fluid alt="Human_Practices_09" src="/resources/images/HumanPractices_09.png"></img-fluid>
+        <p>In order to understand the specific treatment process and treatment drugs for malignant tumors, our team contacted the oncology staff of Ma'anshan People's Hospital in August. On the premise of personal protection and not interrupting the regular treatment of the medical staff, we witnessed how they work with tumors.</p>
+        <p>A malignant tumor is one of the primary diseases that harm human health. The treatment of tumors is the comprehensive application of surgery, radiotherapy, chemotherapy, interventional therapy, and traditional Chinese Medicine Treatment therapy.At present, the most commonly used biological treatment in clinical practice is trastuzumab injection. For breast cancer patients whose chemotherapy is ineffective, this method can achieve a certain therapeutic effect. Breast cancer patients can also consider using traditional Chinese medicine for treatment, but this method needs to be combined with other methods such as surgery to achieve the purpose of strengthening the body and eliminating evil. Through traditional Chinese medicine treatment, it can effectively enhance the body's anti-cancer ability and reduce the side effects of other treatments.</p>
+        <p>Meanwhile, we understand that all current traditional cancer therapies have large side effects, and it will attack normal cells indiscriminately and we understand that the side effects of cancer treatment can sometimes be more harmful to the body than cancer itself because when drugs are used, the side effects can cause significant damage to normal tissue cells. In addition, while the patient holds a low tolerance to the effects and an abnormal immune system due to the disease, the patient's immune function will further decline with the drug injury. So, the patient is confronting huge risks. This has also brought great inspiration to our team's research. After research, it has been found that some bacteria have the function of targeting breast cancer cells and inhibiting their growth. Therefore, we plan to use engineered bacteria to treat breast cancer, and finally decided to take targeted treatment of breast cancer by secreting proteins from probiotics.</p>
         
-        <h2>9.\tVisit Ma'anshan Fengyuan Pharmaceutical Co. Ltd</h2>
+        <h2>7.An exclusive interview with Dr. Jufen Yan</h2> 
+        <img-fluid alt="Human_Practices_10" src="/resources/images/HumanPractices_10.jpg"></img-fluid>
+        <p>During the experiment, we still had questions about the drug treatment of malignant tumors. Therefore, we made an exclusive interview with Dr. Jufen Yan , an expert in microorganisms and drugs. " At present, there is no good treatment for malignant tumors, and some chemical drugs and radiotherapy have serious side effects, for which we need some new treatments. In particular, some targeted therapies to reduce the generation of drug side effects, "she said. After hearing our introduction to the project, she praised that our project is novel and can provide new ideas for the treatment of malignant tumors. At the same time, she also explained to us the drug R & D and clinical research in detail : A new drug can be submitted to the regulatory authorities for a new drug application only if it completes all three stages clinical trials and analyzes all the information and data, and the safety and efficacy of the drug is demonstrated. A new drug sometimes takes over a dozen years.</p>
+        <p>Dr. Jufen Yan 's words have given us great inspiration, the doctor affirmed our research direction. Next, our team will further optimize our project and begin to adjust the progress of the experiment in order to get a better treatment effect.</p>
+        
+        <h2>8. Visit Ma'anshan Fengyuan Pharmaceutical Co. Ltd</h2>
         <p>Our team visited the local pharmaceutical company in Ma'anshan. Considering that the drug has been developed, it needs mass production to be genuinely applied to medical treatment. Therefore, our team decided to visit the local pharmaceutical factory to investigate whether our manufacturing process could be applied to mass production. We chose to visit Ma'anshan Fengyuan Pharmaceutical Co., Ltd. because of its exquisite pharmaceutical technology and complete equipment.</p>
         <p>In September, after repeated solicitation, we contacted the company and followed a member of the company to visit the pharmaceutical technology of the company under the condition of ensuring hygiene.</p>
-        <p>During the visit, the commentator explained the use of the company's pharmaceutical equipment to us in detail and put forward helpful suggestions for the manufacturing process of their laboratory. In order to apply the drugs developed by the laboratory for large-scale production, our team improved our drug development process to better meet the needs of mechanized social production. To this end, I would like to thank Ma'anshan Fengyuan pharmaceutical company for providing us with this opportunity.</p>
+        <p>During the visit, the commentator explained the use of the company's pharmaceutical equipment to us in detail and put forward helpful suggestions for the manufacturing process of their laboratory. In order to apply）the drugs developed by the laboratory for large-scale production, our team improved our drug development process to better meet the needs of mechanized social production. To this end, I would like to thank Ma'anshan Fengyuan pharmaceutical company for providing us with this opportunity.</p>
+        <img-fluid alt="Human_Practices_11" src="/resources/images/HumanPractices_11.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_12" src="/resources/images/HumanPractices_12.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_13" src="/resources/images/HumanPractices_13.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_14" src="/resources/images/HumanPractices_14.jpg"></img-fluid>
-        <img-fluid alt="Human_Practices_15" src="/resources/images/HumanPractices_15.jpg"></img-fluid>
         
-        <h2>10.Host the presentation</h2>
+        <h2>9. Host the presentation</h2>
         <p>In order to propagate the iGEM competition and our project , and make medical knowledge widely available, we invited representatives from each class to a presentation session held in the conference room.</p>
         <p>In the meeting, our team presented the research project - novel targeted drugs against tumor cells, which has an excellent prospect for treating malignant tumors. At last, we explained the current common treatments for tumors and shared healthy diets. In daily life, students should live regularly, exercise moderately, and get enough sleep. More importantly, we should quit smoking and limit alcohol, avoid sugary drinks and limit the intake of high-quality and dense diets. The presentation allowed the students to understand more about tumors, not be afraid of them, and believe more in today's technology in scientific medical care.</p>
-        <p>After the meeting, many students asked some detailed questions about the characteristics of malignant tumors. We also had clear communication and discussion about the knowledge related to the novel targeted drugs developed by our team. Therefore, it proved to be a successful decision for us to hold the presentation.</p>
-        
-        <h2>11.Love life and be optimistic</h2>
-        <p>The themes of National Cancer Awareness Week 2021 are "Healthy China, Healthy Home - Caring for Life, Scientific Cancer Prevention" and "Lighting the Way to Fight Cancer, Helping Healthy China." Because of malignant tumor diseases, many people lose their lives, which harms many families every year in China. </p>
-        <p>The mental health of tumor patients is essential. After being diagnosed with tumor disease, some patients are afraid of talking about "cancer" and are depressed and often worried about their condition. Therefore, it is essential to comfort patients psychologically, encourage them to fight against tumors for a long time, and actively cooperate with doctors for standard treatment.</p>
-        <p>We released the campaign "Care for tumor patients, starting from the heart" through our WeChat official account, encouraging tumor patients through letters, drawings and messages. Once the campaign was launched, it received an overwhelming response.</p>
-        
-        <h2>12.Monthly meetings</h2>
-        <p>Why are we doing all of this?</p>
-        <p>Every team's project in iGEM is not perfect at the beginning. In order to keep improving the project, each team holds team meetings to discuss repeatedly, and The team members work better with each other. It was important for our whole team to have meetings on time for some discussions. Our college iGEM project members meet once a week to discuss how to solve the current problems and what to do next. Starting from X month X, iGEM members keep the habit of meeting once a month to discuss.</p>
-
-        <h3>February</h3>
-        <p>The meeting includes:</p>
-        <p>Division of labor among the members of this meeting</p>
-        <p>Members of the experimental group introduced our experimental project of extracting novel targeted drugs from mulberry leaves against tumor cells</p>
-        <p>Through the discussion in this meeting, the division of labor among our members was more clearly defined, and the efficiency among members was greatly improved. At the same time, there was a preliminary understanding of the project we will carry out next.</p>
-        <h3>March</h3>
-        <p>The meeting includes:</p>
-        <p>HP and Collaboration's task</p>
-        <p>......</p>
-        
-        <h3>April</h3>
-        <p>The meeting includes:</p>
-        <p>Experiments summarized fundamental expertise related to the competition</p>
-        <p>Preliminary summary of the HP and Collaboration program.</p>
-        <p>Interpretation of medal criteria</p>
-        
-        <h3>May</h3>
-        <p>The meeting includes:</p>
-        <p>HP and Collaboration group should continue their related activities</p>
-        <p>Our group plans to visit tutoring institutions to teach students and answer questions.</p>
-        <p>And invited teachers to discuss with us</p>
-        
-        <h3>June</h3>
-        <p>The meeting includes:</p>
-        <p>HP and Collaboration team members have completed their research on Collaboration</p>
-        <p>Through the discussion at this meeting, we plan to continue refining the wiki website design in the next phase</p>
-        <p>......</p>
-        
-        <h3>July</h3>
-        <p>The meeting includes:</p>
-        <p>Logo production was done by the art and layout team</p>
-        <p>Through this meeting, we plan to meet the next phase of experimental iGEM Gold Award requirements...</p>
-        
-        <h3>August</h3>
-        <p>The meeting includes:</p>
-        <p>Strengthen the cooperation with the University of Science and Technology of China</p>
-        <p>Improve the logo</p>
-        <p>......</p>
-        
-        <h3>September</h3> 
-        <p>The meeting includes:</p>
-        <p>The experimental group plans to complete our part</p>
-        <p>We voted on the wiki design</p>
-        <p>We plan to meet the iGEM Gold Award requirements for the next phase of the experiment with this meeting.</p>
+        <p>After the meeting, many students asked some detailed questions about the characteristics of malignant tumors. We also had clear communication and discussion about the knowledge related to the novel targeted drugs developed by our team. Therefore, it proved to be a successful decision for us to hold the presentation. I believe that through our propaganda, everyone will be deeply impressed by the idea of engineered bacteria to treat breast cancer, targeted high-efficiency treatment, and targeted action on cancer cells. It is also the active discussion after the meeting that made us more aware of the victory Cancer cells are the current medical pain point. We will make unremitting efforts to this end. At the same time, we will do our utmost to promote the knowledge of cancer prevention.</p>
+        <img-fluid alt="Human_Practices_15" src="/resources/images/HumanPractices_15.jpg"></img-fluid>
+        <img-fluid alt="Human_Practices_16" src="/resources/images/HumanPractices_16.jpg"></img-fluid>
     </writing-container>
     `
 }

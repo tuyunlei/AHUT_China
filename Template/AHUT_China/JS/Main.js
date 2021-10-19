@@ -29,7 +29,7 @@ sub_routes.map((sub) => {
 })
 
 const routes = [
-    {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}}
+    {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}},
 ]
 
 root_routes.map((route) => {
@@ -38,8 +38,20 @@ root_routes.map((route) => {
 })
 
 const router = VueRouter.createRouter({
-    history: VueRouter.createWebHistory(),
     routes,
+    history: VueRouter.createWebHistory(),
+    scrollBehavior(to, from, savedPosition) {
+        if (to.hash) {
+            return {
+                el: to.hash,
+                behavior: 'smooth',
+            }
+        } else if (savedPosition) {
+            return savedPosition
+        } else {
+            return {left: 0, top: 0}
+        }
+    },
 })
 
 const app = Vue.createApp({

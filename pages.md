@@ -164,8 +164,8 @@
 
   - ##### Human Practices
 
-    | Name                                                                                     | File URL                                                                    | Local Path                                                                           |
-    | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [HumanPractices_01.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_01.jpg) | https://2021.igem.org/wiki/images/f/fb/T--AHUT_China--HumanPractices_01.jpg | [./resources/images/HumanPractices_01.jpg](./resources/images/HumanPractices_01.jpg) |
     | [HumanPractices_02.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_02.jpg) | https://2021.igem.org/wiki/images/4/41/T--AHUT_China--HumanPractices_02.jpg | [./resources/images/HumanPractices_02.jpg](./resources/images/HumanPractices_02.jpg) |
     | [HumanPractices_03.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_03.jpg) | https://2021.igem.org/wiki/images/e/ee/T--AHUT_China--HumanPractices_03.jpg | [./resources/images/HumanPractices_03.jpg](./resources/images/HumanPractices_03.jpg) |
@@ -177,7 +177,7 @@
     | [HumanPractices_09.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_09.jpg) | https://2021.igem.org/wiki/images/8/88/T--AHUT_China--HumanPractices_09.jpg | [./resources/images/HumanPractices_09.jpg](./resources/images/HumanPractices_09.jpg) |
     | [HumanPractices_10.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_10.jpg) | https://2021.igem.org/wiki/images/f/f9/T--AHUT_China--HumanPractices_10.jpg | [./resources/images/HumanPractices_10.jpg](./resources/images/HumanPractices_10.jpg) |
     | [HumanPractices_11.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_11.jpg) | https://2021.igem.org/wiki/images/1/11/T--AHUT_China--HumanPractices_11.jpg | [./resources/images/HumanPractices_11.jpg](./resources/images/HumanPractices_11.jpg) |
-    | [HumanPractices_12.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_12.jpg) | https://2021.igem.org/wiki/images/1/11/T--AHUT_China--HumanPractices_11.jpg | [./resources/images/HumanPractices_12.jpg](./resources/images/HumanPractices_12.jpg) |
+    | [HumanPractices_12.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_12.jpg) | https://2021.igem.org/wiki/images/2/2b/T--AHUT_China--HumanPractices_12.jpg | [./resources/images/HumanPractices_12.jpg](./resources/images/HumanPractices_12.jpg) |
     | [HumanPractices_13.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_13.jpg) | https://2021.igem.org/wiki/images/3/36/T--AHUT_China--HumanPractices_13.jpg | [./resources/images/HumanPractices_13.jpg](./resources/images/HumanPractices_13.jpg) |
     | [HumanPractices_14.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_14.jpg) | https://2021.igem.org/wiki/images/8/85/T--AHUT_China--HumanPractices_14.jpg | [./resources/images/HumanPractices_14.jpg](./resources/images/HumanPractices_14.jpg) |
     | [HumanPractices_15.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_15.jpg) | https://2021.igem.org/wiki/images/f/f3/T--AHUT_China--HumanPractices_15.jpg | [./resources/images/HumanPractices_15.jpg](./resources/images/HumanPractices_15.jpg) |
