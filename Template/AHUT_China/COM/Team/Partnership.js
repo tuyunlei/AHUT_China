@@ -21,7 +21,7 @@ export default {
     <p>3）Add 15ml detergent, stir it for 5 minutes or so</p>
     <p>4）Add 4g Nacl to the fluid, stir it for 5 minutes</p> 
     <p>5）Filter the fluid (50ml beaker) , add 15ml ice ethanol to the filtrate, stand it still to acquire white flocculent precipitate (crude DNA extract)</p> 
-<!--    <div class="row px-5 pb-5">-->
+    <div class="row px-5 pb-5">
         <img class="col-4 px-5" alt="Partnership_02" src="/resources/images/Partnership_02.jpg">
         <img class="col-4 px-5" alt="Partnership_03" src="/resources/images/Partnership_03.jpg">
         <img class="col-4 px-5" alt="Partnership_04" src="/resources/images/Partnership_04.jpg">
