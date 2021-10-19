@@ -80,9 +80,9 @@
 
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Attributions&action=raw&ctype=text/javascript
 
-  - [/Team/Collaboration](https://2021.igem.org/Template:AHUT_China/COM/Team/Collaboration) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Collaboration&action=edit)
+  - [/Team/Collaborations](https://2021.igem.org/Template:AHUT_China/COM/Team/Collaborations) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Collaborations&action=edit)
   
-  > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Collaboration&action=raw&ctype=text/javascript
+  > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Collaborations&action=raw&ctype=text/javascript
   
 - ### Project
 
@@ -117,7 +117,7 @@
 - #### Team
 
   - [/Attributions](https://2021.igem.org/Team:AHUT_China/Attributions) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Attributions&action=edit)
-  - [/Collaboration](https://2021.igem.org/Team:AHUT_China/Collaboration) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Collaboration&action=edit)
+  - [/Collaborations](https://2021.igem.org/Team:AHUT_China/Collaborations) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Collaborations&action=edit)
 
 - #### Project
 
@@ -201,7 +201,7 @@
     | [Model_06.jpg](https://2021.igem.org/File:T--AHUT_China--Model_06.jpg) | https://2021.igem.org/wiki/images/3/36/T--AHUT_China--Model_06.jpg | [./resources/images/Model_06.jpg](./resources/images/Model_06.jpg) |
     | [Model_07.jpg](https://2021.igem.org/File:T--AHUT_China--Model_07.jpg) | https://2021.igem.org/wiki/images/1/14/T--AHUT_China--Model_07.jpg | [./resources/images/Model_07.jpg](./resources/images/Model_07.jpg) |
 
-  - ##### Collaboration
+  - ##### Collaborations
 
     | Name                                                         | File URL                                                     | Local Path                                                   |
     | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
