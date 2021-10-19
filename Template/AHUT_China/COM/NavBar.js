@@ -102,7 +102,7 @@ export default {
                         <dropdown-item title="Safety"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS">
-                        <dropdown-item title="Overview"></dropdown-item>
+                        <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
                         <dropdown-item title="Improved Parts"></dropdown-item>
                         <dropdown-item title="Characterization"></dropdown-item>
