@@ -1,9 +1,18 @@
 const CustomRouterLink = {
     template: `
-    <router-link :to="{name: to, params: {AHUT_China: ':AHUT_China'}}">
+    <router-link :to="{name: to, hash: hash, params: {AHUT_China: ':AHUT_China'}}">
         <slot></slot>
     </router-link>`,
-    props: ['to']
+    props: {
+        to: {
+            type: String,
+            default: 'Home',
+        },
+        hash: {
+            type: String,
+            default: '',
+        },
+    }
 }
 
 const NavItem = {
@@ -12,18 +21,12 @@ const NavItem = {
     },
     template: `
     <li class="nav-item">
-        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to">
+        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to" :hash="hash">
             {{ title }}
         </custom-link>
     </li>
     `,
-    props: {
-        title: String,
-        to: {
-            type: String,
-            default: 'Home',
-        }
-    }
+    props: ['title', 'to', 'hash'],
 }
 
 const NavItemDropdown = {
@@ -44,18 +47,12 @@ const DropdownItem = {
     },
     template: `
         <li>
-            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to">
+            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to" :hash="hash">
                 {{ title }}
             </custom-link>
         </li>
     `,
-    props: {
-        title: String,
-        to: {
-            type: String,
-            default: 'Home'
-        }
-    },
+    props: ['title', 'to', 'hash'],
 }
 
 export default {
@@ -102,14 +99,14 @@ export default {
                         <dropdown-item title="Safety"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS">
-                        <dropdown-item title="Overview"></dropdown-item>
+                        <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
                         <dropdown-item title="Improved Parts"></dropdown-item>
                         <dropdown-item title="Characterization"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
-                        <dropdown-item title="Integrated HP for Gold"></dropdown-item>
+                        <dropdown-item title="Integrated HP for Gold" to="Human_Practices" hash="#gold"></dropdown-item>
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item title="MODEL" to="Model"></nav-item>
