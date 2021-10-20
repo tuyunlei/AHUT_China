@@ -4,10 +4,9 @@
 }
 
 #app .writing-container .catalog {
+    color: #751a3a;
     height: fit-content;
     background-color: rgba(255, 255, 255, .6);
-    color: #751a3a;
-    z-index: 10;
 }
 
 #app .writing-container .catalog > h2 {
