@@ -1,6 +1,25 @@
+function get_icon_src(icon) {
+    return `/resources/images/icons/${icon}.png`
+}
+
+function dist_icon_src(icon) {
+    let urls = {
+        home: 'https://2021.igem.org/wiki/images/d/d1/T--AHUT_China--icon_home.png',
+        team: 'https://2021.igem.org/wiki/images/f/fc/T--AHUT_China--icon_team.png',
+        project: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
+        experiments: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
+        parts: 'https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png',
+        hp: 'https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png',
+        model: 'https://2021.igem.org/wiki/images/8/8c/T--AHUT_China--icon_model.png',
+        form: 'https://2021.igem.org/wiki/images/d/dd/T--AHUT_China--icon_form.png'
+    };
+    if (urls.hasOwnProperty(icon))
+        return urls[icon];
+}
+
 const CustomRouterLink = {
     template: `
-    <router-link :to="{name: to, hash: hash, params: {AHUT_China: ':AHUT_China'}}">
+    <router-link :to="{name: to, hash: hash, params: {AHUT_China: ':AHUT_China'}}" :target="target">
         <slot></slot>
     </router-link>`,
     props: {
@@ -12,6 +31,10 @@ const CustomRouterLink = {
             type: String,
             default: '',
         },
+        target: {
+            String,
+            default: '',
+        }
     }
 }
 
@@ -21,16 +44,16 @@ const NavItem = {
     },
     template: `
     <li class="nav-item">
-        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to" :hash="hash">
+        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to" :hash="hash" :target="target">
             <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
             <span v-if="title">{{ title }}</span>
         </custom-link>
     </li>
     `,
-    props: ['title', 'to', 'hash', 'icon'],
+    props: ['title', 'to', 'hash', 'icon', 'target'],
     computed: {
         icon_src() {
-            return `/resources/images/icons/${this.icon}.png`
+            return get_icon_src(this.icon);
         }
     }
 }
@@ -38,10 +61,10 @@ const NavItem = {
 const NavItemDropdown = {
     template: `
     <li class="nav-item dropdown">
-        <span class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">
+        <a class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">
             <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
             <span>{{ title }}</span>
-        </span>
+        </a>
         <ul class="dropdown-menu">
             <slot></slot>
         </ul>
@@ -50,7 +73,7 @@ const NavItemDropdown = {
     props: ['title', 'icon'],
     computed: {
         icon_src() {
-            return `/resources/images/icons/${this.icon}.png`
+            return get_icon_src(this.icon);
         }
     }
 }
@@ -61,12 +84,12 @@ const DropdownItem = {
     },
     template: `
         <li>
-            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to" :hash="hash">
+            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to" :hash="hash" :target="target">
                 {{ title }}
             </custom-link>
         </li>
     `,
-    props: ['title', 'to', 'hash'],
+    props: ['title', 'to', 'hash', 'target'],
 }
 
 export default {
@@ -100,11 +123,10 @@ export default {
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT" icon="project">
                         <dropdown-item title="Description" to="Description"></dropdown-item>
-                        <dropdown-item title="Design"></dropdown-item>
-                        <dropdown-item title="Contribution"></dropdown-item>
+                        <dropdown-item title="Contribution" to="Contribution"></dropdown-item>
                         <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
                         <dropdown-item title="Proof of Concept"></dropdown-item>
-                        <dropdown-item title="Excellence in Another Area"></dropdown-item>
+                        <dropdown-item title="Excellence in Another Area" to="Excellence"></dropdown-item>
                         <dropdown-item title="Engineering"></dropdown-item>
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
@@ -117,7 +139,6 @@ export default {
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
                         <dropdown-item title="Improved Parts"></dropdown-item>
-                        <dropdown-item title="Characterization" to="Contribution"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP" icon="hp">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
@@ -125,7 +146,7 @@ export default {
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item title="MODEL" to="Model" icon="model"></nav-item>
-                    <nav-item title="JUDGING FORM" to="Judging_Form" icon="form"></nav-item>
+                    <nav-item title="JUDGING FORM" to="Judging_Form" icon="form" target="_blank"></nav-item>
                 </ul>
             </div>
         </div>

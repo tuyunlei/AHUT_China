@@ -42,21 +42,9 @@
     background: linear-gradient(#f2acb5, #edc3b0);
 }
 
-/*#app p,*/
-/*#app h1,*/
-/*#app h2,*/
-/*#app h3,*/
-/*#app h4,*/
-/*#app h5,*/
-/*#app h6 {*/
-/*    color: inherit;*/
-/*    text-align: inherit;*/
-/*    font-family: inherit;*/
-/*}*/
-
-/*#app p {*/
-/*    font-size: inherit;*/
-/*}*/
+#app p {
+    font-size: inherit;
+}
 
 #app .fade-enter-active,
 #app .fade-leave-active {

@@ -5,17 +5,17 @@ const Home = () => import('/Template/AHUT_China/COM/Home.js')
 const sub_routes = [
     {name: 'Model', com_path: '/Model'},
     {name: 'Notebook', com_path: '/Notebook'},
-    {name: 'Excellence', com_path: '/Excellence'},
     {name: 'Attributions', com_path: '/Team/Attributions'},
     {name: 'Collaborations', com_path: '/Team/Collaborations'},
     {name: 'Partnership', com_path: '/Team/Partnership'},
+    {name: 'Contribution', com_path: '/Project/Contribution'},
     {name: 'Description', com_path: '/Project/Description'},
+    {name: 'Excellence', com_path: '/Project/Excellence'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
     {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
     {name: 'Education', com_path: '/HP/Education'},
     {name: 'Communication', com_path: '/HP/Education'},
     {name: 'Parts', com_path: '/Parts/Overview'},
-    {name: 'Contribution', com_path: '/Parts/Characterization'},
 ]
 
 const root_routes = [
@@ -33,17 +33,11 @@ for (let sub of sub_routes) {
 
 const routes = [
     {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}},
-    {
-        name: 'Judging_Form',
-        path: '/2021_Judging_Form?id=3981',
-        beforeEnter() {
-            location.href = 'https://igem.org/2021_Judging_Form?id=3981'
-        }
-    },
+    {name: 'Judging_Form', path: '//igem.org/2021_Judging_Form?id=3981'},
 ]
 
 for (let route of root_routes) {
-    route.path = '/Team/AHUT_China' + route.path + '.html'
+    route.path = `/Team/AHUT_China${route.path}.html`
     routes.push(route)
 }
 

@@ -22,47 +22,13 @@ export default {
             </tr>    
             </thead>
             <tbody>
-            <tr>
-                <td>BBa_K3981000</td>
-                <td>Coding</td>
-                <td>isoleucine zipper</td>
-                <td>96</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981001</td>
-                <td>Coding</td>
-                <td>Her2-affibody</td>
-                <td>174</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981002</td>
-                <td>Coding</td>
-                <td>pelB</td>
-                <td>66</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981003</td>
-                <td>Coding</td>
-                <td>6xHis-tag</td>
-                <td>18</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981004</td>
-                <td>Coding</td>
-                <td>sTRAIL</td>
-                <td>507</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981005</td>
-                <td>Promoter</td>
-                <td>Vgb</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <td>BBa_K3981006</td>
-                <td>Coding</td>
-                <td>GS linker</td>
-                <td>21</td>
+            <tr v-for="part in basic_parts">
+                <td>
+                    <a :href="'http://parts.igem.org/Part:'+part.name" target="_blank">{{ part.name }}</a>
+                </td>
+                <td>{{ part.type }}</td>
+                <td>{{ part.description }}</td>
+                <td>{{ part.length }}</td>
             </tr>
             </tbody>
         </table>
@@ -78,27 +44,81 @@ export default {
             </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>BBa_K3981013</td>
-                    <td>Coding</td>
-                    <td>pET28a-vgb-pelb-linker-his-linker-her2-linker-ISZ-sTRAIL</td>
-                    <td>1059</td>
-                </tr>
-                <tr>
-                    <td>BBa_K3981014</td>
-                    <td>Coding</td>
-                    <td>pET28a-his-linker-ISZ-sTRAIL</td>
-                    <td>642</td>
-                </tr>
-                <tr>
-                    <td>BBa_K3981015</td>
-                    <td>Coding</td>
-                    <td>pET28a-his-linker-her2-linker-ISZ-sTRAIL</td>
-                    <td>837</td>
-                </tr>
+            <tr v-for="part in composite_parts">
+                <td>
+                    <a :href="'http://parts.igem.org/Part:'+part.name" target="_blank">{{ part.name }}</a>
+                </td>
+                <td>{{ part.type }}</td>
+                <td>{{ part.description }}</td>
+                <td>{{ part.length }}</td>
+            </tr>
             </tbody>
         </table>
 
     </writing-container>
-    `
+    `,
+    setup() {
+        const basic_parts = [{
+            name: 'BBa_K3981000',
+            type: 'Coding',
+            description: 'isoleucine zipper',
+            length: 96,
+        }, {
+            name: 'BBa_K3981001',
+            type: 'Coding',
+            description: 'Her2-affibody',
+            length: 174,
+        }, {
+            name: 'BBa_K3981002',
+            type: 'Coding',
+            description: 'pelB',
+            length: 66,
+        }, {
+            name: 'BBa_K3981003',
+            type: 'Coding',
+            description: '6xHis - tag',
+            length: 18,
+        }, {
+            name: 'BBa_K3981004',
+            type: 'Coding',
+            description: 'sTRAIL',
+            length: 507,
+        }, {
+            name: 'BBa_K3981005',
+            type: 'Promoter',
+            description: 'Vgb',
+            length: 135,
+        }, {
+            name: 'BBa_K3981006',
+            type: 'Coding',
+            description: 'GS linker',
+            length: 21,
+        }];
+
+        const composite_parts = [
+            {
+                name: 'BBa_K3981013',
+                type: 'Coding',
+                description: 'pET28a-vgb - pelb - linker - his - linker - her2 - linker - ISZ - sTRAIL',
+                length: 1059
+            },
+            {
+                name: 'BBa_K3981014',
+                type: 'Coding',
+                description: 'pET28a-his - linker - ISZ - sTRAIL',
+                length: 642
+            },
+            {
+                name: 'BBa_K3981015',
+                type: 'Coding',
+                description: 'pET28a-his - linker - her2 - linker - ISZ - sTRAIL',
+                length: 837
+            }
+        ];
+
+        return {
+            basic_parts,
+            composite_parts
+        }
+    }
 }
