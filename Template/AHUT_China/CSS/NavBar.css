@@ -15,14 +15,11 @@
 
 #app .nav-item {
     transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+    cursor: url(/resources/images/cursor_pointer2.png), pointer;
 }
 
 #app .nav-item:hover {
     background-color: #E4C1BF;
-}
-
-#app .rounded-32 {
-    border-radius: 32px;
 }
 
 #app .dropdown-menu {

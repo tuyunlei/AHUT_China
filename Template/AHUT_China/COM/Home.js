@@ -10,7 +10,7 @@ export default {
     </div>
 
     <div class="bg-light" style="position: relative;">
-        <img id="background" src="/resources/images/background2.jpg" alt="background">
+        <img id="background" src="/resources/images/background.jpg" alt="background">
 
         <p id="background-tip">Tips: Move the cursor over the text below to view the details.</p>
 

@@ -35,27 +35,16 @@
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1080;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background: linear-gradient(#f2acb5, #edc3b0);
 }
 
-/*#app p,*/
-/*#app h1,*/
-/*#app h2,*/
-/*#app h3,*/
-/*#app h4,*/
-/*#app h5,*/
-/*#app h6 {*/
-/*    color: inherit;*/
-/*    text-align: inherit;*/
-/*    font-family: inherit;*/
-/*}*/
-
-/*#app p {*/
-/*    font-size: inherit;*/
-/*}*/
+#app p {
+    font-size: inherit;
+}
 
 #app .fade-enter-active,
 #app .fade-leave-active {
@@ -65,4 +54,12 @@
 #app .fade-enter-from,
 #app .fade-leave-to {
     opacity: 0;
+}
+
+#app .rounded-16 {
+    border-radius: 16px;
+}
+
+#app .rounded-32 {
+    border-radius: 32px;
 }
