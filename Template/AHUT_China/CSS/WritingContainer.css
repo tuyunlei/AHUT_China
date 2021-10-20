@@ -5,15 +5,15 @@
 
 #app .writing-container .catalog {
     height: fit-content;
-    /*background-color: #DBA8AF;*/
     background-color: rgba(255, 255, 255, .6);
     color: #751a3a;
     z-index: 10;
 }
 
 #app .writing-container .catalog > h2 {
-    font-family: "Julius Sans One", sans-serif;
+    color: inherit;
     margin-bottom: 1rem;
+    font-family: "Julius Sans One", sans-serif;
 }
 
 #app .writing-container .catalog > a {
@@ -21,6 +21,10 @@
     display: block;
     margin-bottom: 0.5rem;
     font-family: "Fira Code", sans-serif;
+}
+
+#app .writing-container .catalog > a.second-level {
+    margin-left: 1rem;
 }
 
 #app .writing-container .catalog > a:link {
