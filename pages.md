@@ -195,14 +195,14 @@
 
   - ##### Icons
 
-    | Name                                                         | File URL | Local Path                                                   |
-    | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [home.png](https://2021.igem.org/File:T--AHUT_China--icon_home.png) | https://2021.igem.org/wiki/images/d/d1/T--AHUT_China--icon_home.png | [./resources/images/icons/home2.png](./resources/images/icons/home2.png) |
     | [team.png](https://2021.igem.org/File:T--AHUT_China--icon_team.png) | https://2021.igem.org/wiki/images/f/fc/T--AHUT_China--icon_team.png | [./resources/images/icons/team2.png](./resources/images/icons/team2.png) |
     | [project.png](https://2021.igem.org/File:T--AHUT_China--icon_project.png) | https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png | [./resources/images/icons/project2.png](./resources/images/icons/project2.png) |
-    | [experiments.png](https://2021.igem.org/File:T--AHUT_China--experiments.png) | https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png | [./resources/images/icons/experiments2.png](./resources/images/icons/experiments2.png) |
+    | [experiments.png](https://2021.igem.org/File:T--AHUT_China--icon_experiments.png) | https://2021.igem.org/wiki/images/8/85/T--AHUT_China--icon_experiments.png | [./resources/images/icons/experiments2.png](./resources/images/icons/experiments2.png) |
     | [parts.png](https://2021.igem.org/File:T--AHUT_China--icon_parts.png) | https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png | [./resources/images/icons/parts2.png](./resources/images/icons/parts2.png) |
-    | [hp.png](https://2021.igem.org/File:T--AHUT_China--icon_hp.png) | https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png | [./resources/images/icons/hp2.png](./resources/images/icons/hp2.png) |
+    | [hp.png](https://2021.igem.org/File:T--AHUT_China--icon_hp.png) | https://2021.igem.org/wiki/images/c/cd/T--AHUT_China--icon_hp.png | [./resources/images/icons/hp2.png](./resources/images/icons/hp2.png) |
     | [model.png](https://2021.igem.org/File:T--AHUT_China--icon_model.png) | https://2021.igem.org/wiki/images/8/8c/T--AHUT_China--icon_model.png | [./resources/images/icons/model2.png](./resources/images/icons/model2.png) |
     | [form.png](https://2021.igem.org/File:T--AHUT_China--icon_form.png) | https://2021.igem.org/wiki/images/d/dd/T--AHUT_China--icon_form.png | [./resources/images/icons/form2.png](./resources/images/icons/form2.png) |
 

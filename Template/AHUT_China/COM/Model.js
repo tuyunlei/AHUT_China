@@ -29,7 +29,7 @@ export default {
 
         <h2>4.Symbol Explanation</h2>
         <table-caption>Table.1 Symbol Explanation</table-caption>
-        <table class="table text-center">
+        <table class="table text-center mx-auto">
             <thead>
             <tr>
                 <th class="border-top" colspan="2">Symbol explanation in model</th>
@@ -109,7 +109,7 @@ export default {
 
         <h2>7.Data and results of cytotoxicity test</h2>
         <table-caption>Table.2 cytotoxicity test data</table-caption>
-        <table class="table">
+        <table class="table mx-auto">
             <tbody>
                 <tr>
                     <th scope="row">Protein concentration</th>

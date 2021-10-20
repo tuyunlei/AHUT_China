@@ -9,7 +9,7 @@ function dist_icon_src(icon) {
         project: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
         experiments: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
         parts: 'https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png',
-        hp: 'https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png',
+        hp: 'https://2021.igem.org/wiki/images/c/cd/T--AHUT_China--icon_hp.png',
         model: 'https://2021.igem.org/wiki/images/8/8c/T--AHUT_China--icon_model.png',
         form: 'https://2021.igem.org/wiki/images/d/dd/T--AHUT_China--icon_form.png'
     };
