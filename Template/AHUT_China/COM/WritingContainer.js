@@ -23,7 +23,6 @@ export default {
         let container = ref(null);
 
         onMounted(() => {
-            console.log(container.value)
             let all_h2_dom = container.value.querySelectorAll('h2');
             all_h2_dom.forEach((dom, index) => {
                 let name = dom.innerText;

@@ -28,6 +28,11 @@ const NavItem = {
     </li>
     `,
     props: ['title', 'to', 'hash', 'icon'],
+    computed: {
+        icon_src() {
+            return `/resources/images/icons/${this.icon}.png`
+        }
+    }
 }
 
 const NavItemDropdown = {
@@ -86,7 +91,7 @@ export default {
 
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
-                    <nav-item style="text-align: center;" title="HOME" icon="home2"></nav-item>
+                    <nav-item style="text-align: center;" title="HOME" icon="home"></nav-item>
                     <nav-item-dropdown title="TEAM" icon="team">
                         <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
@@ -101,6 +106,7 @@ export default {
                         <dropdown-item title="Proof of Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area"></dropdown-item>
                         <dropdown-item title="Engineering"></dropdown-item>
+                        <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
                         <dropdown-item title="Protocol"></dropdown-item>
@@ -111,7 +117,7 @@ export default {
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
                         <dropdown-item title="Improved Parts"></dropdown-item>
-                        <dropdown-item title="Characterization"></dropdown-item>
+                        <dropdown-item title="Characterization" to="Contribution"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP" icon="hp">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
@@ -119,7 +125,7 @@ export default {
                         <dropdown-item title="Education" to="Education"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item title="MODEL" to="Model" icon="model"></nav-item>
-<!--                    <nav-item title="JUDGING FORM"></nav-item>-->
+                    <nav-item title="JUDGING FORM" to="Judging_Form" icon="form"></nav-item>
                 </ul>
             </div>
         </div>
