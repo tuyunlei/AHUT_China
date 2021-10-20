@@ -239,12 +239,16 @@
     | [HumanPractices_14.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_14.jpg) | https://2021.igem.org/wiki/images/8/85/T--AHUT_China--HumanPractices_14.jpg | [./resources/images/HumanPractices_14.jpg](./resources/images/HumanPractices_14.jpg) |
     | [HumanPractices_15.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_15.jpg) | https://2021.igem.org/wiki/images/f/f3/T--AHUT_China--HumanPractices_15.jpg | [./resources/images/HumanPractices_15.jpg](./resources/images/HumanPractices_15.jpg) |
     | [HumanPractices_16.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_16.jpg) | https://2021.igem.org/wiki/images/9/9d/T--AHUT_China--HumanPractices_16.jpg | [./resources/images/HumanPractices_16.jpg](./resources/images/HumanPractices_16.jpg) |
+    | [HumanPractices_17.png](https://2021.igem.org/File:T--AHUT_China--HumanPractices_17.png) | [T--AHUT_China--HumanPractices_17](https://2021.igem.org/wiki/images/d/d0/T--AHUT_China--HumanPractices_17.png) | [./resources/images/HumanPractices_17.png](./resources/images/HumanPractices_17.png) |
+    | [HumanPractices_18.png](https://2021.igem.org/File:T--AHUT_China--HumanPractices_18.png) | [T--AHUT_China--HumanPractices_18.png](https://2021.igem.org/wiki/images/9/9c/T--AHUT_China--HumanPractices_18.png) | [./resources/images/HumanPractices_18.png](./resources/images/HumanPractices_18.png) |
 
   - ##### Education
 
     | Name                                                         | File URL                                                     | Local Path                                                   |
     | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | [Education_01.jpg](https://2021.igem.org/File:T--AHUT_China--Education_01.jpg) | https://2021.igem.org/wiki/images/f/f0/T--AHUT_China--Education_01.jpg | [./resources/images/Education_01.jpg](./resources/images/Education_01.jpg) |
+    | [Education_01.jpg](https://2021.igem.org/File:T--AHUT_China--Education_01.jpg) | [T--AHUT_China--Education_01.jpg](https://2021.igem.org/wiki/images/f/f0/T--AHUT_China--Education_01.jpg) | [./resources/images/Education_01.jpg](./resources/images/Education_01.jpg) |
+    | [Education_02.jpg](https://2021.igem.org/File:T--AHUT_China--Education_02.jpg) | [T--AHUT_China--Education_02.jpg](https://2021.igem.org/wiki/images/f/f5/T--AHUT_China--Education_02.jpg) | [./resources/images/Education_02.jpg](./resources/images/Education_02.jpg) |
+    | [Education_03.jpg](https://2021.igem.org/File:T--AHUT_China--Education_03.jpg) | [T--AHUT_China--Education_03.jpg](https://2021.igem.org/wiki/images/b/b4/T--AHUT_China--Education_03.jpg) | [./resources/images/Education_03.jpg](./resources/images/Education_03.jpg) |
 
   - ##### Model
 

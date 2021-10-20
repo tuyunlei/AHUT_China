@@ -8,7 +8,10 @@ export default {
     <writing-container>
         <h1>Human Practices</h1>
         <hr/>
-        
+        <p>Human Practices: From 1 to 4.</p>
+        <p>Integrated Human Practices: From 5 to 9.</p>
+        <hr/>
+
         <h2>1.The Interview at Yushan Lake Park</h2>
         <img-fluid alt="Human_Practices_01" src="https://2021.igem.org/wiki/images/f/fb/T--AHUT_China--HumanPractices_01.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_02" src="https://2021.igem.org/wiki/images/4/41/T--AHUT_China--HumanPractices_02.jpg"></img-fluid>
@@ -23,7 +26,8 @@ export default {
         <p>The Project Progress module includes the promotion team, the experiment process, and the Logo display. Our articles are regularly reported and updated weekly. In addition, the team holds regular meetings,from the 2021-3-15 weekly to 2021-10-10.</p>
         <p>The popular Science Articles module focuses on synthetic biology popular science. It promotes the International Genetically Engineered Machine Competition (iGEM), held annually by the Massachusetts Institute of Technology (MIT) since 2005, and is the highest international academic competition in synthetic biology. Furthermore, all the information is relevant to our team's experiments.</p>
         <p>The iGEM public account of Anhui University of Technology (AHUT) is aimed at schools and society, where Wechat users can access iGEM information. Thus, we can raise awareness of the International Genetically Engineered Machine Competition (iGEM) and create a good image of the AHUT_China team.At the same time, it also made a great contribution to the promotion of our project.</p>
-        
+        <img-fluid alt="Human_Practices_17" src="https://2021.igem.org/wiki/images/d/d0/T--AHUT_China--HumanPractices_17.png"></img-fluid>
+
         <h2>3.Social survey</h2>
         <p>In September, our team conducted a social survey of "how much I know about malignant tumors" in several elderly activity centers.</p>
         <p>The questionnaire includes:</p>
@@ -41,6 +45,7 @@ export default {
         <p>Many people in our country lose their lives every year because of cancer. It has brought harm and burden to many families. Mental Health of cancer patients is very important. Some patients were diagnosed with cancer, talk about “Cancer”color change, more depressed, often feel worried. The emergence of these phenomena, the treatment is very adverse. Therefore, we should give patients psychological comfort, encourage them to fight against cancer for a long time, and actively cooperate with doctors to carry out standard treatment.</p>
         <p>In the means of cancer prevention, besides following the basic principles of reasonable diet, moderate exercise, quitting smoking and limiting alcohol, and keeping healthy mentality, proper external intervention is also an effective means of preventing tumor diseases. The young healthy immune cells stored by high-tech means can effectively prevent the occurrence of tumor diseases when the immune function of human body is low and tumors are high.</p>
         <p>In response to the theme of the National Cancer Prevention Publicity, we launched the “Care for cancer patients, start from the heart”campaign through the wechat public account. Through various forms such as letter writing, painting and message writing, we will encourage cancer patients to speak out. Once the event was launched, it received an enthusiastic response.</p>
+        <img-fluid alt="Human_Practices_18" src="https://2021.igem.org/wiki/images/9/9c/T--AHUT_China--HumanPractices_18.png"></img-fluid>
 
         <h2 id="gold">5.Our discussion with the AHUT Industrial Robotics Competition team</h2>
         <img-fluid alt="Human_Practices_06" src="https://2021.igem.org/wiki/images/0/0e/T--AHUT_China--HumanPractices_06.jpg"></img-fluid>
