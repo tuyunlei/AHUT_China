@@ -18,7 +18,7 @@ export default {
         </div>
     </div>
     `,
-    setup(props, context) {
+    setup() {
         let titles = ref([]);
         let container = ref(null);
 
