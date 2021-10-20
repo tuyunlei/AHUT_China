@@ -12,7 +12,7 @@ export default {
         <hr/>
 
         <h2>Basic Parts</h2>
-        <table>
+        <table class="mx-auto">
             <thead>
             <tr>
                 <th>Name</th>
@@ -34,7 +34,7 @@ export default {
         </table>
 
         <h2>Composite Parts</h2>
-        <table>
+        <table class="mx-auto">
             <thead>
             <tr>
                 <td>Name</td>

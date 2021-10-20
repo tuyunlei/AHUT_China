@@ -29,7 +29,7 @@ export default {
 
         <h2>4.Symbol Explanation</h2>
         <table-caption>Table.1 Symbol Explanation</table-caption>
-        <table class="table text-center">
+        <table class="table text-center mx-auto">
             <thead>
             <tr>
                 <th class="border-top" colspan="2">Symbol explanation in model</th>
@@ -109,7 +109,7 @@ export default {
 
         <h2>7.Data and results of cytotoxicity test</h2>
         <table-caption>Table.2 cytotoxicity test data</table-caption>
-        <table class="table">
+        <table class="table mx-auto">
             <tbody>
                 <tr>
                     <th scope="row">Protein concentration</th>
@@ -172,8 +172,16 @@ export default {
         <p class="fs-6">[8]\tCUI S． Analysis of a free boundary problem modeling tumor growth ［J］． Acta Math Appl Sin Engl Ser，2005， 21: 1071 － 1082．</p>
     </writing-container>
     `,
+    mounted() {
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
+    },
     updated() {
-        const {typesetElement} = this.$refs
-        MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        if (window.hasOwnProperty('MathJax')) {
+            const {typesetElement} = this.$refs
+            window.MathJax.Hub.Queue(['Typeset', MathJax.Hub, typesetElement])
+        }
     }
 }

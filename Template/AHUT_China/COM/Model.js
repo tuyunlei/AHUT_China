@@ -29,7 +29,7 @@ export default {
 
         <h2>4.Symbol Explanation</h2>
         <table-caption>Table.1 Symbol Explanation</table-caption>
-        <table class="table text-center">
+        <table class="table text-center mx-auto">
             <thead>
             <tr>
                 <th class="border-top" colspan="2">Symbol explanation in model</th>
@@ -109,7 +109,7 @@ export default {
 
         <h2>7.Data and results of cytotoxicity test</h2>
         <table-caption>Table.2 cytotoxicity test data</table-caption>
-        <table class="table">
+        <table class="table mx-auto">
             <tbody>
                 <tr>
                     <th scope="row">Protein concentration</th>
@@ -165,9 +165,9 @@ export default {
         <p class="fs-6">[1]\tTANG Sitian.The Research on two types of virus infection model with humoral imminity【D】,Xinjiang University  ,2019,undefined</p>
         <p class="fs-6">[2]\tTuring Instability and Turing–Hopf Bifurcation in Diffusive Schnakenberg Systems with Gene Expression Time Delay[J] . Weihua Jiang,Hongbin Wang,Xun Cao.  Journal of Dynamics and Differential Equations . 2019 (4)</p>
         <p class="fs-6">[3]\tWEI X，CUI S． Existence and uniqueness of global solu- tions for a mathematical model of antiangiogenesis in tumor growth ［J］． Nonlinear Analysis: Real World Ap- plications，2008，9: 1827 － 1836．</p>
-        <p class="fs-6">[4]\tZHANG Jiuyuan.etc (2013) Analysis of a mathematical modeling of cancer cell breakout and invasion of normal tissue or extracellular matrix, Zhongshan Daxue Xuebao/Acta Scientiarum Natralium Universitatis Sunyatseni,52(3), 48–54. doi: 10.13471/j.cnki.acta.snus.2013.03.008.</p>   
-        <p class="fs-6">[5]\tCompetition of Spatial and Temporal Instabilities under Time Delay near Codimension-Two Turing—Hopf Bifurcations[J] . Wang Hui-Juan,Ren Zhi.  Communications in Theoretical Physics . 2011 (2)</p> 
-        <p class="fs-6">[6]\tANDASARI V，GERISCH A，LOLAS G，et al． Mathe- matical modeling of cancer cell invasion of tissue: biologi- cal insight from mathematical analysis and computational simulation ［J］． Math Biol，2011，23: 141 － 171．</p> 
+        <p class="fs-6">[4]\tZHANG Jiuyuan.etc (2013) Analysis of a mathematical modeling of cancer cell breakout and invasion of normal tissue or extracellular matrix, Zhongshan Daxue Xuebao/Acta Scientiarum Natralium Universitatis Sunyatseni,52(3), 48–54. doi: 10.13471/j.cnki.acta.snus.2013.03.008.</p>
+        <p class="fs-6">[5]\tCompetition of Spatial and Temporal Instabilities under Time Delay near Codimension-Two Turing—Hopf Bifurcations[J] . Wang Hui-Juan,Ren Zhi.  Communications in Theoretical Physics . 2011 (2)</p>
+        <p class="fs-6">[6]\tANDASARI V，GERISCH A，LOLAS G，et al． Mathe- matical modeling of cancer cell invasion of tissue: biologi- cal insight from mathematical analysis and computational simulation ［J］． Math Biol，2011，23: 141 － 171．</p>
         <p class="fs-6">[7]\tCHAPLAIN M A J，LOLAS G． Mathematical modeling of cancer invasion of tissue: the role of the urokinase plas- minogen activation system ［J］． Math Mod Meth in Appl Sci，2005，11: 1685 － 1734．</p>
         <p class="fs-6">[8]\tCUI S． Analysis of a free boundary problem modeling tumor growth ［J］． Acta Math Appl Sin Engl Ser，2005， 21: 1071 － 1082．</p>
     </writing-container>

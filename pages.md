@@ -195,14 +195,14 @@
 
   - ##### Icons
 
-    | Name                                                         | File URL | Local Path                                                   |
-    | ------------------------------------------------------------ | -------- | ------------------------------------------------------------ |
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | [home.png](https://2021.igem.org/File:T--AHUT_China--icon_home.png) | https://2021.igem.org/wiki/images/d/d1/T--AHUT_China--icon_home.png | [./resources/images/icons/home2.png](./resources/images/icons/home2.png) |
     | [team.png](https://2021.igem.org/File:T--AHUT_China--icon_team.png) | https://2021.igem.org/wiki/images/f/fc/T--AHUT_China--icon_team.png | [./resources/images/icons/team2.png](./resources/images/icons/team2.png) |
     | [project.png](https://2021.igem.org/File:T--AHUT_China--icon_project.png) | https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png | [./resources/images/icons/project2.png](./resources/images/icons/project2.png) |
-    | [experiments.png](https://2021.igem.org/File:T--AHUT_China--experiments.png) | https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png | [./resources/images/icons/experiments2.png](./resources/images/icons/experiments2.png) |
+    | [experiments.png](https://2021.igem.org/File:T--AHUT_China--icon_experiments.png) | https://2021.igem.org/wiki/images/8/85/T--AHUT_China--icon_experiments.png | [./resources/images/icons/experiments2.png](./resources/images/icons/experiments2.png) |
     | [parts.png](https://2021.igem.org/File:T--AHUT_China--icon_parts.png) | https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png | [./resources/images/icons/parts2.png](./resources/images/icons/parts2.png) |
-    | [hp.png](https://2021.igem.org/File:T--AHUT_China--icon_hp.png) | https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png | [./resources/images/icons/hp2.png](./resources/images/icons/hp2.png) |
+    | [hp.png](https://2021.igem.org/File:T--AHUT_China--icon_hp.png) | https://2021.igem.org/wiki/images/c/cd/T--AHUT_China--icon_hp.png | [./resources/images/icons/hp2.png](./resources/images/icons/hp2.png) |
     | [model.png](https://2021.igem.org/File:T--AHUT_China--icon_model.png) | https://2021.igem.org/wiki/images/8/8c/T--AHUT_China--icon_model.png | [./resources/images/icons/model2.png](./resources/images/icons/model2.png) |
     | [form.png](https://2021.igem.org/File:T--AHUT_China--icon_form.png) | https://2021.igem.org/wiki/images/d/dd/T--AHUT_China--icon_form.png | [./resources/images/icons/form2.png](./resources/images/icons/form2.png) |
 
@@ -239,12 +239,16 @@
     | [HumanPractices_14.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_14.jpg) | https://2021.igem.org/wiki/images/8/85/T--AHUT_China--HumanPractices_14.jpg | [./resources/images/HumanPractices_14.jpg](./resources/images/HumanPractices_14.jpg) |
     | [HumanPractices_15.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_15.jpg) | https://2021.igem.org/wiki/images/f/f3/T--AHUT_China--HumanPractices_15.jpg | [./resources/images/HumanPractices_15.jpg](./resources/images/HumanPractices_15.jpg) |
     | [HumanPractices_16.jpg](https://2021.igem.org/File:T--AHUT_China--HumanPractices_16.jpg) | https://2021.igem.org/wiki/images/9/9d/T--AHUT_China--HumanPractices_16.jpg | [./resources/images/HumanPractices_16.jpg](./resources/images/HumanPractices_16.jpg) |
+    | [HumanPractices_17.png](https://2021.igem.org/File:T--AHUT_China--HumanPractices_17.png) | [T--AHUT_China--HumanPractices_17](https://2021.igem.org/wiki/images/d/d0/T--AHUT_China--HumanPractices_17.png) | [./resources/images/HumanPractices_17.png](./resources/images/HumanPractices_17.png) |
+    | [HumanPractices_18.png](https://2021.igem.org/File:T--AHUT_China--HumanPractices_18.png) | [T--AHUT_China--HumanPractices_18.png](https://2021.igem.org/wiki/images/9/9c/T--AHUT_China--HumanPractices_18.png) | [./resources/images/HumanPractices_18.png](./resources/images/HumanPractices_18.png) |
 
   - ##### Education
 
     | Name                                                         | File URL                                                     | Local Path                                                   |
     | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | [Education_01.jpg](https://2021.igem.org/File:T--AHUT_China--Education_01.jpg) | https://2021.igem.org/wiki/images/f/f0/T--AHUT_China--Education_01.jpg | [./resources/images/Education_01.jpg](./resources/images/Education_01.jpg) |
+    | [Education_01.jpg](https://2021.igem.org/File:T--AHUT_China--Education_01.jpg) | [T--AHUT_China--Education_01.jpg](https://2021.igem.org/wiki/images/f/f0/T--AHUT_China--Education_01.jpg) | [./resources/images/Education_01.jpg](./resources/images/Education_01.jpg) |
+    | [Education_02.jpg](https://2021.igem.org/File:T--AHUT_China--Education_02.jpg) | [T--AHUT_China--Education_02.jpg](https://2021.igem.org/wiki/images/f/f5/T--AHUT_China--Education_02.jpg) | [./resources/images/Education_02.jpg](./resources/images/Education_02.jpg) |
+    | [Education_03.jpg](https://2021.igem.org/File:T--AHUT_China--Education_03.jpg) | [T--AHUT_China--Education_03.jpg](https://2021.igem.org/wiki/images/b/b4/T--AHUT_China--Education_03.jpg) | [./resources/images/Education_03.jpg](./resources/images/Education_03.jpg) |
 
   - ##### Model
 
