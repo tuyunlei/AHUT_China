@@ -44,8 +44,8 @@ const NavItem = {
     },
     template: `
     <li class="nav-item">
-        <custom-link class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link text-light fs-6" :to="to" :hash="hash" :target="target">
-            <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
+        <custom-link class="py-xl-4 px-xxl-4 p-3 nav-link text-light fs-6" :to="to" :hash="hash" :target="target">
+            <img v-if="icon" :alt="icon" :src="icon_src" class="d-xl-block mx-xl-auto me-2" width="28" height="28">
             <span v-if="title">{{ title }}</span>
         </custom-link>
     </li>
@@ -61,11 +61,11 @@ const NavItem = {
 const NavItemDropdown = {
     template: `
     <li class="nav-item dropdown">
-        <a class="py-xl-4 px-xxl-4 px-xl-3 p-2 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">
-            <img v-if="icon" :alt="icon" :src="icon_src" style="display: block; margin: 0 auto;" width="28" height="28">
+        <a class="py-xl-4 px-xxl-4 p-3 nav-link dropdown-toggle text-light fs-6" data-bs-toggle="dropdown">
+            <img v-if="icon" :alt="icon" :src="icon_src" class="d-xl-block mx-xl-auto me-2" width="28" height="28">
             <span>{{ title }}</span>
         </a>
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu py-xl-0 py-2">
             <slot></slot>
         </ul>
     </li>
@@ -84,7 +84,7 @@ const DropdownItem = {
     },
     template: `
         <li>
-            <custom-link class="px-4 py-xl-3 py-1 dropdown-item text-light fs-6" :to="to" :hash="hash" :target="target">
+            <custom-link class="ms-xl-0 ms-4 px-4 py-xl-3 py-2 dropdown-item text-light fs-6" :to="to" :hash="hash" :target="target">
                 {{ title }}
             </custom-link>
         </li>
@@ -114,7 +114,7 @@ export default {
 
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
-                    <nav-item style="text-align: center;" title="HOME" icon="home"></nav-item>
+                    <nav-item title="HOME" icon="home"></nav-item>
                     <nav-item-dropdown title="TEAM" icon="team">
                         <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
@@ -131,14 +131,13 @@ export default {
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
-                        <dropdown-item title="Protocol"></dropdown-item>
                         <dropdown-item title="Results"></dropdown-item>
-                        <dropdown-item title="Safety"></dropdown-item>
+                        <dropdown-item title="Safety" to="Safety_Form" target="_blank"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS" icon="parts">
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
-                        <dropdown-item title="Improved Parts"></dropdown-item>
+                        <dropdown-item title="Improved Parts" to="Improved_Parts"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP" icon="hp">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>

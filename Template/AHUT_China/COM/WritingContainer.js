@@ -7,37 +7,45 @@ export default {
 
     <div class="container-fluid writing-container">
         <div class="row">
-            <div class="d-none d-xl-block sticky-top catalog col-3 mx-5 mt-5 px-5 pt-4 pb-5 rounded-16">
+            <div class="d-none d-xl-block sticky-top catalog col-3 mx-5 mt-5 px-4 pt-4 pb-5 rounded-16">
                 <h2 class="text-center">Catalog</h2>
-                <a v-for="h2 in all_h2" :href="h2.id">{{h2.name}}</a>
+                <a v-for="title in titles" :class="title.clazz" :href="title.id">{{ title.text }}</a>
             </div>
-    
+
             <div ref="container" class="container col-xl-8 col-10 my-5 px-5 py-4 ms-xl-0 text-light rounded-32 lh-lg">
                 <slot></slot>
             </div>
         </div>
     </div>
     `,
-    setup(props, context) {
-        let all_h2 = ref([]);
+    setup() {
+        let titles = ref([]);
         let container = ref(null);
 
         onMounted(() => {
-            let all_h2_dom = container.value.querySelectorAll('h2');
-            all_h2_dom.forEach((dom, index) => {
-                let name = dom.innerText;
+            let class_map = {
+                h1: 'first-level',
+                h2: 'second-level',
+            };
+
+            let title_doms = container.value.querySelectorAll('h1,h2');
+            title_doms.forEach((dom, index) => {
                 let id = dom.id;
+                let name = dom.tagName.toLowerCase();
+                let text = dom.innerText;
+                let clazz = class_map[name];
+
                 if (!id) {
-                    id = '_h2_' +  index;
+                    id = `_${name}_${index}`;
                     dom.id = id;
                 }
                 id = '#' + id;
-                all_h2.value.push({name, id});
+                titles.value.push({id, name, text, clazz});
             });
         })
 
         return {
-            all_h2,
+            titles,
             container
         };
     }

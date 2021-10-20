@@ -16,6 +16,7 @@ const sub_routes = [
     {name: 'Education', com_path: '/HP/Education'},
     {name: 'Communication', com_path: '/HP/Education'},
     {name: 'Parts', com_path: '/Parts/Overview'},
+    {name: 'Improved_Parts', com_path: '/Parts/Improved'},
 ]
 
 const root_routes = [
@@ -34,6 +35,7 @@ for (let sub of sub_routes) {
 const routes = [
     {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}},
     {name: 'Judging_Form', path: '//igem.org/2021_Judging_Form?id=3981'},
+    {name: 'Safety_Form', path: '/Safety/Final_Safety_Form?team_id=3981'}
 ]
 
 for (let route of root_routes) {

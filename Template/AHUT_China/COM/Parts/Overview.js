@@ -95,26 +95,22 @@ export default {
             length: 21,
         }];
 
-        const composite_parts = [
-            {
-                name: 'BBa_K3981013',
-                type: 'Coding',
-                description: 'pET28a-vgb - pelb - linker - his - linker - her2 - linker - ISZ - sTRAIL',
-                length: 1059
-            },
-            {
-                name: 'BBa_K3981014',
-                type: 'Coding',
-                description: 'pET28a-his - linker - ISZ - sTRAIL',
-                length: 642
-            },
-            {
-                name: 'BBa_K3981015',
-                type: 'Coding',
-                description: 'pET28a-his - linker - her2 - linker - ISZ - sTRAIL',
-                length: 837
-            }
-        ];
+        const composite_parts = [{
+            name: 'BBa_K3981013',
+            type: 'Composite',
+            description: 'pET28a-vgb - pelb - linker - his - linker - her2 - linker - ISZ - sTRAIL',
+            length: 1059
+        }, {
+            name: 'BBa_K3981014',
+            type: 'Composite',
+            description: 'pET28a-his - linker - ISZ - sTRAIL',
+            length: 642
+        }, {
+            name: 'BBa_K3981015',
+            type: 'Composite',
+            description: 'pET28a-his - linker - her2 - linker - ISZ - sTRAIL',
+            length: 837
+        }];
 
         return {
             basic_parts,
