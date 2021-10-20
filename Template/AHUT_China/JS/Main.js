@@ -16,6 +16,7 @@ const sub_routes = [
     {name: 'Education', com_path: '/HP/Education'},
     {name: 'Communication', com_path: '/HP/Education'},
     {name: 'Parts', com_path: '/Parts/Overview'},
+    {name: 'Improved_Parts', com_path: '/Parts/Improved'},
 ]
 
 const root_routes = [

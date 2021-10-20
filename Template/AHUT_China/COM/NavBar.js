@@ -138,7 +138,7 @@ export default {
                     <nav-item-dropdown title="PARTS" icon="parts">
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
                         <dropdown-item title="New Parts"></dropdown-item>
-                        <dropdown-item title="Improved Parts"></dropdown-item>
+                        <dropdown-item title="Improved Parts" to="Improved_Parts"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP" icon="hp">
                         <dropdown-item title="HP for Silver" to="Human_Practices"></dropdown-item>
