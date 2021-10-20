@@ -34,6 +34,7 @@ for (let sub of sub_routes) {
 const routes = [
     {path: '/', redirect: {name: 'Home', params: {AHUT_China: ':AHUT_China'}}},
     {name: 'Judging_Form', path: '//igem.org/2021_Judging_Form?id=3981'},
+    {name: 'Safety_Form', path: '/Safety/Final_Safety_Form?team_id=3981'}
 ]
 
 for (let route of root_routes) {
