@@ -129,9 +129,9 @@
   - ~~[/Parts/Characterization](https://2021.igem.org/Template:AHUT_China/COM/Parts/Characterization) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Characterization&action=edit)~~
 
   > ~~https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Characterization&action=raw&ctype=text/javascript~~
-  
+
   - [/Parts/Improved](https://2021.igem.org/Template:AHUT_China/COM/Parts/Improved) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Improved&action=edit)
-  
+
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Improved&action=raw&ctype=text/javascript
 
 ## Pages
@@ -292,8 +292,8 @@
 
     | Name                                                         | File URL                                                     | Local Path                                                   |
     | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | [Characterization_01.jpg](https://2021.igem.org/File:T--AHUT_China--Characterization_01.jpg) | https://2021.igem.org/wiki/images/a/af/T--AHUT_China--Characterization_01.jpg | [./resources/images/Characterization_01.jpg](./resources/images/Characterization_01.jpg) |
-    | [Characterization_02.jpg](https://2021.igem.org/File:T--AHUT_China--Characterization_02.jpg) | https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--Characterization_02.jpg | [./resources/images/Characterization_02.jpg](./resources/images/Characterization_02.jpg) |
+    | [Characterization_01.jpg](https://2021.igem.org/File:T--AHUT_China--Characterization_01.jpg) | [T--AHUT_China--Characterization_01.jpg](https://2021.igem.org/wiki/images/a/af/T--AHUT_China--Characterization_01.jpg) | [./resources/images/Characterization_01.jpg](./resources/images/Characterization_01.jpg) |
+    | [Characterization_02.jpg](https://2021.igem.org/File:T--AHUT_China--Characterization_02.jpg) | [T--AHUT_China--Characterization_02.jpg](https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--Characterization_02.jpg) | [./resources/images/Characterization_02.jpg](./resources/images/Characterization_02.jpg) |
 
   - ##### Excellence
 
@@ -315,6 +315,22 @@
       | [ImprovedParts_07.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_07.png) | [T--AHUT_China--ImprovedParts_07.png](https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--ImprovedParts_07.png) | [./resources/images/ImprovedParts_07.png](./resources/images/ImprovedParts_07.png) |
       | [ImprovedParts_08.jpg](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_08.jpg) | [T--AHUT_China--ImprovedParts_08.jpg](https://2021.igem.org/wiki/images/7/71/T--AHUT_China--ImprovedParts_08.jpg) | [./resources/images/ImprovedParts_08.jpg](./resources/images/ImprovedParts_08.jpg) |
       | [ImprovedParts_09.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_09.png) | [T--AHUT_China--ImprovedParts_09.png](https://2021.igem.org/wiki/images/5/58/T--AHUT_China--ImprovedParts_09.png) | [./resources/images/ImprovedParts_09.png](./resources/images/ImprovedParts_09.png) |
+
+- #### Parts Images
+
+  - ##### [BBa_K3981014](http://parts.igem.org/Part:BBa_K3981014)
+
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [BBa_K3981014-Main_01.png](http://parts.igem.org/File:BBa_K3981014-Main_01.png) | http://parts.igem.org/wiki/images/f/f9/BBa_K3981014-Main_01.png | [./resources/images/parts/K3981014_01.jpg](./resources/images/parts/K3981014_01.jpg) |
+    | [BBa_K3981014-Main_02.png](http://parts.igem.org/File:BBa_K3981014-Main_02.png) | http://parts.igem.org/wiki/images/f/f9/BBa_K3981014-Main_01.png | [./resources/images/parts/K3981014_02.png](./resources/images/parts/K3981014_02.png) |
+    | [BBa_K3981014-Main_03.png](http://parts.igem.org/File:BBa_K3981014-Main_03.png) | http://parts.igem.org/wiki/images/c/c9/BBa_K3981014-Main_03.png | [./resources/images/parts/K3981014_03.png](./resources/images/parts/K3981014_03.png) |
+    | [BBa_K3981014-Main_04.jpg](http://parts.igem.org/File:BBa_K3981014-Main_04.jpg) | http://parts.igem.org/wiki/images/4/4f/BBa_K3981014-Main_04.jpg | [./resources/images/parts/K3981014_04.jpg](./resources/images/parts/K3981014_04.jpg) |
+    | [BBa_K3981014-Main_05.png](http://parts.igem.org/File:BBa_K3981014-Main_05.png) | http://parts.igem.org/wiki/images/7/76/BBa_K3981014-Main_05.png | [./resources/images/parts/K3981014_05.png](./resources/images/parts/K3981014_05.png) |
+    | [BBa_K3981014-Main_06.png](http://parts.igem.org/File:BBa_K3981014-Main_06.png) | http://parts.igem.org/wiki/images/2/2a/BBa_K3981014-Main_06.png | [./resources/images/parts/K3981014_06.png](./resources/images/parts/K3981014_06.png) |
+    | [BBa_K3981014-Main_07.png](http://parts.igem.org/File:BBa_K3981014-Main_07.png) | http://parts.igem.org/wiki/images/8/84/BBa_K3981014-Main_07.png | [./resources/images/parts/K3981014_07.png](./resources/images/parts/K3981014_07.png) |
+    | [BBa_K3981014-Main_08.jpg](http://parts.igem.org/File:BBa_K3981014-Main_08.jpg) | http://parts.igem.org/wiki/images/a/a0/BBa_K3981014-Main_08.jpg | [./resources/images/parts/K3981014_08.jpg](./resources/images/parts/K3981014_08.jpg) |
+    | [BBa_K3981014-Main_09.png](http://parts.igem.org/File:BBa_K3981014-Main_09.png) | http://parts.igem.org/wiki/images/6/62/BBa_K3981014-Main_09.png | [./resources/images/parts/K3981014_09.png](./resources/images/parts/K3981014_09.png) |
 
 - #### Fonts:
 
