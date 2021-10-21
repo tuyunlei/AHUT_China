@@ -1,41 +1,41 @@
 <html>
+    <link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Default&action=raw&ctype=text/css">
+    <link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Bootstrap&action=raw&ctype=text/css">
+    <link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Main&action=raw&ctype=text/css">
 
-<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Default&action=raw&ctype=text/css">
-<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Bootstrap&action=raw&ctype=text/css">
-<link rel="stylesheet" type="text/css" href="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/CSS/Main&action=raw&ctype=text/css">
+    <div id="app">
+        <nav-bar></nav-bar>
 
-<div id="app">
-    <nav-bar></nav-bar>
+        <router-view v-slot="{ Component }">
+            <keep-alive>
+                <transition name="trans" mode="out-in" appear>
+                    <component :is="Component"/>
+                </transition>
+            </keep-alive>
+        </router-view>
 
-    <router-view v-slot="{ Component }">
-        <keep-alive>
-            <component :is="Component"/>
-        </keep-alive>
-    </router-view>
+        <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
+            <span class="text-light">Copyright 2021 © AHUT_China All rights reserved.</span>
+        </div>
 
-    <div class="container-fluid text-center p-4" style="background-color: #DCA9B0">
-        <span class="text-light">Copyright 2021 © AHUT_China All rights reserved.</span>
+        <transition name="fade">
+            <div v-if="loading" id="mask-view">
+                <img alt="loading" src="https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif" width="128" height="128">
+            </div>
+        </transition>
     </div>
 
-    <transition name="fade">
-        <div v-if="loading" id="mask-view" class="zindex-popover">
-            <img alt="loading" src="https://2021.igem.org/wiki/images/6/6b/T--AHUT_China--loading.gif" width="128" height="128">
-        </div>
-    </transition>
-</div>
-
-<script async src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS_HTML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [['$','$'], ['\\(', '\\)']],
-        }
-    });
-</script>
-<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Popper&action=raw&ctype=text/javascript"></script>
-<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript"></script>
-<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript"></script>
-<script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/VueRouter&action=raw&ctype=text/javascript"></script>
-<script type="module" src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=raw&ctype=text/javascript"></script>
-
+    <script async src="https://2021.igem.org/common/MathJax-2.5-latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(', '\\)']],
+            }
+        });
+    </script>
+    <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Popper&action=raw&ctype=text/javascript"></script>
+    <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Bootstrap&action=raw&ctype=text/javascript"></script>
+    <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Vue&action=raw&ctype=text/javascript"></script>
+    <script src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/VueRouter&action=raw&ctype=text/javascript"></script>
+    <script type="module" src="https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/JS/Main&action=raw&ctype=text/javascript"></script>
 </html>

@@ -11,16 +11,20 @@ const sub_routes = [
     {name: 'Contribution', com_path: '/Project/Contribution'},
     {name: 'Description', com_path: '/Project/Description'},
     {name: 'Excellence', com_path: '/Project/Excellence'},
+    {name: 'Engineering', com_path: '/Project/Engineering'},
+    {name: 'Proof_Of_Concept', com_path: '/Project/ProofOfConcept'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
+    {name: 'Results', com_path: '/Experiments/Results'},
     {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
     {name: 'Education', com_path: '/HP/Education'},
     {name: 'Communication', com_path: '/HP/Education'},
     {name: 'Parts', com_path: '/Parts/Overview'},
+    {name: 'New_Parts', com_path: '/Parts/New'},
     {name: 'Improved_Parts', com_path: '/Parts/Improved'},
 ]
 
 const root_routes = [
-    {name: 'Home', path: '/index', component: Home},
+    {name: 'Home', path: '/index', component: Home}
 ]
 
 for (let sub of sub_routes) {
@@ -64,7 +68,6 @@ const app = Vue.createApp({
     components: {
         'nav-bar': NavBar
     },
-    /* 选项 */
     data() {
         return {
             loading: true,
@@ -83,6 +86,15 @@ const app = Vue.createApp({
     })
     .component('table-caption', {
         template: `<p class="table-caption"><slot></slot></p>`
+    })
+    .component('partinfo', {
+        template: `<a :href="href" target="_blank">BBa_{{name}}</a>`,
+        props: ['name'],
+        computed: {
+            href() {
+                return 'http://parts.igem.org/Part:BBa_' + this.name;
+            }
+        }
     })
     .use(router)
 

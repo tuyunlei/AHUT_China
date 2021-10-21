@@ -11,7 +11,7 @@ export default {
         <p>Human Practices: From 1 to 4.</p>
         <p>Integrated Human Practices: From 5 to 9.</p>
         <hr/>
-        
+
         <h2>1.The Interview at Yushan Lake Park</h2>
         <img-fluid alt="Human_Practices_01" src="/resources/images/HumanPractices_01.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_02" src="/resources/images/HumanPractices_02.jpg"></img-fluid>
@@ -50,7 +50,7 @@ export default {
         <h2 id="gold">5.Our discussion with the AHUT Industrial Robotics Competition team</h2>
         <img-fluid alt="Human_Practices_06" src="/resources/images/HumanPractices_06.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_07" src="/resources/images/HumanPractices_07.jpg"></img-fluid>
-        <p>We discuss the guiding significance of industrial robots to automatic assembly line production to speed up the drug R & D cycle.</p>
+        <p>In order to explore the impact of industrial robots on the production of automated assembly lines, let us have some understanding of the production of drugs. Our team met with the AHUT Industrial Robotics Competition team in August to learn about the degree of automation of industrial robots currently used in a wide range of industries, as well as how unevenly robots operate. After the exchange, it was learned that the current technical level has been basically able to achieve full automation of drug production, for different production can be programmed through plc to achieve personalized fully automatic form.This certainly allows us to be more forthright about drug development, without having to consider the factors of impact in the production process.</p>
 
         <h2>6.Field investigation in the oncology department of Ma'anshan People's Hospital</h2>
         <p>The team members went to the Oncology Department of Ma'anshan People's Hospital for field investigation</p>

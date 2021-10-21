@@ -3,7 +3,7 @@ function get_icon_src(icon) {
         home: 'https://2021.igem.org/wiki/images/d/d1/T--AHUT_China--icon_home.png',
         team: 'https://2021.igem.org/wiki/images/f/fc/T--AHUT_China--icon_team.png',
         project: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
-        experiments: 'https://2021.igem.org/wiki/images/4/40/T--AHUT_China--icon_project.png',
+        experiments: 'https://2021.igem.org/wiki/images/8/85/T--AHUT_China--icon_experiments.png',
         parts: 'https://2021.igem.org/wiki/images/7/75/T--AHUT_China--icon_parts.png',
         hp: 'https://2021.igem.org/wiki/images/c/cd/T--AHUT_China--icon_hp.png',
         model: 'https://2021.igem.org/wiki/images/8/8c/T--AHUT_China--icon_model.png',
@@ -112,27 +112,26 @@ export default {
                 <ul class="navbar-nav ms-auto my-xl-0 mb-3">
                     <nav-item title="HOME" icon="home"></nav-item>
                     <nav-item-dropdown title="TEAM" icon="team">
-                        <dropdown-item title="Team Members"></dropdown-item>
                         <dropdown-item title="Attributions" to="Attributions"></dropdown-item>
                         <dropdown-item title="Collaborations" to="Collaborations"></dropdown-item>
                         <dropdown-item title="Partnership" to="Partnership"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PROJECT" icon="project">
                         <dropdown-item title="Description" to="Description"></dropdown-item>
-                        <dropdown-item title="Contribution" to="Contribution"></dropdown-item>
                         <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
-                        <dropdown-item title="Proof of Concept"></dropdown-item>
+                        <dropdown-item title="Proof of Concept" to="Proof_Of_Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area" to="Excellence"></dropdown-item>
-                        <dropdown-item title="Engineering"></dropdown-item>
+                        <dropdown-item title="Engineering" to="Engineering"></dropdown-item>
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
-                        <dropdown-item title="Results"></dropdown-item>
+                        <dropdown-item title="Results" to="Results"></dropdown-item>
                         <dropdown-item title="Safety" to="Safety_Form" target="_blank"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS" icon="parts">
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
-                        <dropdown-item title="New Parts"></dropdown-item>
+                        <dropdown-item title="New Parts" to="New_Parts"></dropdown-item>
+                        <dropdown-item title="Contribution" to="Contribution"></dropdown-item>
                         <dropdown-item title="Improved Parts" to="Improved_Parts"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="HP" icon="hp">

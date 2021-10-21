@@ -8,14 +8,14 @@ export default {
     <writing-container>
         <h1>Improve an Existing Part</h1>
         <hr/>
-        <p>Basing on the sequence of an existing part of sTRAIL (BBa_K1166004), we have added an isoleucine zipper (ISZ) to the N-terminal of this part and constructed a new part BBa_K3981014 (pET28a-his-linker-ISZ-sTRAIL, ISZ-sTRAIL for short, Fig. 1), which could generate the trimeric form of TRAIL and increased its antitumor potential.</p>
+        <p>Basing on the sequence of an existing part of sTRAIL (<partinfo name="K1166004"></partinfo>), we have added an isoleucine zipper (ISZ) to the N-terminal of this part and constructed a new part <partinfo name="K3981014"></partinfo> (pET28a-his-linker-ISZ-sTRAIL, ISZ-sTRAIL for short, Fig. 1), which could generate the trimeric form of TRAIL and increased its antitumor potential.</p>
         <img-fluid alt="ImprovedParts_01" src="/resources/images/ImprovedParts_01.png" caption="Fig.1 Map of ISZ-sTRAIL expression vector"></img-fluid>
         <hr/>  
  
         <h2>1.Construction of sTRAIL and ISZ-sTRAIL vectors</h2>
-        <p>Firstly, the original coding sequence of sTRAIL (BBa_K1166004) were synthesized by company, and cloned into the pET-28a (+) expression vectors. The correctness of the recombinant plasmids was verified by PCR (Fig. 2).</p>
+        <p>Firstly, the original coding sequence of sTRAIL (<partinfo name="K1166004"></partinfo>) were synthesized by company, and cloned into the pET-28a (+) expression vectors. The correctness of the recombinant plasmids was verified by PCR (Fig. 2).</p>
         <img-fluid alt="ImprovedParts_02" src="/resources/images/ImprovedParts_02.png" caption="Fig. 2 Agarose Gel Electrophoresis of sTRAIL recombinant plasmid. M: Marker; 1: pET-28a-his-sTRAIL; 2.pET-28a(+)"></img-fluid>
-        <p>Then, we designed the primers for PCR amplification of ISZ-sTRAIL gene fragments, and obtained the ISZ-sTRAIL gene (666 bp) via PCR using pET28a-his-linker-her2-linker-ISZ-sTRAIL (BBa_K3981015) as the template (Fig. 3).</p> 
+        <p>Then, we designed the primers for PCR amplification of ISZ-sTRAIL gene fragments, and obtained the ISZ-sTRAIL gene (666 bp) via PCR using pET28a-his-linker-her2-linker-ISZ-sTRAIL (<partinfo name="K3981015"></partinfo>) as the template (Fig. 3).</p> 
         <img-fluid alt="ImprovedParts_03" src="/resources/images/ImprovedParts_03.png" caption="Fig. 3 Agarose Gel Electrophoresis of ISZ-sTRAIL. M: Marker; 1: ISZ-sTRAIL PCR bands, the length was 666 bp"></img-fluid>
         <p>The desired ISZ-sTRAIL gene fragments were cloned into pET-28a (+) expression vectors, then the constructed recombinant plasmids were identified by double digestion with Nco I and Xho I restriction enzymes, and the band was determined to be about 666 bp (the arrow indicated in Fig. 4). Subsequently, the sequencing results of recombinant plasmids were consistent with the target gene (Fig. 5), which indicated that ISZ-sTRAIL plasmids were successfully constructed.</p> 
         <img-fluid alt="ImprovedParts_04" src="/resources/images/ImprovedParts_04.jpg" caption="Fig. 4 The double digestion of ISZ-sTRAIL recombinant vectors. M: Marker; 1: the digested vectors (the arrow indicated was ISZ-sTRAIL, the length was 666 bp); 2. ISZ-sTRAIL recombinant vectors without double digestion; 3. pET-28a (+) vectors"></img-fluid>
