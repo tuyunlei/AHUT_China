@@ -6,7 +6,23 @@
 #app .writing-container .catalog {
     color: #751a3a;
     height: fit-content;
+    max-height: 100vh;
+    overflow: scroll;
     background-color: rgba(255, 255, 255, .6);
+}
+
+#app .writing-container .catalog::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+
+#app .writing-container .catalog::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #DBA8AF;
+}
+
+#app .writing-container .catalog::-webkit-scrollbar-track {
+    opacity: 0;
 }
 
 #app .writing-container .catalog > h2 {
@@ -40,7 +56,7 @@
 }
 
 #app .writing-container .catalog > a.third-level {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
 }
 
 #app .writing-container a {
@@ -71,6 +87,11 @@
 }
 
 #app .writing-container .container > h3 {
+    color: inherit;
+    padding-left: 1.5rem;
+}
+
+#app .writing-container .container > h4 {
     color: inherit;
     padding-left: 1.5rem;
 }
