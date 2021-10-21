@@ -129,7 +129,7 @@ export default {
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
-                        <dropdown-item title="Results"></dropdown-item>
+                        <dropdown-item title="Results" to="Results"></dropdown-item>
                         <dropdown-item title="Safety" to="Safety_Form" target="_blank"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS" icon="parts">

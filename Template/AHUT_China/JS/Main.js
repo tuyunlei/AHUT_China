@@ -14,6 +14,7 @@ const sub_routes = [
     {name: 'Engineering', com_path: '/Project/Engineering'},
     {name: 'Proof_Of_Concept', com_path: '/Project/ProofOfConcept'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
+    {name: 'Results', com_path: '/Experiments/Results'},
     {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
     {name: 'Education', com_path: '/HP/Education'},
     {name: 'Communication', com_path: '/HP/Education'},
