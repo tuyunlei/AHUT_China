@@ -8,10 +8,10 @@ export default {
     <writing-container>
         <h1>New Parts</h1>
         <hr/>
-        <p>In our project, we have constructed two new parts (BBa_K3981013 and BBa_K3981015) for realizing expression of Her2-ISZ-sTRAIL protein in an engineered E. coli BL21(DE3) and an antitumor engineered strain EcN 1917. The results of these two new parts were as follows.</p>
+        <p>In our project, we have constructed two new parts (<partinfo name="K3981013"></partinfo> and <partinfo name="K3981015"></partinfo>) for realizing expression of Her2-ISZ-sTRAIL protein in an engineered E. coli BL21(DE3) and an antitumor engineered strain EcN 1917. The results of these two new parts were as follows.</p>
         <hr/>
 
-        <h2>1. New part BBa_K3981015</h2>
+        <h2>1. New part <partinfo name="K3981015"></partinfo></h2>
         <h3>1.1 Construction of Her2-ISZ-sTRAIL expression plasmid</h3>
         <p>The coding sequence of Her2-ISZ-sTRAIL with a His-tag were designed by our group, then synthesized and cloned into pET-28a(+) expression vector by company. Fig.1 showed the map of the obtained pET-28a(+)-His-linker-Her2- ISZ-sTRAIL recombinant plasmid.</p>
         <img-fluid alt="NewParts_01" src="/resources/images/parts/NewParts_01.png" caption="Fig. 1 Map of Her2-ISZ-sTRAIL recombinant vector"></img-fluid>
@@ -31,8 +31,8 @@ export default {
         <img-fluid alt="NewParts_06" src="/resources/images/parts/NewParts_06.png" caption="Fig. 6 In vitro toxicity effect of Her2-ISZ-sTRAIL protein on BBT-474 cells via MTT assay"></img-fluid>
         <p>In conclusion, an engineered E. coli BL21(DE3) could efficiently express soluble Her2-ISZ-sTRAIL protein with potential anti-tumor activity was successfully constructed.</p>
         
-        <h2>2. New part BBa_K3981013</h2>
-        <p>Based on the result that Her2-ISZ-sTRAIL protein could efficiently inhibit the growth of breast cancer cells, in order to enhance the anti-tumor effect of Her2-ISZ-sTRAIL protein, E.coli Nissle 1917 (EcN 1917), an intestinal probiotic with higher tumor-targeting ability to proliferate in hypoxic regions of tumors, was utilized as a targeted transport vector to deliver Her2-ISZ-sTRAIL protein to tumor hypoxic regions. Therefore, a new part (BBa_K3981013) of pET28a(+)-Vgb-pelB-linker-His-linker-Her2-linker-ISZ-Strail (Vgb-pelB-Her2-ISZ-sTRAIL for short) was constructed, in which Her2-linker-ISZ-Strail was placed under the hypoxia promoter Vgb and signal peptide pelB was added to increase the secretory expression of Her2-linker-ISZ-Strail protein (Fig. 7).</p> 
+        <h2>2. New part <partinfo name="K3981013"></partinfo></h2>
+        <p>Based on the result that Her2-ISZ-sTRAIL protein could efficiently inhibit the growth of breast cancer cells, in order to enhance the anti-tumor effect of Her2-ISZ-sTRAIL protein, E.coli Nissle 1917 (EcN 1917), an intestinal probiotic with higher tumor-targeting ability to proliferate in hypoxic regions of tumors, was utilized as a targeted transport vector to deliver Her2-ISZ-sTRAIL protein to tumor hypoxic regions. Therefore, a new part (<partinfo name="K3981013"></partinfo>) of pET28a(+)-Vgb-pelB-linker-His-linker-Her2-linker-ISZ-Strail (Vgb-pelB-Her2-ISZ-sTRAIL for short) was constructed, in which Her2-linker-ISZ-Strail was placed under the hypoxia promoter Vgb and signal peptide pelB was added to increase the secretory expression of Her2-linker-ISZ-Strail protein (Fig. 7).</p> 
         <img-fluid alt="NewParts_07" src="/resources/images/parts/NewParts_07.jpg" caption="Fig.7 Construction map of Vgb-pelB-linker-His-linker-Her2-linker-ISZ-Strail fusion vector"></img-fluid>
         <h3>2.1 Construction of Vgb-pelB-Her2-ISZ-sTRAIL expression plasmid</h3>
         <p>The sequence of Vgb-pelB-Her2-ISZ-sTRAIL was synthesized and inserted into ApaI and XhoI sites of pET28a(+) expression vectors by company to obtain the hypoxia expression vector -- pET28a(+)-Vgb-pelB-Her2-ISZ-sTRAIL recombinant plasmid (Fig. 8 and Fig. 9).</p>
@@ -44,7 +44,6 @@ export default {
         <h3>2.3 Her2-ISZ-sTRAIL protein was successfully expressed in tumor-targeting bacteria EcN 1917</h3>
         <p>EcN(Her2-ISZ-sTRAIL) and EcN(28a) were cultured in LB medium for 24 h. Then, the proteins in LB medium were concentrated, and subjected to Western blot analysis which was used to confirm the secretory expression of Her2-ISZ-sTRAIL by using Anti-6 × His antibody. It was shown in Fig. 11 that Her2-ISZ-sTRAIL could be efficiently expressed under the control of the hypoxia promoter Vgb and successfully secreted in the medium to exert its anti-tumor activity.</p>
         <img-fluid alt="NewParts_11" src="/resources/images/parts/NewParts_11.jpg" caption="Fig. 11 Western blot analysis of Her2-ISZ-sTRAIL protein expression in EcN (Her2-ISZ-sTRAIL)"></img-fluid>
-
     </writing-container>
     `
 }

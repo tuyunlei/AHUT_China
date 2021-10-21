@@ -87,6 +87,15 @@ const app = Vue.createApp({
     .component('table-caption', {
         template: `<p class="table-caption"><slot></slot></p>`
     })
+    .component('partinfo', {
+        template: `<a :href="href" target="_blank">BBa_{{name}}</a>`,
+        props: ['name'],
+        computed: {
+            href() {
+                return 'http://parts.igem.org/Part:BBa_' + this.name;
+            }
+        }
+    })
     .use(router)
 
 // app.config.devtools = true

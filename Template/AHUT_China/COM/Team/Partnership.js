@@ -41,8 +41,7 @@ export default {
             <img-fluid class="col-6" alt="Partnership_06" src="/resources/images/Partnership_06.jpg"></img-fluid>
         </div>
         <p>In order to further deepen the cooperative relationship and let the USTC team know more about our project, we invited the USTC team to help us do the induced expression and detection experiment of eukaryotic gene in E. coli BL21 (DE3). At the same time, we can also verify the accuracy and implementation of our team's experimental project through this experiment.</p>
-        <p style="color: red;">The experimental report completed by USTC team is as follows:</p>
-        
+
         <h2>2. USTC help AHUT</h2>
         <p>Induced expression and detection of eukaryotic gene in Escherichia coli BL21 (DE3)</p>
         <h3>2.1 equipment</h3>
@@ -82,7 +81,6 @@ export default {
         <h2>3. Epilogue</h2>
         <p>Through this in-depth cooperation with USTC, we learned about the specific project content of USTC team and broadened our vision, which is what iGEM hopes we can get in coloboration.</p>
         <p>We also look forward to another in-depth cooperation with an excellent team like USTC. The results of this cooperation experiment are perfect and meet the expectations of both sides. At the same time, we also hope USTC can get a good place in this iGEM.</p>
-
     </writing-container>
     `
 }
