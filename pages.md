@@ -110,6 +110,10 @@
 
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/Contribution&action=raw&ctype=text/javascript
 
+  - [/Project/ProofOfConcept](https://2021.igem.org/Template:AHUT_China/COM/Project/ProofOfConcept) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/ProofOfConcept&action=edit)
+
+  > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/ProofOfConcept&action=raw&ctype=text/javascript
+
 - ### HP
 
   - [/HP/HumanPractices](https://2021.igem.org/Template:AHUT_China/COM/HP/HumanPractices) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/HP/HumanPractices&action=edit)
@@ -153,6 +157,7 @@
 
   - [/Description](https://2021.igem.org/Team:AHUT_China/Description) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Description&action=edit)
   - [/Implementation](https://2021.igem.org/Team:AHUT_China/Implementation) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Implementation&action=edit)
+  - [/Proof_Of_Concept](https://2021.igem.org/Team:AHUT_China/Proof_Of_Concept) [Edit](https://2021.igem.org/wiki/index.php?title=Team:AHUT_China/Proof_Of_Concept&action=edit)
 
 - #### HP
 
@@ -297,24 +302,36 @@
 
   - ##### Excellence
 
-      | Name                                                         | File URL                                                     | Local Path                                                   |
-      | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-      | [Excellence_01.jpg](https://2021.igem.org/File:T--AHUT_China--Excellence_01.jpg) | [T--AHUT_China--Excellence_01.png](https://2021.igem.org/wiki/images/4/46/T--AHUT_China--Excellence_01.png) | [./resources/images/Excellence_01.jpg](./resources/images/Excellence_01.jpg) |
-      | [Excellence_02.jpg](https://2021.igem.org/File:T--AHUT_China--Excellence_02.jpg) | https://2021.igem.org/wiki/images/b/bd/T--AHUT_China--Excellence_02.png | [./resources/images/Excellence_02.jpg](./resources/images/Excellence_02.jpg) |
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [Excellence_01.jpg](https://2021.igem.org/File:T--AHUT_China--Excellence_01.jpg) | [T--AHUT_China--Excellence_01.png](https://2021.igem.org/wiki/images/4/46/T--AHUT_China--Excellence_01.png) | [./resources/images/Excellence_01.jpg](./resources/images/Excellence_01.jpg) |
+    | [Excellence_02.jpg](https://2021.igem.org/File:T--AHUT_China--Excellence_02.jpg) | https://2021.igem.org/wiki/images/b/bd/T--AHUT_China--Excellence_02.png | [./resources/images/Excellence_02.jpg](./resources/images/Excellence_02.jpg) |
 
   - ##### ImprovedParts
 
-      | Name                                                         | File URL                                                     | Local Path                                                   |
-      | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-      | [ImprovedParts_01.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_01.png) | [T--AHUT_China--ImprovedParts_01.png](https://2021.igem.org/wiki/images/5/5d/T--AHUT_China--ImprovedParts_01.png) | [./resources/images/ImprovedParts_01.png](./resources/images/ImprovedParts_01.png) |
-      | [ImprovedParts_02.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_02.png) | [T--AHUT_China--ImprovedParts_02.png](https://2021.igem.org/wiki/images/f/f1/T--AHUT_China--ImprovedParts_02.png) | [./resources/images/ImprovedParts_02.png](./resources/images/ImprovedParts_02.png) |
-      | [ImprovedParts_03.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_03.png) | [T--AHUT_China--ImprovedParts_03.png](https://2021.igem.org/wiki/images/5/54/T--AHUT_China--ImprovedParts_03.png) | [./resources/images/ImprovedParts_03.png](./resources/images/ImprovedParts_03.png) |
-      | [ImprovedParts_04.jpg](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_04.jpg) | [T--AHUT_China--ImprovedParts_04.jpg](https://2021.igem.org/wiki/images/5/57/T--AHUT_China--ImprovedParts_04.jpg) | [./resources/images/ImprovedParts_04.jpg](./resources/images/ImprovedParts_04.jpg) |
-      | [ImprovedParts_05.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_05.png) | [T--AHUT_China--ImprovedParts_05.png](https://2021.igem.org/wiki/images/0/0b/T--AHUT_China--ImprovedParts_05.png) | [./resources/images/ImprovedParts_05.png](./resources/images/ImprovedParts_05.png) |
-      | [ImprovedParts_06.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_06.png) | [T--AHUT_China--ImprovedParts_06.png](https://2021.igem.org/wiki/images/4/4e/T--AHUT_China--ImprovedParts_06.png) | [./resources/images/ImprovedParts_06.png](./resources/images/ImprovedParts_06.png) |
-      | [ImprovedParts_07.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_07.png) | [T--AHUT_China--ImprovedParts_07.png](https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--ImprovedParts_07.png) | [./resources/images/ImprovedParts_07.png](./resources/images/ImprovedParts_07.png) |
-      | [ImprovedParts_08.jpg](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_08.jpg) | [T--AHUT_China--ImprovedParts_08.jpg](https://2021.igem.org/wiki/images/7/71/T--AHUT_China--ImprovedParts_08.jpg) | [./resources/images/ImprovedParts_08.jpg](./resources/images/ImprovedParts_08.jpg) |
-      | [ImprovedParts_09.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_09.png) | [T--AHUT_China--ImprovedParts_09.png](https://2021.igem.org/wiki/images/5/58/T--AHUT_China--ImprovedParts_09.png) | [./resources/images/ImprovedParts_09.png](./resources/images/ImprovedParts_09.png) |
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [ImprovedParts_01.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_01.png) | [T--AHUT_China--ImprovedParts_01.png](https://2021.igem.org/wiki/images/5/5d/T--AHUT_China--ImprovedParts_01.png) | [./resources/images/ImprovedParts_01.png](./resources/images/ImprovedParts_01.png) |
+    | [ImprovedParts_02.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_02.png) | [T--AHUT_China--ImprovedParts_02.png](https://2021.igem.org/wiki/images/f/f1/T--AHUT_China--ImprovedParts_02.png) | [./resources/images/ImprovedParts_02.png](./resources/images/ImprovedParts_02.png) |
+    | [ImprovedParts_03.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_03.png) | [T--AHUT_China--ImprovedParts_03.png](https://2021.igem.org/wiki/images/5/54/T--AHUT_China--ImprovedParts_03.png) | [./resources/images/ImprovedParts_03.png](./resources/images/ImprovedParts_03.png) |
+    | [ImprovedParts_04.jpg](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_04.jpg) | [T--AHUT_China--ImprovedParts_04.jpg](https://2021.igem.org/wiki/images/5/57/T--AHUT_China--ImprovedParts_04.jpg) | [./resources/images/ImprovedParts_04.jpg](./resources/images/ImprovedParts_04.jpg) |
+    | [ImprovedParts_05.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_05.png) | [T--AHUT_China--ImprovedParts_05.png](https://2021.igem.org/wiki/images/0/0b/T--AHUT_China--ImprovedParts_05.png) | [./resources/images/ImprovedParts_05.png](./resources/images/ImprovedParts_05.png) |
+    | [ImprovedParts_06.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_06.png) | [T--AHUT_China--ImprovedParts_06.png](https://2021.igem.org/wiki/images/4/4e/T--AHUT_China--ImprovedParts_06.png) | [./resources/images/ImprovedParts_06.png](./resources/images/ImprovedParts_06.png) |
+    | [ImprovedParts_07.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_07.png) | [T--AHUT_China--ImprovedParts_07.png](https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--ImprovedParts_07.png) | [./resources/images/ImprovedParts_07.png](./resources/images/ImprovedParts_07.png) |
+    | [ImprovedParts_08.jpg](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_08.jpg) | [T--AHUT_China--ImprovedParts_08.jpg](https://2021.igem.org/wiki/images/7/71/T--AHUT_China--ImprovedParts_08.jpg) | [./resources/images/ImprovedParts_08.jpg](./resources/images/ImprovedParts_08.jpg) |
+    | [ImprovedParts_09.png](https://2021.igem.org/File:T--AHUT_China--ImprovedParts_09.png) | [T--AHUT_China--ImprovedParts_09.png](https://2021.igem.org/wiki/images/5/58/T--AHUT_China--ImprovedParts_09.png) | [./resources/images/ImprovedParts_09.png](./resources/images/ImprovedParts_09.png) |
+
+  - ##### ProofOfConcept
+
+    | Name                                                         | File URL                                                     | Local   Path                                                 |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [ProofOfConcept_00.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_00.png) | [T--AHUT_China--ProofOfConcept_00.png](https://2021.igem.org/wiki/images/b/b6/T--AHUT_China--ProofOfConcept_00.png) | [./resources/images/ProofOfConcept_00.png](./resources/images/ProofOfConcept_00.png) |
+    | [ProofOfConcept_01.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_01.png) | [T--AHUT_China--ProofOfConcept_01.png](https://2021.igem.org/wiki/images/6/6f/T--AHUT_China--ProofOfConcept_01.png) | [./resources/images/ProofOfConcept_01.png](./resources/images/ProofOfConcept_01.png) |
+    | [ProofOfConcept_02.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_02.png) | [T--AHUT_China--ProofOfConcept_02.png](https://2021.igem.org/wiki/images/1/1d/T--AHUT_China--ProofOfConcept_02.png) | [./resources/images/ProofOfConcept_02.png](./resources/images/ProofOfConcept_02.png) |
+    | [ProofOfConcept_03.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_03.png) | [T--AHUT_China--ProofOfConcept_03.png](https://2021.igem.org/wiki/images/0/03/T--AHUT_China--ProofOfConcept_03.png) | [./resources/images/ProofOfConcept_03.png](./resources/images/ProofOfConcept_03.png) |
+    | [ProofOfConcept_04_a.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_04_a.png) | [T--AHUT_China--ProofOfConcept_04_a.png](https://2021.igem.org/wiki/images/b/b3/T--AHUT_China--ProofOfConcept_04_a.png) | [./resources/images/ProofOfConcept_04.png_a](./resources/images/ProofOfConcept_04.png_a) |
+    | [ProofOfConcept_04_b.png](https://2021.igem.org/File:T--AHUT_China--ProofOfConcept_04_b.png) | [T--AHUT_China--ProofOfConcept_04_b.png](https://2021.igem.org/wiki/images/6/69/T--AHUT_China--ProofOfConcept_04_b.png) | [./resources/images/ProofOfConcept_04_b.png](./resources/images/ProofOfConcept_04_b.png) |
+    | [ProofOfConcept_05.jpg](https://2021.igem.org/File:T--AHUT_China--Characterization_02.jpg) | [T--AHUT_China--Characterization_02.jpg](https://2021.igem.org/wiki/images/d/d2/T--AHUT_China--Characterization_02.jpg) | [./resources/images/ProofOfConcept_05.jpg](./resources/images/ProofOfConcept_05.jpg) |
 
 - #### Parts Images
 

@@ -48,11 +48,29 @@
 
 #app .fade-enter-active,
 #app .fade-leave-active {
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease-out;
 }
 
 #app .fade-enter-from,
 #app .fade-leave-to {
+    opacity: 0;
+}
+
+#app .trans-enter-active {
+    transition: all 0.3s ease-out;
+}
+
+#app .trans-leave-active {
+    transition: all 0.3s ease-in;
+}
+
+#app .trans-enter-from {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+
+#app .trans-leave-to {
+    transform: translateX(50px);
     opacity: 0;
 }
 

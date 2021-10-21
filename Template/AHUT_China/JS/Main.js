@@ -21,7 +21,7 @@ const sub_routes = [
 ]
 
 const root_routes = [
-    {name: 'Home', path: '/index', component: Home},
+    {name: 'Home', path: '/index', component: Home}
 ]
 
 for (let sub of sub_routes) {

@@ -11,7 +11,7 @@
 
         <router-view v-slot="{ Component }">
             <keep-alive>
-                <transition name="fade" mode="out-in" appear>
+                <transition name="trans" mode="out-in" appear>
                     <component :is="Component"/>
                 </transition>
             </keep-alive>

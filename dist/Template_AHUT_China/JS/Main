@@ -11,6 +11,7 @@ const sub_routes = [
     {name: 'Contribution', com_path: '/Project/Contribution'},
     {name: 'Description', com_path: '/Project/Description'},
     {name: 'Excellence', com_path: '/Project/Excellence'},
+    {name: 'Proof_Of_Concept', com_path: '/Project/ProofOfConcept'},
     {name: 'Implementation', com_path: '/Project/ProposedImplementation'},
     {name: 'Human_Practices', com_path: '/HP/HumanPractices'},
     {name: 'Education', com_path: '/HP/Education'},
@@ -64,7 +65,6 @@ const app = Vue.createApp({
     components: {
         'nav-bar': NavBar
     },
-    /* 选项 */
     data() {
         return {
             loading: true,

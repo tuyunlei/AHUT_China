@@ -2,6 +2,7 @@ export default {
     template: `
     <div>
         <link rel="stylesheet" type="text/css" href="/Template/AHUT_China/CSS/Home.css">
+
         <div class="container-fluid" style="padding: 0 128px;">
             <div class="mt-5 rounded-32" style="padding: 40px; background-color: #E4C1BF;">
                 <video class="rounded-32" style="width: 100%;" src="/resources/videos/main.mp4" 
