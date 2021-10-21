@@ -22,10 +22,6 @@
     font-family: "Fira Code", sans-serif;
 }
 
-#app .writing-container .catalog > a.second-level {
-    margin-left: 1rem;
-}
-
 #app .writing-container .catalog > a:link {
     text-decoration: none;
 }
@@ -37,6 +33,14 @@
 #app .writing-container .catalog > a:hover {
     font-weight: 500;
     text-decoration: underline;
+}
+
+#app .writing-container .catalog > a.second-level {
+    margin-left: 1rem;
+}
+
+#app .writing-container .catalog > a.third-level {
+    margin-left: 1.5rem;
 }
 
 #app .writing-container a {
