@@ -125,7 +125,7 @@ export default {
                         <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
                         <dropdown-item title="Proof of Concept" to="Proof_Of_Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area" to="Excellence"></dropdown-item>
-                        <dropdown-item title="Engineering"></dropdown-item>
+                        <dropdown-item title="Engineering" to="Engineering"></dropdown-item>
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
