@@ -121,16 +121,16 @@ export default {
                         <dropdown-item title="Proposed Implementation" to="Implementation"></dropdown-item>
                         <dropdown-item title="Proof of Concept" to="Proof_Of_Concept"></dropdown-item>
                         <dropdown-item title="Excellence in Another Area" to="Excellence"></dropdown-item>
-                        <dropdown-item title="Engineering"></dropdown-item>
+                        <dropdown-item title="Engineering" to="Engineering"></dropdown-item>
                         <dropdown-item title="Notebook" to="Notebook"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="EXPERIMENTS" icon="experiments">
-                        <dropdown-item title="Results"></dropdown-item>
+                        <dropdown-item title="Results" to="Results"></dropdown-item>
                         <dropdown-item title="Safety" to="Safety_Form" target="_blank"></dropdown-item>
                     </nav-item-dropdown>
                     <nav-item-dropdown title="PARTS" icon="parts">
                         <dropdown-item title="Overview" to="Parts"></dropdown-item>
-                        <dropdown-item title="New Parts"></dropdown-item>
+                        <dropdown-item title="New Parts" to="New_Parts"></dropdown-item>
                         <dropdown-item title="Contribution" to="Contribution"></dropdown-item>
                         <dropdown-item title="Improved Parts" to="Improved_Parts"></dropdown-item>
                     </nav-item-dropdown>

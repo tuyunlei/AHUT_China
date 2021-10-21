@@ -11,7 +11,7 @@ export default {
         <p>Human Practices: From 1 to 4.</p>
         <p>Integrated Human Practices: From 5 to 9.</p>
         <hr/>
-        
+
         <h2>1.The Interview at Yushan Lake Park</h2>
         <img-fluid alt="Human_Practices_01" src="/resources/images/HumanPractices_01.jpg"></img-fluid>
         <img-fluid alt="Human_Practices_02" src="/resources/images/HumanPractices_02.jpg"></img-fluid>

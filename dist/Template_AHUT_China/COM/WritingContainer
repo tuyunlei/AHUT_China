@@ -25,9 +25,10 @@ export default {
             let class_map = {
                 h1: 'first-level',
                 h2: 'second-level',
+                h3: 'third-level',
             };
 
-            let title_doms = container.value.querySelectorAll('h1,h2');
+            let title_doms = container.value.querySelectorAll('h1,h2,h3');
             title_doms.forEach((dom, index) => {
                 let id = dom.id;
                 let name = dom.tagName.toLowerCase();
