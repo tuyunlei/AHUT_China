@@ -102,9 +102,6 @@ const app = Vue.createApp({
 app.config.performance = true
 
 router.beforeEach(() => window.vm.loading = true)
-router.afterEach(() => {
-    window.vm.loading = false
-    vm.$nextTick(() => vm.loading = false)
-})
+router.afterEach(() => window.vm.$nextTick(() => window.vm.loading = false))
 
 window.vm = app.mount('#app')
