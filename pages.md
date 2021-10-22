@@ -93,9 +93,9 @@
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Collaborations&action=raw&ctype=text/javascript
 
   - [/Team/Partnership](https://2021.igem.org/Template:AHUT_China/COM/Team/Partnership) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Partnership&action=edit)
-  
+
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Team/Partnership&action=raw&ctype=text/javascript
-  
+
 - ### Project
 
   - [/Project/Description](https://2021.igem.org/Template:AHUT_China/COM/Project/Description) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Project/Description&action=edit)
@@ -151,9 +151,9 @@
   - [/Parts/Improved](https://2021.igem.org/Template:AHUT_China/COM/Parts/Improved) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Improved&action=edit)
 
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/Improved&action=raw&ctype=text/javascript
-  
+
   - [/Parts/New](https://2021.igem.org/Template:AHUT_China/COM/Parts/New) [Edit](https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/New&action=edit)
-  
+
   > https://2021.igem.org/wiki/index.php?title=Template:AHUT_China/COM/Parts/New&action=raw&ctype=text/javascript
 
 ## Pages
@@ -429,6 +429,29 @@
     | [BBa_K3981014-Main_07.png](http://parts.igem.org/File:BBa_K3981014-Main_07.png) | http://parts.igem.org/wiki/images/8/84/BBa_K3981014-Main_07.png | [./resources/images/parts/K3981014_07.png](./resources/images/parts/K3981014_07.png) |
     | [BBa_K3981014-Main_08.jpg](http://parts.igem.org/File:BBa_K3981014-Main_08.jpg) | http://parts.igem.org/wiki/images/a/a0/BBa_K3981014-Main_08.jpg | [./resources/images/parts/K3981014_08.jpg](./resources/images/parts/K3981014_08.jpg) |
     | [BBa_K3981014-Main_09.png](http://parts.igem.org/File:BBa_K3981014-Main_09.png) | http://parts.igem.org/wiki/images/6/62/BBa_K3981014-Main_09.png | [./resources/images/parts/K3981014_09.png](./resources/images/parts/K3981014_09.png) |
+
+  - [BBa_K3981013](http://parts.igem.org/Part:BBa_K3981013)
+
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [K3981013_01.jpg](http://parts.igem.org/File:BBa_K3981013-Main_01.jpg) | [BBa_K3981013-Main_01.jpg](http://parts.igem.org/wiki/images/d/dd/BBa_K3981013-Main_01.jpg) | [./resources/images/parts/NewParts_07.jpg](./resources/images/parts/NewParts_07.jpg) |
+    | [K3981013_02.png](http://parts.igem.org/File:BBa_K3981013-Main_02.png) | [BBa_K3981013-Main_02.png](http://parts.igem.org/wiki/images/c/c3/BBa_K3981013-Main_02.png) | [./resources/images/parts/NewParts_08.png](./resources/images/parts/NewParts_08.png) |
+    | [K3981013_03.png](http://parts.igem.org/File:BBa_K3981013-Main_03.png) | [BBa_K3981013-Main_03.png](http://parts.igem.org/wiki/images/b/bc/BBa_K3981013-Main_03.png) | [./resources/images/parts/NewParts_09.png](./resources/images/parts/NewParts_09.png) |
+    | [K3981013_04.jpg](http://parts.igem.org/File:BBa_K3981013-Main_04.jpg) | [BBa_K3981013-Main_04.jpg](http://parts.igem.org/wiki/images/0/0b/BBa_K3981013-Main_04.jpg) | [./resources/images/parts/NewParts_10.jpg](./resources/images/parts/NewParts_10.jpg) |
+    | [K3981013_05.jpg](http://parts.igem.org/File:BBa_K3981013-Main_05.jpg) | [BBa_K3981013-Main_05.jpg](http://parts.igem.org/wiki/images/6/69/BBa_K3981013-Main_05.jpg) | [./resources/images/parts/NewParts_11.jpg](./resources/images/parts/NewParts_11.jpg) |
+
+  - [BBa_K3981015](http://parts.igem.org/Part:BBa_K3981015)
+
+    | Name                                                         | File URL                                                     | Local Path                                                   |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | [K3981015_01.png](http://parts.igem.org/File:BBa_K3981015-Main_01.png) | [BBa_K3981015-Main_01.png](http://parts.igem.org/wiki/images/8/8a/BBa_K3981015-Main_01.png) | [./resources/images/parts/NewParts_01.png](./resources/images/parts/NewParts_01.png) |
+    | [K3981015_02.jpg](http://parts.igem.org/File:BBa_K3981015-Main_02.jpg) | [BBa_K3981015-Main_02.jpg](http://parts.igem.org/wiki/images/b/b1/BBa_K3981015-Main_02.jpg) | [./resources/images/parts/NewParts_02.jpg](./resources/images/parts/NewParts_02.jpg) |
+    | [K3981015_03.jpg](http://parts.igem.org/File:BBa_K3981015-Main_03.jpg) | [BBa_K3981015-Main_03.jpg](http://parts.igem.org/wiki/images/d/d0/BBa_K3981015-Main_03.jpg) | [./resources/images/parts/NewParts_03.jpg](./resources/images/parts/NewParts_03.jpg) |
+    | [K3981015_04.png](http://parts.igem.org/File:BBa_K3981015-Main_04.png) | [BBa_K3981015-Main_04.png](http://parts.igem.org/wiki/images/5/50/BBa_K3981015-Main_04.png) | [./resources/images/parts/NewParts_04.png](./resources/images/parts/NewParts_04.png) |
+    | [K3981015_05.jpg](http://parts.igem.org/File:BBa_K3981015-Main_05.jpg) | [BBa_K3981015-Main_05.jpg](http://parts.igem.org/wiki/images/c/c2/BBa_K3981015-Main_05.jpg) | [./resources/images/parts/NewParts_05.jpg](./resources/images/parts/NewParts_05.jpg) |
+    | [K3981015_06.png](http://parts.igem.org/File:BBa_K3981015-Main_06.png) | [BBa_K3981015-Main_06.png](http://parts.igem.org/wiki/images/b/b9/BBa_K3981015-Main_06.png) | [./resources/images/parts/NewParts_06.png](./resources/images/parts/NewParts_06.png) |
+
+
 
 - #### Fonts:
 
